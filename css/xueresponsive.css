@@ -1,193 +1,28 @@
 /**
 *
-* @project    Formosa-Royal
+* @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.0 - 201604
+* @version    v1.0 - 201605
 *
 **/
 
 /*
 ========================
-1024桌機適用
+桌機
 ========================
 */
 @media screen and (min-width:960px) and (max-width:1239px){
-#header, 
-#banner, 
-#bar-brand, 
-#concainer,
-#products,
-#footer,
-#menu{
-     min-width: 960px}
-#banner{
-    height: 404px}    
-#main-vision{
-    width: 960px;
-    height: 404px}
-.brand-item li a{
-    height: 60px;
-    margin: 0 20px}
-.brand-item .brand-icon-01 a,
-.brand-item .brand-icon-01 a:hover{
-    width: 114px;
-    background-size: cover} 
-.brand-item .brand-icon-02 a,
-.brand-item .brand-icon-02 a:hover{
-    width: 178px;
-    background-size: cover}
-.brand-item .brand-icon-03 a,
-.brand-item .brand-icon-03 a:hover{
-    width: 122px;
-    background-size: cover}
-.brand-item .brand-icon-04 a,
-.brand-item .brand-icon-04 a:hover{
-    width: 130px;
-    background-size: cover}
-.brand-item .brand-icon-05 a,
-.brand-item .brand-icon-05 a:hover{
-    width: 122px;
-    background-size: cover}
-#concainer h3{padding-bottom: 20px}  
-#concainer p{
-    font-size: .938em;
-    line-height: 2em}
-#profile{
-    width: 90%}
-#my-story{
-    width: 420px/*435px*/;
-    padding: 0}
-#my-slider{
-    width: 460px;
-    max-width: 460px;
-    overflow: hidden;
-    padding: 0 0 50px 20px}
-.products-item{
-    background: url(../images/bg_product-item-02.png) repeat-x;
-    padding-top: 20px}    
-.box-product{
-    width: 90%}
-#patek-philippe h4{
-    float: none;
-    margin: 0 auto 35px auto}
-.case-first{
-    float: none;
-    width: 685px;
-    margin: 0 auto -10px auto}
-.case-secend{
-    padding: 0;
-    width: 685px;
-    margin: 0 auto}
-.case-first li, .case-secend li{
-    margin: 20px 15px 0}
-#footer{
-    height: auto}
-#foot-main{
-    width: 90%;
-    padding: 0}
-#map iframe{
-    width: 330px}
-#menu{
-    width:90%}    
+ 
 }
 
 /*
 ========================
-768平板畫面
+平板
 ========================
 */
 @media screen and (min-width:768px) and (max-width:959px){
-#header, 
-#banner, 
-#bar-brand, 
-#concainer,
-#products,
-#footer,
-#menu{
-    min-width: 100%;
-    /*min-width: 768px*/}
-#banner{
-    height: 370px}    
-#main-vision{
-    width: 768px;
-    height: 370px}
-.brand-item li a{
-    height: 50px;
-    margin: 0 10px}
-.brand-item .brand-icon-01 a,
-.brand-item .brand-icon-01 a:hover{
-    width: 95px;
-    background-size: cover}
-.brand-item .brand-icon-02 a,
-.brand-item .brand-icon-02 a:hover{
-    width: 148px;
-    background-size: cover}
-.brand-item .brand-icon-03 a,
-.brand-item .brand-icon-03 a:hover{
-    width: 102px;
-    background-size: cover}
-.brand-item .brand-icon-04 a,
-.brand-item .brand-icon-04 a:hover{
-    width: 108px;
-    background-size: cover}
-.brand-item .brand-icon-05 a,
-.brand-item .brand-icon-05 a:hover{
-    width: 102px;
-    background-size: cover}
-#concainer h3{padding-bottom: 20px}  
-#concainer p{
-    font-size: .938em;
-    line-height: 2em}
-#profile{
-    width: 768px}
-#my-story{
-    float: none;
-    width: 90%;
-    margin: 0 auto;
-    padding: 0}
-#my-slider{
-    float: none;
-    width: 90%;
-    /*max-width: 728px;*/
-    margin: 0 auto;
-    padding: 0 20px 50px 20px}
-.products-item{
-    background: url(../images/bg_product-item-02.png) repeat-x;
-    padding-top: 20px}    
-.box-product{
-    width: 90%}
-#patek-philippe h4{
-    float: none;
-    margin: 0 auto 35px auto}
-.case-first{
-    float: none;
-    width: 100%;
-    margin: 0 auto -10px auto}
-.case-secend{
-    padding: 0;
-    width: 100%;
-    margin: 0 auto}
-.case-first li, .case-secend li{
-    margin: 20px 15px 0}
-#footer{
-    height: auto}
-#foot-main{
-    width: 90%;
-    padding: 0}
-#contact{
-    float: left;
-    padding: 0 80px 20px 0}    
-#map iframe{
-    width: 500px;
-    margin-bottom: 30px}
-#menu{
-    width:90%}
-#menu h3{
-    width: 200px;
-    height: 27px;
-    margin-top: 15px;
-    background-size: cover}    
+   
 }
 
 /*
@@ -196,251 +31,17 @@
 ========================
 */
 @media screen and (min-width:480px) and (max-width: 767px) {
-#header, 
-#banner, 
-#bar-brand, 
-#concainer,
-#products,
-#footer,
-#menu{
-    min-width: 100%;
-    /*min-width: 480px*/}
-#banner{
-    height: 400px}    
-#main-vision{
-    width: 100%;
-    height: 400px}
-#main-vision h2{
-    right: 50%;
-    margin-right:-253px}    
-#bar-brand{
-    height: 200px}    
-.brand-item li a{
-    height: 50px;
-    margin: 0 20px;
-    margin-bottom: 20px}
-.brand-item .brand-icon-01 a,
-.brand-item .brand-icon-01 a:hover{
-    width: 95px;
-    background-size: cover}
-.brand-item .brand-icon-02 a,
-.brand-item .brand-icon-02 a:hover{
-    width: 148px;
-    background-size: cover}
-.brand-item .brand-icon-03 a,
-.brand-item .brand-icon-03 a:hover{
-    width: 102px;
-    background-size: cover}
-.brand-item .brand-icon-04 a,
-.brand-item .brand-icon-04 a:hover{
-    width: 108px;
-    background-size: cover}
-.brand-item .brand-icon-05 a,
-.brand-item .brand-icon-05 a:hover{
-    width: 102px;
-    background-size: cover}
-#concainer h3{padding-bottom: 20px}  
-#concainer p{
-    font-size: .938em;
-    line-height: 2em}
-#profile{
-    width: 90%}
-#my-story{
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0}
-#my-slider{
-    float: none;
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 20px 50px 20px}
-.products-item{
-    background: url(../images/bg_product-item-02.png) repeat-x;
-    padding-top: 20px}    
-.box-product{
-    width: 90%}
-#patek-philippe h4{
-    float: none;
-    margin: 0 auto 35px auto}
-.case-first{
-    float: none;
-    width: 95%;
-    margin: 0 auto -10px auto}
-.case-secend{
-    padding: 0;
-    width: 95%;
-    margin: 0 auto}
-.case-first li, .case-secend li{
-    margin: 20px 10px 0}
-.case-first li img, .case-secend li img{
-    width: 155px}    
-#footer{
-    height: auto}
-#foot-main{
-    width: 90%;
-    padding: 0}
-#contact{
-    float: left;
-    padding: 0 80px 20px 0}    
-#map iframe{
-    width: 390px;
-    margin-bottom: 30px}
-#menu{
-    width:90%}
-#menu h3{
-    width: 160px;
-    height: 22px;
-    margin-top: 20px;
-    background-size: cover}     
-#menu ul{
-    display: block;
-    float: left;
-    padding-left: 20px}
-#menu a{
-    padding:0 10px}    
+  
 }
 
 
 /*
 ========================
-480手機畫面
+手機
 ========================
 */
 @media screen and (max-width:479px){
-#wrap{
-    position: relative;
-    padding-top: 59px;
-    /*min-width: 479px*/}
-#header, 
-#banner, 
-#bar-brand, 
-#concainer,
-#products,
-#footer,
-#menu{
-    min-width: 100%}
-#header{
-    position: fixed;
-    top:0;
-    z-index: 1500;
-    min-width:360px; 
-    height: 95px;
-    padding-top: 20px;
-    -webkit-box-shadow: 0px 1px 10px rgba(40, 32, 20, .8);
-    -moz-box-shadow: 0px 1px 10px rgba(40, 32, 20, .8);
-    box-shadow: 0px 1px 10px rgba(40, 32, 20, .8);}
-#header h1{
-    display: block;
-    width: 230px;
-    height: 35px;
-    background: url(../images/logo-s.png) no-repeat;
-    margin: 0 0 0 65px;
-    padding-top: 27px}
-#mobile_btn{ display: block}
-#snav{display: block}
-#snav ul{ 
-    display:block;
-    width: 350px;
-    max-height: 50px;
-    margin: -10px 0 0 0;
-	padding:5px 0; 
-	/*border-top:1px solid #554329;*/
-    text-align: center;}
-#snav li{ display: inline}
-#snav li a{ 
-    padding:0 12px;
-    font-size:1.063em;
-	line-height:1.5em;
-	color:#554329;
-	text-decoration:none}
-#snav li a:hover{ background:#554329; color:#fff}
-#banner{
-    height: 350px}    
-#main-vision{
-    width: 100%;
-    height: 370px}
-#main-vision h2{
-    top:300px;
-    left: 50%;
-    right: 0;
-    width: 300px;
-    height: 85px;
-    margin-left: -150px;
-    background: url(../images/bg_h2-s.png) no-repeat}   
-#bar-brand{
-    display: block;
-    height: 620px}
-.brand-item li{ 
-    display: block}
-.brand-item li a{
-    margin: 30px  auto}
-.brand-item li:nth-child(1) a{
-        margin: 10px auto 30px auto}   
-#navbox{ display: none} 
-#concainer h3{padding-bottom: 20px; font-size: 1.5em}  
-#concainer p{
-    font-size: .938em;
-    line-height: 2em}
-#profile{
-    width: 90%}
-#my-story{
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0}
-#my-story p{font-size: 1.125em}    
-#my-slider{
-    float: none;
-    width: 95%;
-    margin: 0 auto;
-    padding: 0 20px 50px 20px}
-#products h3{
-    padding-left: 35px}    
-.products-item{
-    background: url(../images/bg_product-item-02.png) repeat-x;
-    padding-top: 20px}    
-.box-product{
-    width: 90%;
-    margin: 0 auto}
-#patek-philippe h4{
-    float: none;
-    margin: 0 auto 35px auto}
-.case-first{
-    float: none;
-    width: 95%;
-    margin: 0 auto -10px auto}
-.case-secend{
-    padding: 0;
-    width: 95%;
-    margin: 0 auto}
-.case-first li, .case-secend li{
-    display: block;
-    margin: 20px auto 20px auto}
-.case-first li img, .case-secend li img{
-    width: 250px}
-.case-first li p, .case-secend li p{
-        font-size: 1.125em }    
-#footer{
-    height: auto}
-#foot-main{
-    width: 90%;
-    margin: 0 auto;
-    padding: 0}
-#copyright{ font-size: .813em}    
-#contact{
-    float: none;
-    padding: 0}
-#contact h3{
-    margin-bottom: -20px}      
-#contact li{
-    font-size: 1em}    
-#map iframe{
-    float: none;
-    width: 320px;
-    margin: 10px auto}
-#shoptag{ float: none; margin-top: 235px}    
-#top-bar{ display: none}
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2),

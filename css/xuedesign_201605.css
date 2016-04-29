@@ -1,0 +1,85 @@
+/**
+*
+* @project    Twinble
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.0 - 201605
+*
+**/
+
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/css?family=Hind);
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Hind','Noto Sans TC', sans-serif}
+
+body{
+	margin: 0;
+	padding:0;
+	background: #fff;
+	font-family: 'Hind','Noto Sans TC', sans-serif;
+	font-size:100%;
+	line-height:24px}
+a:link {text-decoration:none; color:#b76727}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#F50}
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #b58e88; color: #fff}
+::-moz-selection { background: #b58e88; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*
+========================
+首頁框架
+========================
+*/
+#wrap{ 
+    display:block; 
+    width:100%}
+
+
+
+/*
+========================
+主視覺
+========================
+*/
+
+
+/*
+========================
+主選單
+========================
+*/
+
+
+/*
+========================
+內文架構
+========================
+*/
+
+
+
+
+/*
+========================
+版權列
+========================
+*/
+
+
+/*
+========================
+浮動頂端選單
+========================
+*/
