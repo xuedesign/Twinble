@@ -19,4 +19,20 @@ $(function() {
 //返回頁首
 $(function(){
   $(".to_top").scrollTo(700)
-});	  
+});
+
+//浮動置頂選單
+$(function(){$(window).load(function(){$(window).bind("scroll resize",function(){var o=$(this),t=o.scrollTop();538>t&&$("#top-bar").stop().animate({top:"-65px"}),t>538&&$("#top-bar").stop().animate({top:"0px"})}).scroll()})});
+
+//wow動畫
+wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();
+
+//行動版選單
+$(document).ready(function() {
+	  $(".toggle").click(function() {
+		  $(this).toggleClass("active");
+		  $(".nav").slideToggle();
+	  });
+	  $(".nav > ul > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+  });
+

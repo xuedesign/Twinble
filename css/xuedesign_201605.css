@@ -13,6 +13,7 @@
 ========================
 */
 @import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here: */
@@ -21,7 +22,7 @@ html, button, input, select, textarea,
 body{
 	margin: 0;
 	padding:0;
-	background: #fff;
+	background: url(../images/bg-site.jpg) top center fixed no-repeat;
 	font-family: 'Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:24px}
@@ -69,17 +70,76 @@ img::-moz-selection { background: transparent}
 */
 
 
-
+/*
+========================
+完美置底
+========================
+*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:240px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
 
 /*
 ========================
 版權列
 ========================
 */
-
+footer{
+	display:block;
+	width:100%;
+	height:234px;
+	background:#013c01;
+	margin-top:-234px;
+    padding-top: 6px}
+.line{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #275525}
 
 /*
 ========================
 浮動頂端選單
 ========================
 */
+#mobile_btn{ display:none}
+#top_menu{
+	 width:100%;
+	 height:60px;
+	 background:#3A3B3C;
+	 position: fixed;
+	 top:-60px;
+	 z-index:99}
+#top_main{ display: block; width:1162px; margin:0 auto}	 
+#top_main h2 a{ 
+     display:block; 
+	 float:left;
+	 width:91px;
+	 height:33px;
+	 background:url(../images/logo_topmenu.png) no-repeat;
+	 text-indent:-9999px;
+	 margin:12px 100px 0 0}
+#top_main ul{ display:block; float:left; margin:0 auto; padding-top:20px}	 	 
+#top_main li{ display:inline; font-size:1.125em; line-height:25px; letter-spacing:1px}	
+#top_main a:link {text-decoration:none; color:#fff; padding:0 30px}
+#top_main a:visited {text-decoration:none; color:#b5b1b1}
+#top_main a:hover {text-decoration:none; color:#fa8332}
+#btn_totop a{
+	display:block;
+	float:right;
+	width:37px;
+	height:37px;
+	background:url(../images/btn_totop.png) no-repeat;
+	text-indent:-9999px;
+	margin-top:12px;}
+#btn_totop a:hover{ background:url(../images/btn_totop.png) 0 -37px no-repeat}	
