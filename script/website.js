@@ -18,11 +18,11 @@ $(function() {
 	  
 //返回頁首
 $(function(){
-  $(".to_top").scrollTo(700)
+  $("#btn_totop").scrollTo(700)
 });
 
-//浮動置頂選單
-$(function(){$(window).load(function(){$(window).bind("scroll resize",function(){var o=$(this),t=o.scrollTop();540>t&&$("#top-bar").stop().animate({top:"-65px"}),t>540&&$("#top-bar").stop().animate({top:"0px"})}).scroll()})});
+//頂端隱藏選單
+$(function(){$(window).load(function(){$(window).bind("scroll resize",function(){var o=$(this),t=o.scrollTop();540>t&&$("#top_menu").stop().animate({top:"-60px"}),t>540&&$("#top_menu").stop().animate({top:"0px"})}).scroll()})});
 
 //wow動畫
 wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();

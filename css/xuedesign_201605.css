@@ -25,7 +25,8 @@ body{
 	background: url(../images/bg-site.jpg) top center fixed no-repeat;
 	font-family: 'Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
-	line-height:1.5em}
+	line-height:1.5em;
+    color: #6e6e6e}
 a:link {text-decoration:none; color:#b76727}
 a:visited {text-decoration:none; color:#8c8c8c}
 a:hover {text-decoration:underline; color:#F50}
@@ -78,8 +79,7 @@ header,
     background: #fff;
     -webkit-border-radius: 15px 15px 0 0;
     -moz-border-radius: 15px 15px 0 0;
-    border-radius: 15px 15px 0 0;
-}
+    border-radius: 15px 15px 0 0}
 
 /*
 ========================
@@ -138,7 +138,54 @@ header,
 內文架構
 ========================
 */
-
+#container h3{
+    font-size: 1.75em;
+    font-weight: 200;
+    line-height: 2em;
+    color: #2f8833}
+#profile,
+#products{
+    display: block;
+    width: 860px;
+    margin: 0 auto}
+#profile{ position: relative}
+#profile p{
+    width: 505px;
+    padding: 15px 20px;
+    font-size: .938em;
+    line-height: 2em;
+    font-weight: 100}
+#profile .my-twinble{
+    display: block;
+    position: absolute;
+    top:50px;
+    right:-35px}
+#profile p>.profile-blue{
+    font-size: 1.375em;
+    color: #343794;
+    font-weight: bold}
+#profile p>.profile-green{
+    font-size: 1.125em;
+    color: #abcd03;
+    font-weight: bold}
+#products ul{ padding: 30px 0 50px 0}
+#products li{
+    display: inline-block;
+    width: 241px;
+    margin: 0 20px;
+    padding-top: 250px}
+.products-item-01{
+    background: url(../images/pic_products-item-01.png) no-repeat}
+.products-item-02{
+    background: url(../images/pic_products-item-02.png) no-repeat}
+.products-item-03{
+    background: url(../images/pic_products-item-03.png) no-repeat}
+#products a>p{
+    font-size: .938em;
+    color: #656565;
+    padding-left: 10px}
+#products a:hover>p{ 
+    color: #f50}
 
 /*
 ========================
@@ -176,6 +223,51 @@ footer{
     width: 100%;
     height: 4px;
     background: #275525}
+#footer-main{
+    display: block;
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: .938em;  
+    color: #829282}
+#footer-main h4{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #2f8833}
+#footer-main li{
+    padding: 3px 0}
+#footer-main a{ 
+    color: #829282;
+    text-decoration: none}
+#footer-main a:hover{
+    color: #F50;
+    text-decoration: none}
+#copyright,
+#contactbox{
+    display: block;
+    float: left}
+#copyright{
+    width: 400px;
+    padding: 0}
+#copyright h4{
+    width: 143px;
+    height: 40px;
+    background: url(../images/pic_footer-logo.png) no-repeat;
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-bottom: 20px}
+#contactbox{
+    width: 520px;
+    padding: 0}
+#languagebox{
+    display: block;
+    float: right;
+    width: 150px;
+    text-align: left}
+#contactbox h4,
+#languagebox h4{
+    padding-top:20px}
 
 /*
 ========================
