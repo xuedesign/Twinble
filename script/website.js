@@ -22,7 +22,7 @@ $(function(){
 });
 
 //頂端隱藏選單
-$(function(){$(window).load(function(){$(window).bind("scroll resize",function(){var o=$(this),t=o.scrollTop();540>t&&$("#top_menu").stop().animate({top:"-60px"}),t>540&&$("#top_menu").stop().animate({top:"0px"})}).scroll()})});
+$(function(){$(window).load(function(){$(window).bind("scroll resize",function(){var o=$(this),t=o.scrollTop();522>t&&$("#top_menu").stop().animate({top:"-60px"}),t>522&&$("#top_menu").stop().animate({top:"0px"})}).scroll()})});
 
 //wow動畫
 wow=new WOW({animateClass:"animated",offset:100,callback:function(a){console.log("WOW: animating <"+a.tagName.toLowerCase()+">")}}),wow.init();

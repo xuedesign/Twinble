@@ -1,31 +1,403 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8" lang="zh-tw">
-<meta name="description" content="開始設計工作室 XUEDESIGN STUDIO 是一個友善的設計工作室，位於台北，提供企業品牌識別整合設計服務，包含網頁設計及平面設計等解決方案。"/>
-<meta name="keywords" content="開始設計, xuedesign, 台北, 設計工作室, 網頁設計, 網站設計, 平面設計, W3C網頁標準, 設計職人"/>
-<meta name="Author" content="Elmo Wu" />
-<link rel="shortcut icon"  href="http://www.xuedesign.tw/images/favicon.ico"/>
-<link rel="icon" href="http://www.xuedesign.tw/images/favicon.ico"/>
-<link rel="apple-touch-icon" href="http://www.xuedesign.tw/images/icon@2x.png">
-<title>開始設計工作室 xuedesign studio</title>
-<link href="http://www.xuedesign.tw/css/reset.css" rel="stylesheet">
-<style>
-   body{background: url(http://www.xuedesign.tw/images/bg_website.png)}
-   h1{ 
-   display:block;
-   position:absolute;
-   top:50%;
-   left:50%;
-   width:338px;
-   height:416px;
-   background:url(http://www.xuedesign.tw/images/logo-landing.png);
-   text-indent:-9999px;
-   margin:-208px 0 0 -169px}
-</style>
-</head>
+/**
+*
+* @project    Twinble
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.0 - 201605
+*
+**/
 
-<body>
-   <h1>Hello!! 開始設計工作室 xuedesign studio// www.xuedesign.tw</h1>
-</body>
-</html>
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here:*/
+    font-family: 'Hind','Noto Sans TC', sans-serif} 
+
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg-site.jpg) top center fixed no-repeat;
+	font-family: 'Hind','Noto Sans TC', sans-serif;
+	font-size:100%;
+	line-height:1.5em;
+    color: #6e6e6e}
+/*a:link {text-decoration:none; color:#b76727}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#F50}*/
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #b58e88; color: #fff}
+::-moz-selection { background: #b58e88; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*
+========================
+首頁框架
+========================
+*/
+#wrap,
+header,
+#submenu{ 
+    display:block; 
+    width:100%}
+#submenu{
+    height: 42px;
+    background: rgba(12,126,12,.7)}
+.submenu-item{
+    display: block;
+    width: 1240px;
+    height: 42px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both}
+.submenu-item li a{
+    display: block;
+    float: right;
+    width: 140px;
+    height: 33px;
+    border-left: 1px solid #64bc66;
+    border-right: 1px solid #64bc66;
+    text-align: center;
+    color: #d1e7d1;
+    text-decoration: none;
+    padding-top: 9px}
+.submenu-item li a:hover{
+    background: rgba(12,126,12,1);
+    text-decoration: none}
+#container{
+	display: block;
+    width: 1070px;
+    margin: 0 auto;
+    background: #fff;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0}
+
+/*
+========================
+主視覺
+========================
+*/
+#banner,
+#banner-sub{
+    display: block;
+    position: relative;
+    width: 1070px;
+    margin: 0 auto}
+#banner{height: 424px}
+#banner-sub{height: 304px}
+#banner h1>a,
+#banner-sub h1>a,
+#banner h2,
+#banner-sub h2,
+#banner h3,
+.main-visiven,
+.sub-slogan-01{
+    display: block;
+    position: absolute;
+    z-index: 99;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden}
+#banner h1>a,
+#banner-sub h1>a{
+    top:33px;
+    left: 45;
+    width: 403px;
+    height: 118px;
+    background: url(../images/pic_logo.png) no-repeat}
+#banner h2,
+#banner-sub h2{
+    top:171px;
+    left: 45;
+    width: 445px;
+    height: 36px;
+    background: url(../images/pic_compay-type.png) no-repeat}
+#banner h3{
+    top:256px;
+    left: 83px;
+    width: 388px;
+    height: 102px;
+    background: url(../images/pic_slogan.png) no-repeat}
+.sub-slogan-01{
+    top:221px;
+    left: 78px;
+    width: 527px;
+    height: 31px;
+    background: url(../images/pic_slogansub-01.png) no-repeat}
+.main-visiven{
+    top:-13px;
+    right: 0;
+    width: 564px;
+    height: 437px;
+    background: url(../images/pic_mainvision.png) no-repeat}
+.sub-visiven{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 32px;
+    width: 581px;
+    height: 304px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.sv-01{ 
+    background: url(../images/pic_subvision-01.png) no-repeat}
+
+/*
+========================
+主選單
+========================
+*/
+#main-nav{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 52px;
+    border-bottom: 2px solid #e2e3e2;
+    margin-bottom: 30px}
+#main-nav ul{
+    display: block;
+    position: absolute;
+    top:3px;
+    left:35px }
+#main-nav li{
+    display: inline-block;
+    width: 196px;
+    height: 52px;
+    margin: 0 3px 0 0;
+    font-size: 1.125em;
+    line-height: 52px;
+    text-align: center}
+#main-nav li a{ 
+    color: #787c81; 
+    text-decoration: none}
+#main-nav li a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+.nav-01,
+.nav-02,
+.nav-03,
+.nav-04,
+.nav-05{ background: url(../images/bg_nav.png) no-repeat}
+.nav-01{ background-position: 0 0}
+.nav-02{ background-position: -206px 0}
+.nav-03{ background-position: -412px 0}
+.nav-04{ background-position: -618px 0}
+.nav-05{ background-position: -824px 0}
+
+
+/*
+========================
+內文架構
+========================
+*/
+#container h3{
+    font-size: 1.75em;
+    font-weight: 200;
+    line-height: 2em;
+    color: #2f8833;
+    padding-bottom: 20px}
+#profile,
+#products,
+#capability{
+    display: block;
+    width: 860px;
+    margin: 0 auto}
+#profile{ position: relative}
+#profile p{
+    width: 505px;
+    padding: 0 20px 10px 20px;
+    font-size: .938em;
+    line-height: 2em;
+    font-weight: 100}
+#profile .my-twinble{
+    display: block;
+    position: absolute;
+    top:50px;
+    right:-35px}
+#profile p>.profile-blue{
+    font-size: 1.375em;
+    color: #343794;
+    font-weight: bold}
+#profile p>.profile-green{
+    font-size: 1.125em;
+    color: #abcd03;
+    font-weight: bold}
+
+#capability{ margin: 30px auto}
+
+#products ul{ padding: 0 0 50px 0}
+#products li{
+    display: inline-block;
+    width: 241px;
+    margin: 0 20px;
+    padding-top: 230px}
+.products-item-01{
+    background: url(../images/pic_products-item-01.png) no-repeat}
+.products-item-02{
+    background: url(../images/pic_products-item-02.png) no-repeat}
+.products-item-03{
+    background: url(../images/pic_products-item-03.png) no-repeat}
+#products a{
+    font-size: .938em;
+    color: #656565;
+    text-decoration: none;
+    padding-left: 20px}
+#products a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+
+/*
+========================
+完美置底
+========================
+*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:234px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+/*
+========================
+版權列
+========================
+*/
+footer{
+	display:block;
+	width:100%;
+	height:234px;
+	background:#013c01;
+	margin-top:-234px;
+    padding-top: 6px}
+.line{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #275525}
+#footer-main{
+    display: block;
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: .938em;  
+    color: #829282}
+#footer-main h4{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #2f8833}
+#footer-main li{
+    padding: 3px 0}
+#footer-main a{ 
+    color: #829282;
+    text-decoration: none}
+#footer-main a:hover{
+    color: #F50;
+    text-decoration: none}
+#copyright,
+#contactbox{
+    display: block;
+    float: left}
+#copyright{
+    width: 400px;
+    padding: 0}
+#copyright h4{
+    width: 143px;
+    height: 40px;
+    background: url(../images/pic_footer-logo.png) no-repeat;
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-bottom: 20px}
+#contactbox{
+    width: 520px;
+    padding: 0}
+#languagebox{
+    display: block;
+    float: right;
+    width: 150px;
+    text-align: left}
+#contactbox h4,
+#languagebox h4{
+    padding-top:20px}
+
+/*
+========================
+浮動頂端選單
+========================
+*/
+#mobile_btn{ display:none}
+#top_menu{
+	 width:100%;
+	 height:60px;
+	 background:#4A9949;
+	 position: fixed;
+	 top:-60px;
+	 z-index:99}
+#top_main{ 
+    display: block; 
+    width:1070px; 
+    margin:0 auto}	 
+#top_main h2 a{ 
+     display:block; 
+	 float:left;
+	 width:120px;
+	 height:33px;
+	 background:url(../images/logo_topmenu.png) no-repeat;
+	 text-indent:100%;
+     white-space: nowrap;
+     overflow: hidden;
+	 margin-top:12px}
+#top_main ul{ 
+    display:block; 
+    float:left; 
+    padding-top:20px}	 	 
+#top_main li{ 
+    display: inline-block; 
+    font-size:1.125em; 
+    line-height:25px; 
+    color: #fff}	
+#top_main a:link {
+    text-decoration:none; 
+    color:rgba(255,255,255,.7); 
+    padding:0 30px}
+#top_main a:visited {
+    text-decoration:none; 
+    color:rgba(255,255,255,.7)}
+#top_main a:hover {
+    text-decoration:none; 
+    color:rgba(255,255,255,1)}
+#btn_totop { 
+    display:block;
+	float:right;
+    padding-top: 13px}
+#btn_totop a{
+    display: block;
+	width:33px;
+	height:33px;
+	background:url(../images/btn_totop.png) no-repeat;
+	text-indent:100%;
+    white-space: nowrap;
+    overflow: hidden}
+#btn_totop a:hover{ 
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}	
