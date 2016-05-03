@@ -236,6 +236,44 @@ header,
     font-weight: bold}
 
 #capability{ margin: 30px auto}
+#capability p{ padding: 8px 20px}
+.capability-item{
+    display: block;
+    width: 820px;
+    margin: 0 auto;
+    padding: 30px 0}
+.capability-item ul{}
+.capability-item li{
+    margin: 20px 0 40px}
+.capability-item h4{
+    font-size: 1.125em;
+    line-height: 1.5em;
+    background: rgba(50,144,240,.8);
+    color: #fff;
+    /*text-align: center;*/
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 3px 8px 3px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /*border-bottom: 2px solid rgba(50,144,240,.5)*/}
+.capability-item img{}
+.facilities li{
+    display: inline-block;
+    margin: 30px 15px 10px;
+    text-align: center}
+.facilities span, .quality-item span{
+    display: block;
+    font-size: .938em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 10px}
+.picline{ border: 1px solid #e7e7e7}
+.piccenter{
+    display: block;
+    margin: 0 auto}
+
 
 #products ul{ padding: 0 0 50px 0}
 #products li{
