@@ -32,8 +32,8 @@ a:visited {text-decoration:none; color:#8c8c8c}
 a:hover {text-decoration:underline; color:#F50}*/
 form{margin:0; padding:0}
 image{border:0}
-::selection { background: #b58e88; color: #fff}
-::-moz-selection { background: #b58e88; color: #fff}
+::selection { background: #29802A; color: #fff}
+::-moz-selection { background: #29802A; color: #fff}
 img::selection { background: transparent}
 img::-moz-selection { background: transparent}
 .clean{ clear:both}
@@ -99,9 +99,7 @@ header,
 #banner-sub h1>a,
 #banner h2,
 #banner-sub h2,
-#banner h3,
-.main-visiven,
-.sub-slogan-01{
+.main-visiven{
     display: block;
     position: absolute;
     z-index: 99;
@@ -122,18 +120,25 @@ header,
     width: 445px;
     height: 36px;
     background: url(../images/pic_compay-type.png) no-repeat}
-#banner h3{
-    top:256px;
-    left: 83px;
-    width: 388px;
-    height: 102px;
-    background: url(../images/pic_slogan.png) no-repeat}
+#banner h3,
 .sub-slogan-01{
-    top:221px;
+    display: block;
+    position: absolute;
+    color: #275525}
+#banner h3{
+    top:245px;
+    left: 53px;
+    font-size: 3.5em;
+    line-height: 1.125em;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #fff, 0 0 20px #fff}
+#banner h3 span{ padding-left: 105px}
+.sub-slogan-01{
+    top:240px;
     left: 78px;
-    width: 527px;
-    height: 31px;
-    background: url(../images/pic_slogansub-01.png) no-repeat}
+    z-index: 99;
+    font-size: 2em;
+    text-shadow: 1px 1px 0 #fff, 0 0 10px #fff}
 .main-visiven{
     top:-13px;
     right: 0;
@@ -199,21 +204,25 @@ header,
 
 /*
 ========================
-內文架構
+首頁架構
 ========================
 */
 #container h3{
     font-size: 1.75em;
     font-weight: 200;
     line-height: 2em;
-    color: #2f8833;
-    padding-bottom: 20px}
-#profile,
+    color: #2f8833}
+#container section
+/*#profile,
 #products,
-#capability{
+#capability,
+#box_skin,
+#box_application,
+#box_summary*/{
     display: block;
     width: 860px;
-    margin: 0 auto}
+    margin: 0 auto;
+    padding-bottom: 40px}
 #profile{ position: relative}
 #profile p{
     width: 505px;
@@ -274,7 +283,6 @@ header,
     display: block;
     margin: 0 auto}
 
-
 #products ul{ padding: 0 0 50px 0}
 #products li{
     display: inline-block;
@@ -296,6 +304,42 @@ header,
     color: #2A822B;
     font-weight: bold;
     text-decoration: none}
+#box_summary img{ margin: 20px auto}
+
+/*
+========================
+肌膚保健
+========================
+*/
+.skin_left{
+    display: block;
+    float: left;
+    width: 540px;
+    padding: 0 50px 0 20px}
+.skin_left p{ margin-bottom: 40px}
+.skin_right{
+    display: block;
+    float: right;
+    width: 255px;
+padding-left: }
+
+/*
+========================
+醫療照護
+========================
+*/
+
+/*
+========================
+居家樂活
+========================
+*/
+
+/*
+========================
+聯絡我們
+========================
+*/
 
 /*
 ========================
