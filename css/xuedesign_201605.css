@@ -48,7 +48,8 @@ img::-moz-selection { background: transparent}
 header,
 #submenu{ 
     display:block; 
-    width:100%}
+    width:100%;
+    min-width: 1240px}
 #submenu{
     height: 42px;
     background: rgba(12,126,12,.7)}
@@ -320,8 +321,30 @@ header,
 .skin_right{
     display: block;
     float: right;
-    width: 255px;
-padding-left: }
+    width: 255px}
+#box_partnumber ul{}
+#box_partnumber li{
+    display: inline-block;
+    width: 390px;
+    margin: 15px}
+#box_partnumber img{
+    display: block;
+    float: left;
+    padding: 9px;
+    border: 1px solid #e7e7e7;
+    margin-right: 10px}
+.part_info{
+    display: block;
+    float: right;
+    width: 170px;
+    padding-top: 10px}
+#box_partnumber p{
+    font-size: .938em;
+    line-height: 1.5em;
+    font-weight: 100;
+    border-bottom: 1px dashed #e3e3e3;
+    margin-bottom: 10px}
+#box_partnumber span{ font-weight: bold}
 
 /*
 ========================
@@ -368,6 +391,7 @@ body > #wrap {height: auto; min-height: 100%;}
 footer{
 	display:block;
 	width:100%;
+    min-width: 1240px;
 	height:234px;
 	background:#013c01;
 	margin-top:-234px;
@@ -431,6 +455,7 @@ footer{
 #mobile_btn{ display:none}
 #top_menu{
 	 width:100%;
+     min-width: 1240px;
 	 height:60px;
 	 background:#4A9949;
 	 position: fixed;
