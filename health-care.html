@@ -1,403 +1,190 @@
-/**
-*
-* @project    Twinble
-* @Author     Elmo Wu <hello@xuedesign.tw>
-* @copyright  2016 xuedesign studio
-* @version    v1.0 - 201605
-*
-**/
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<!--<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">-->
+<meta name="description" content="Twinble, a technically oriented company, derived from making excellent & innovative rubber articles in the industry"/>
+<meta name="keywords" content="twinble,rubber,taiwan,skin,hygiene,health,rubber compression,injection molding, liquid injection"/>
+<meta name="Author" content="Twinble International Enterprise corp." />
+<meta content="Twinble, An Expert in The  Fled of  Rubber Technology" property="og:title" />
+<meta content="Twinble Official website" property="og:site_name" />
+<meta content="http://www.twinble.com/" property="og:url" />
+<meta content="http://www.twinble.com/images/FBShare.jpg" property="og:image" />
+<meta content="Twinble, a technically oriented company, derived from making excellent & innovative rubber articles in the industry" />
+<meta content="website" property="og:type" />
+<meta name="msvalidate.01" content="6223F157CC006370C3F02C03185F2321" />
+<link rel="shortcut icon"  href="images/favicon.ico"/>
+<link rel="icon" href="images/favicon.ico"/>
+<title>Health Care│ Twinble A Technically Oriented Company</title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/xuedesign_201605.css?20160430"/>
+<link rel="stylesheet" href="css/xueresponsive.css?20160430"/>
+<link rel="stylesheet" href="css/animate.css"/>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+</head>
 
-/*
-========================
-通用設定
-========================
-*/
-@import url(https://fonts.googleapis.com/css?family=Hind);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-    /* Set your content font stack here:*/
-    font-family: 'Hind','Noto Sans TC', sans-serif} 
+<body>
+    <div id="top_menu">
+        <div id="top_main">
+            <h2><a href="/index.html" title="home">Twinble International Enterprise corp.</a></h2>
+            <ul>
+                <li><a href="index.html" title="who we are?">who we are?</a>│</li>
+                <li><a href="skin-hygiene.html" title="Skin Hygiene">Skin Hygiene</a>│</li>
+                <li><a href="health-care.html" title="Health Care">Health Care</a>│</li>
+                <li><a href="life-fun.html" title="Life Fun">Life Fun</a>│</li>
+                <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+            </ul>
+            <span id="btn_totop"><a href="#wrap" title="Totop">Tptop</a></span>
+            <br class="clean">
+        </div>
+    </div>
 
-body{
-	margin: 0;
-	padding:0;
-	background: url(../images/bg-site.jpg) top center fixed no-repeat;
-	font-family: 'Hind','Noto Sans TC', sans-serif;
-	font-size:100%;
-	line-height:1.5em;
-    color: #6e6e6e}
-/*a:link {text-decoration:none; color:#b76727}
-a:visited {text-decoration:none; color:#8c8c8c}
-a:hover {text-decoration:underline; color:#F50}*/
-form{margin:0; padding:0}
-image{border:0}
-::selection { background: #b58e88; color: #fff}
-::-moz-selection { background: #b58e88; color: #fff}
-img::selection { background: transparent}
-img::-moz-selection { background: transparent}
-.clean{ clear:both}
-.hidden{ display:none}
+    <div id="wrap">
+        <div id="main_content" class="clearfix">
+            <header>
+                <div id="submenu">
+                    <ul class="submenu-item">
+                        <li><a href="tw/index.html" title="中文版">中文版</a></li>
+                        <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="banner-sub">
+                    <h1 class="animated fadeInUp"><a href="index.html" title="home">Twinble International Enterprise corp.</a></h1>
+                    <h2 class="animated fadeInUp">An Expert in The Fled of Rubber Technology</h2>
+                    <h3 class="sub-slogan-01 animated fadeInLeft">Make different, No boundary</h3>
+                    <div class="sub-visiven sv-01 animated fadeIn">our service:Skin Hygiene,Health Care and Life Fun</div>
+                </div>
+            </header>
 
-/*
-========================
-首頁框架
-========================
-*/
-#wrap,
-header,
-#submenu{ 
-    display:block; 
-    width:100%}
-#submenu{
-    height: 42px;
-    background: rgba(12,126,12,.7)}
-.submenu-item{
-    display: block;
-    width: 1240px;
-    height: 42px;
-    overflow: hidden;
-    margin: 0 auto;
-    clear: both}
-.submenu-item li a{
-    display: block;
-    float: right;
-    width: 140px;
-    height: 33px;
-    border-left: 1px solid #64bc66;
-    border-right: 1px solid #64bc66;
-    text-align: center;
-    color: #d1e7d1;
-    text-decoration: none;
-    padding-top: 9px}
-.submenu-item li a:hover{
-    background: rgba(12,126,12,1);
-    text-decoration: none}
-#container{
-	display: block;
-    width: 1070px;
-    margin: 0 auto;
-    background: #fff;
-    -webkit-border-radius: 15px 15px 0 0;
-    -moz-border-radius: 15px 15px 0 0;
-    border-radius: 15px 15px 0 0}
-
-/*
-========================
-主視覺
-========================
-*/
-#banner,
-#banner-sub{
-    display: block;
-    position: relative;
-    width: 1070px;
-    margin: 0 auto}
-#banner{height: 424px}
-#banner-sub{height: 304px}
-#banner h1>a,
-#banner-sub h1>a,
-#banner h2,
-#banner-sub h2,
-#banner h3,
-.main-visiven,
-.sub-slogan-01{
-    display: block;
-    position: absolute;
-    z-index: 99;
-    text-indent:100%;
-    white-space:nowrap;
-    overflow:hidden}
-#banner h1>a,
-#banner-sub h1>a{
-    top:33px;
-    left: 45;
-    width: 403px;
-    height: 118px;
-    background: url(../images/pic_logo.png) no-repeat}
-#banner h2,
-#banner-sub h2{
-    top:171px;
-    left: 45;
-    width: 445px;
-    height: 36px;
-    background: url(../images/pic_compay-type.png) no-repeat}
-#banner h3{
-    top:256px;
-    left: 83px;
-    width: 388px;
-    height: 102px;
-    background: url(../images/pic_slogan.png) no-repeat}
-.sub-slogan-01{
-    top:221px;
-    left: 78px;
-    width: 527px;
-    height: 31px;
-    background: url(../images/pic_slogansub-01.png) no-repeat}
-.main-visiven{
-    top:-13px;
-    right: 0;
-    width: 564px;
-    height: 437px;
-    background: url(../images/pic_mainvision.png) no-repeat}
-.sub-visiven{
-    display: block;
-    position: absolute;
-    top:0;
-    right: 32px;
-    width: 581px;
-    height: 304px;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden}
-.sv-01{ 
-    background: url(../images/pic_subvision-01.png) no-repeat}
-
-/*
-========================
-主選單
-========================
-*/
-#main-nav{
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 52px;
-    border-bottom: 2px solid #e2e3e2;
-    margin-bottom: 30px}
-#main-nav ul{
-    display: block;
-    position: absolute;
-    top:3px;
-    left:35px }
-#main-nav li{
-    display: inline-block;
-    width: 196px;
-    height: 52px;
-    margin: 0 3px 0 0;
-    font-size: 1.125em;
-    line-height: 52px;
-    text-align: center}
-#main-nav li a{ 
-    color: #787c81; 
-    text-decoration: none}
-#main-nav li a:hover{ 
-    color: #2A822B;
-    font-weight: bold;
-    text-decoration: none}
-.nav-01,
-.nav-02,
-.nav-03,
-.nav-04,
-.nav-05{ background: url(../images/bg_nav.png) no-repeat}
-.nav-01{ background-position: 0 0}
-.nav-02{ background-position: -206px 0}
-.nav-03{ background-position: -412px 0}
-.nav-04{ background-position: -618px 0}
-.nav-05{ background-position: -824px 0}
+            
+            <div id="container">
+                <nav id="main-nav">
+                    <ul>
+                        <li class="nav-01"><a href="index.html" title="who we are?">who we are?</a></li>
+                        <li class="nav-02"><a href="skin-hygiene.html" title="Skin Hygiene">Skin Hygiene</a></li>
+                        <li class="nav-03"><a href="health-care.html" title="Health Care">Health Care</a></li>
+                        <li class="nav-04"><a href="life-fun.html" title="Life Fun">Life Fun</a></li>
+                        <li class="nav-05"><a href="contact.html" title="Contact Us">Contact Us</a></li>
+                    </ul>
+                </nav>
+                
+                <section id="box_skin" class="clean">
+                    <h3>Health Care</h3>
+                    <div class="skin_left">
+                        <p>No matter if its pump tubing or bag that it needs to be adopted in soap dispensing system, our expertise in rubber technology can help you break the obstacle in the requirements in no time.</p>
+                        <img src="images/pic_skin-02.jpg" alt="*">
+                    </div>
+                    <div id="skin_right">
+                        <img src="images/pic_skin-01.jpg" alt="*">
+                    </div>
+                </section>
+                
+                <section id="box_summary" class="WOW fadeInUp-nodelay">
+                    <h3>Product summary</h3>
+                    <img src="images/pic_skin-03.jpg" alt="Product summary">
+                </section>
+                         
+                     
+                          
+                <section id="products" class="WOW fadeInUp-nodelay">
+                    <h3>View Other Products</h3>
+                    <ul>
+                        <li class="products-item-01">
+                               <a href="skin-hygiene.html" title="Skin Hygiene">
+                                <p>Read More →</p></a></li>
+                        <li class="products-item-02">
+                               <a href="health-care.html" title="Health Care">
+                                <p>Read More →</p></a></li>
+                        <li class="products-item-03">
+                               <a href="life-fun.html" title="Life Fun">
+                                <p>Read More →</p></a></li>
+                    </ul>
+                </section>
+                
+            </div><!-- // end #container -->
+        </div><!--// end #main_content -->
+    </div><!--// end #wrap -->
 
 
-/*
-========================
-內文架構
-========================
-*/
-#container h3{
-    font-size: 1.75em;
-    font-weight: 200;
-    line-height: 2em;
-    color: #2f8833;
-    padding-bottom: 20px}
-#profile,
-#products,
-#capability{
-    display: block;
-    width: 860px;
-    margin: 0 auto}
-#profile{ position: relative}
-#profile p{
-    width: 505px;
-    padding: 0 20px 10px 20px;
-    font-size: .938em;
-    line-height: 2em;
-    font-weight: 100}
-#profile .my-twinble{
-    display: block;
-    position: absolute;
-    top:50px;
-    right:-35px}
-#profile p>.profile-blue{
-    font-size: 1.375em;
-    color: #343794;
-    font-weight: bold}
-#profile p>.profile-green{
-    font-size: 1.125em;
-    color: #abcd03;
-    font-weight: bold}
+    <footer id="footer">
+        <div class="line"></div>
+        <div id="footer-main">
+            <div id="copyright">
+                <h4>Twinble</h4>
+                <p>2010 &copy; Twinble International Enterprise corp.
+                    <br> ALL RIGHT RESERVED.</p>
+            </div>
+            <div id="contactbox">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Email：<a href="mailto:sales@twinble.com">sales@twinble.com</a></li>
+                    <li>Tel：+886-3-3191230</li>
+                    <li>Fax：+886-3192230</li>
+                    <li>Address：1F,No.185,Guangfeng Rd., Guishan Dist., Taoyuan City 333 Taiwan</li>
+                </ul>
+            </div>
+            <div id="languagebox">
+                <h4>Language</h4>
+                <ul>
+                    <li><a href="index.html" title="English">English</a></li>
+                    <li><a href="tw/index.html" title="正體中文">正體中文</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="script/wow.min.js"></script>
+<script src="script/jquery.lazyload.js"></script>
+<script src="script/scrollTo.js"></script>
+<script src="script/website.js"></script>
+<script src="script/jquery.retina.js"></script>
 
-#capability{ margin: 30px auto}
+<script type="application/ld+json">
+  { 「@context" : 「http://schema.org",
+	「@type" : 「Organization", 
+	「name" : 「Twinble International Enterprise corp.", 
+	「url" : 「http://www.twinble.com/", 
+	「contactPoint" : [
+	{ 「@type" : 「ContactPoint",
+	「telephone" : 「+886-3-319-1230〞,
+	「contactType" : 「customer service"
+	} 
+  }
+</script>      
 
-#products ul{ padding: 0 0 50px 0}
-#products li{
-    display: inline-block;
-    width: 241px;
-    margin: 0 20px;
-    padding-top: 230px}
-.products-item-01{
-    background: url(../images/pic_products-item-01.png) no-repeat}
-.products-item-02{
-    background: url(../images/pic_products-item-02.png) no-repeat}
-.products-item-03{
-    background: url(../images/pic_products-item-03.png) no-repeat}
-#products a{
-    font-size: .938em;
-    color: #656565;
-    text-decoration: none;
-    padding-left: 20px}
-#products a:hover{ 
-    color: #2A822B;
-    font-weight: bold;
-    text-decoration: none}
-
-/*
-========================
-完美置底
-========================
-*/
-html, body, #wrap {height: 100%;}
-body > #wrap {height: auto; min-height: 100%;}
-#main_content{padding-bottom:234px}
-.clearfix:after{content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden}
-.clearfix {display: inline-block}
-/* Hides from IE-mac \*/
-* html .clearfix { height: 1%}
-.clearfix {display: block}
-/* End hide from IE-mac */
-
-/*
-========================
-版權列
-========================
-*/
-footer{
-	display:block;
-	width:100%;
-	height:234px;
-	background:#013c01;
-	margin-top:-234px;
-    padding-top: 6px}
-.line{
-    display: block;
-    width: 100%;
-    height: 4px;
-    background: #275525}
-#footer-main{
-    display: block;
-    width: 1070px;
-    margin: 0 auto;
-    padding-top: 40px;
-    font-size: .938em;  
-    color: #829282}
-#footer-main h4{
-    font-size: 1.25em;
-    line-height: 1.5em;
-    color: #2f8833}
-#footer-main li{
-    padding: 3px 0}
-#footer-main a{ 
-    color: #829282;
-    text-decoration: none}
-#footer-main a:hover{
-    color: #F50;
-    text-decoration: none}
-#copyright,
-#contactbox{
-    display: block;
-    float: left}
-#copyright{
-    width: 400px;
-    padding: 0}
-#copyright h4{
-    width: 143px;
-    height: 40px;
-    background: url(../images/pic_footer-logo.png) no-repeat;
-    text-indent: 100%;
-    white-space:nowrap;
-    overflow:hidden;
-    margin-bottom: 20px}
-#contactbox{
-    width: 520px;
-    padding: 0}
-#languagebox{
-    display: block;
-    float: right;
-    width: 150px;
-    text-align: left}
-#contactbox h4,
-#languagebox h4{
-    padding-top:20px}
-
-/*
-========================
-浮動頂端選單
-========================
-*/
-#mobile_btn{ display:none}
-#top_menu{
-	 width:100%;
-	 height:60px;
-	 background:#4A9949;
-	 position: fixed;
-	 top:-60px;
-	 z-index:99}
-#top_main{ 
-    display: block; 
-    width:1070px; 
-    margin:0 auto}	 
-#top_main h2 a{ 
-     display:block; 
-	 float:left;
-	 width:120px;
-	 height:33px;
-	 background:url(../images/logo_topmenu.png) no-repeat;
-	 text-indent:100%;
-     white-space: nowrap;
-     overflow: hidden;
-	 margin-top:12px}
-#top_main ul{ 
-    display:block; 
-    float:left; 
-    padding-top:20px}	 	 
-#top_main li{ 
-    display: inline-block; 
-    font-size:1.125em; 
-    line-height:25px; 
-    color: #fff}	
-#top_main a:link {
-    text-decoration:none; 
-    color:rgba(255,255,255,.7); 
-    padding:0 30px}
-#top_main a:visited {
-    text-decoration:none; 
-    color:rgba(255,255,255,.7)}
-#top_main a:hover {
-    text-decoration:none; 
-    color:rgba(255,255,255,1)}
-#btn_totop { 
-    display:block;
-	float:right;
-    padding-top: 13px}
-#btn_totop a{
-    display: block;
-	width:33px;
-	height:33px;
-	background:url(../images/btn_totop.png) no-repeat;
-	text-indent:100%;
-    white-space: nowrap;
-    overflow: hidden}
-#btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}	
+  
+  
+  <!--
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+              || xuedesign studio ||
+                www.xuedesign.tw
+-->    
+</body>
+</html>
