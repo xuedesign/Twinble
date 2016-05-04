@@ -158,6 +158,12 @@ header,
     overflow: hidden}
 .sv-01{ 
     background: url(../images/pic_subvision-01.png) no-repeat}
+.sv-02{ 
+    background: url(../images/pic_subvision-02.png) no-repeat}
+.sv-03{ 
+    background: url(../images/pic_subvision-03.png) no-repeat}
+.sv-04{ 
+    background: url(../images/pic_subvision-04.png) no-repeat}
 
 /*
 ========================
@@ -351,18 +357,63 @@ header,
 醫療照護
 ========================
 */
+#box_health p{ padding: 0 20px}
+.box_photo{
+    display: block;
+    width: 820px;
+    margin: 50px auto;
+    clear: both}
+.photo_left{
+    display: block;
+    float: left}
+.photo_right{
+    display: block;
+    float: right}
 
 /*
 ========================
 居家樂活
 ========================
 */
+#box_life p{ padding: 0 20px}
 
 /*
 ========================
 聯絡我們
 ========================
 */
+.contact_info{
+    display: block;
+    padding: 0 20px}
+.contact_info h4{
+    font-size: 1.125em;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #2f8833}
+.contact_info ul{
+    padding-bottom: 30px}
+.contact_info li{
+    font-size: .938em;
+    line-height: 1.5em;
+    padding: 15px;
+    border-bottom: 1px dashed #e7e7e7;
+    letter-spacing: 1px}
+.contact_info span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-weight: bold;
+    color: #2f8833}
+.contact_info a{
+    color: #656565;
+    text-decoration: underline}
+.contact_info a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+.contact_map{
+    /*display: block;
+    max-height: 300px*/}
 
 /*
 ========================
