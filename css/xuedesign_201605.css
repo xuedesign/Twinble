@@ -352,7 +352,12 @@ header,
     -moz-border-radius: 15px;
     border-radius: 15px;
     /*border-bottom: 2px solid rgba(50,144,240,.5)*/}
-.capability-item img{}
+
+.facilities{
+    display: block;
+    width: 820px;
+    margin: 0 auto;
+    padding-bottom: 20px}
 .facilities li{
     display: inline-block;
     margin: 30px 15px 10px;
@@ -362,11 +367,16 @@ header,
     font-size: .938em;
     line-height: 1.5em;
     text-align: center;
-    padding-top: 10px}
+    padding-top: 10px;
+    /*border-bottom: 2px solid #18932f*/}
 .picline{ border: 1px solid #e7e7e7}
 .piccenter{
     display: block;
     margin: 0 auto}
+.text_center{
+    display: block;
+   text-align: center;
+    padding-top: 15px}
 
 #products{
     display: block;
