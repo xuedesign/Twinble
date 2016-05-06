@@ -3,7 +3,7 @@
 * @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.0 - 201605
+* @version    v1.5 - 201605
 *
 **/
 
@@ -181,7 +181,7 @@ header,
     display: block;
     position: absolute;
     top:3px;
-    left:35px }
+    left:135px }
 #main-nav li{
     display: inline-block;
     width: 196px;
@@ -189,7 +189,9 @@ header,
     margin: 0 3px 0 0;
     font-size: 1.125em;
     line-height: 52px;
-    text-align: center}
+    text-align: center;
+    position:relative; /**/
+    float:left}
 #main-nav li a{ 
     color: #787c81; 
     text-decoration: none}
@@ -197,6 +199,39 @@ header,
     color: #2A822B;
     font-weight: bold;
     text-decoration: none}
+#main-nav li ul{ display: none}
+#main-nav li:hover ul{display: block}
+#main-nav li:hover li a,
+#main-nav li.iehover li a{
+    display: block;
+    position: absolute;
+    top:49px;
+    left: -135px;
+    z-index: 1000;
+    width: 196px;
+	float: none;
+    padding: 0;
+	background: rgba(198,231,165,.9);
+    font-size: .875em;
+    color: #787c81;
+    border-bottom: 1px dashed #fff}
+#main-nav li:hover li a:hover,
+#main-nav li:hover li:hover a,
+#main-nav li.iehover li a:hover,
+#main-nav li.iehover li.iehover a {
+    font-weight: normal;
+    color: #fff;
+	background: rgb(140, 172, 109)}
+#main-nav li li.subtitle a,
+#main-nav li li.subtitle a:hover{
+    display: block;
+    width: 196px;
+	float: none;
+    padding: 0;
+    font-size: .938em;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(140, 172, 109)}
 .nav-01,
 .nav-02,
 .nav-03,
@@ -215,8 +250,8 @@ header,
 ========================
 */
 #container h3{
-    font-size: 1.75em;
-    font-weight: 200;
+    font-size: 2.5em;
+    font-weight: bold;
     line-height: 2em;
     color: #2f8833}
 #container section
@@ -290,27 +325,30 @@ header,
     display: block;
     margin: 0 auto}
 
-#products ul{ padding: 0 0 50px 0}
-#products li{
+#products{
+    display: block;
+    clear: both}
+#products ul{
+    padding: 0 0 50px 0}
+#products li a{
     display: inline-block;
-    width: 241px;
+    float: left;
+    width: 221px;
     margin: 0 20px;
-    padding-top: 230px}
+    padding: 250px 0 0 20px;
+    font-size: .938em;
+    color: #656565;
+    text-decoration: none}
+#products li a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
 .products-item-01{
     background: url(../images/pic_products-item-01.png) no-repeat}
 .products-item-02{
     background: url(../images/pic_products-item-02.png) no-repeat}
 .products-item-03{
     background: url(../images/pic_products-item-03.png) no-repeat}
-#products a{
-    font-size: .938em;
-    color: #656565;
-    text-decoration: none;
-    padding-left: 20px}
-#products a:hover{ 
-    color: #2A822B;
-    font-weight: bold;
-    text-decoration: none}
 #box_summary img{ margin: 20px auto}
 
 /*
