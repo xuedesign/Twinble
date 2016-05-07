@@ -255,17 +255,6 @@ header,
     font-weight: bold;
     line-height: 2em;
     color: #2f8833}
-#container h4{
-    font-size: 2em;
-    font-weight: bold;
-    line-height: 1.125em;
-    color: #202389}
-#container h5{
-    font-size: 1.125em;
-    font-weight: bold;
-    line-height: 1.5em;
-    padding: 10px 0 0 18px;
-    color: #424250}
 .title_about{
     display: block;
     float: left;
@@ -429,6 +418,23 @@ header,
     display: block;
     float: right;
     width: 255px}
+#box_skin h4,
+#box_partnumber h4,
+#box_health h4,
+#box_life h4{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.125em;
+    color: #202389}
+#box_health h4,
+#box_life h4{
+    padding:40px 0 0  20px}
+#box_partnumber h5{
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 10px 0 0 18px;
+    color: #424250}
 .box_summary{
     display: block;
     width: 820px;
@@ -466,28 +472,12 @@ header,
 
 /*
 ========================
-醫療照護
+醫療照護+居家樂活
 ========================
 */
-#box_health p{ padding: 0 20px}
-.box_photo{
-    display: block;
-    width: 820px;
-    margin: 50px auto;
-    clear: both}
-.photo_left{
-    display: block;
-    float: left}
-.photo_right{
-    display: block;
-    float: right}
-
-/*
-========================
-居家樂活
-========================
-*/
+#box_health p,
 #box_life p{ padding: 0 20px}
+
 
 /*
 ========================
