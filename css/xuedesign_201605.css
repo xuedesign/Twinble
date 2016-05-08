@@ -22,11 +22,18 @@ html, button, input, select, textarea,
 body{
 	margin: 0;
 	padding:0;
-	background: url(../images/bg-site.jpg) top center fixed no-repeat;
+	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
 	font-family: 'Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #6e6e6e}
+.bgbg-01{background: url(../images/bg-site.jpg) top center fixed no-repeat}
+.bgbg-02{background: url(../images/bg-site-02.jpg) top center fixed no-repeat}
+.bgbg-03{background: url(../images/bg-site-03.jpg) top center fixed no-repeat}
+.bgbg-04{background: url(../images/bg-site-04.jpg) top center fixed no-repeat}
+.bgbg-05{background: url(../images/bg-site-05.jpg) top center fixed no-repeat}
+.bgbg-06{background: url(../images/bg-site-06.jpg) top center fixed no-repeat}
+.bgbg-07{background: url(../images/bg-site-07.jpg) top center fixed no-repeat}
 /*a:link {text-decoration:none; color:#b76727}
 a:visited {text-decoration:none; color:#8c8c8c}
 a:hover {text-decoration:underline; color:#F50}*/
@@ -114,7 +121,8 @@ header,
     height: 36px;
     background: url(../images/pic_compay-type.png) no-repeat}
 #banner h3,
-.sub-slogan-01{
+.sub-slogan-01,
+.sub-slogan-02{
     display: block;
     position: absolute;
     color: #275525}
@@ -127,12 +135,16 @@ header,
     letter-spacing: 1px;
     text-shadow: 2px 2px 0 #fff, 0 0 20px #fff}
 #banner h3 span{ padding-left: 105px}
-.sub-slogan-01{
+.sub-slogan-01,
+.sub-slogan-02{
     top:240px;
-    left: 78px;
     z-index: 99;
     font-size: 2em;
     text-shadow: 1px 1px 0 #fff, 0 0 10px #fff}
+.sub-slogan-01{
+    left: 78px}
+.sub-slogan-02{
+    left: 39px}
 .main-visiven{
     top:-13px;
     right: 0;
@@ -149,6 +161,17 @@ header,
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}
+.sub-visiven a{
+    display: block;
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 400px;
+    height: 100px}
+.sub-visiven .link-01{ top: 0; right:0}
+.sub-visiven .link-02{ top: 105px; right:0}
+.sub-visiven .link-03{ top: 210px; right:0}
 .sv-01{ 
     background: url(../images/pic_subvision-01.png) no-repeat}
 .sv-02{ 
@@ -157,6 +180,12 @@ header,
     background: url(../images/pic_subvision-03.png) no-repeat}
 .sv-04{ 
     background: url(../images/pic_subvision-04.png) no-repeat}
+.sv-05{ 
+    background: url(../images/pic_subvision-05.png) no-repeat}
+.sv-06{ 
+    background: url(../images/pic_subvision-06.png) no-repeat}
+.sv-07{ 
+    background: url(../images/pic_subvision-07.png) no-repeat}
 
 /*
 ========================
