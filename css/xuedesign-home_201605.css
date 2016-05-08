@@ -1,0 +1,207 @@
+/**
+*
+* @project    Twinble
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.5 - 201605
+*
+**/
+
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here:*/
+    font-family: 'Hind','Noto Sans TC', sans-serif} 
+
+body{
+	margin: 0;
+	padding:0;
+	background: url(../images/bg-site-08.jpg) top center fixed no-repeat;
+	font-family: 'Hind','Noto Sans TC', sans-serif;
+	font-size:100%;
+	line-height:1.5em;
+    color: #fff}
+a:link {text-decoration:none; color:#fff}
+a:visited {text-decoration:none; color:#fff}
+a:hover {text-decoration:underline; color:#A5F5A2}
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #29802A; color: #fff}
+::-moz-selection { background: #29802A; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*
+========================
+首頁
+========================
+*/
+#wrap{ 
+    display:block; 
+    width:100%;
+    min-width: 1240px}
+#submenu{
+    height: 42px;
+    background: rgba(12,126,12,.7)}
+.submenu-item{
+    display: block;
+    width: 1240px;
+    height: 42px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both}
+.submenu-item li a{
+    display: block;
+    float: right;
+    width: 140px;
+    height: 33px;
+    border-left: 1px solid #64bc66;
+    border-right: 1px solid #64bc66;
+    text-align: center;
+    color: #d1e7d1;
+    text-decoration: none;
+    padding-top: 9px}
+.submenu-item li a:hover{
+    background: rgba(12,126,12,1);
+    text-decoration: none}
+#banner {
+	display: block;
+    position: relative;
+    width: 1240px;
+    margin: 0 auto;
+    background: url(../images/pic_man.png) no-repeat;
+    background-position: 65px 63px}
+#banner h1,
+#banner h2{
+    display: block;
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#banner h1{
+    top:63px;
+    right:148px;
+    width: 445px;
+    height: 161px;
+    background: url(../images/pic_homelogo.png) no-repeat}
+#banner h2{
+    top:277px;
+    right:105px;
+    width: 505px;
+    height: 157px;
+    background: url(../images/pic_homeslogan.png) no-repeat}
+#banner ul{
+    display: block;
+    padding: 510px 0 150px 520px}
+#banner .nav-01,
+#banner .nav-02,
+#banner .nav-03{
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    margin: 0 12px}
+#banner .nav-01{
+    background: url(../images/bg_homenav-01.png) no-repeat}
+#banner .nav-02{
+    background: url(../images/bg_homenav-02.png) no-repeat}
+#banner .nav-03{
+    background: url(../images/bg_homenav-03.png) no-repeat}
+#banner li ul{
+    display: block;
+    padding: 75px 0 0 25px}
+#banner li li{
+    font-size: .938em;
+    line-height: 2em;
+    margin: 0;
+    padding: 0}
+
+/*
+========================
+完美置底
+========================
+*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:234px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+/*
+========================
+版權列
+========================
+*/
+footer{
+	display:block;
+	width:100%;
+    min-width: 1240px;
+	height:234px;
+	background:#013c01;
+	margin-top:-234px;
+    padding-top: 6px}
+.line{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #275525}
+#footer-main{
+    display: block;
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: .938em;  
+    color: #829282}
+#footer-main h4{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #2f8833}
+#footer-main li{
+    padding: 3px 0}
+#footer-main a{ 
+    color: #829282;
+    text-decoration: none}
+#footer-main a:hover{
+    color: #F50;
+    text-decoration: none}
+#copyright,
+#contactbox{
+    display: block;
+    float: left}
+#copyright{
+    width: 400px;
+    padding: 0}
+#copyright h4{
+    width: 143px;
+    height: 40px;
+    background: url(../images/pic_footer-logo.png) no-repeat;
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-bottom: 20px}
+#contactbox{
+    width: 520px;
+    padding: 0}
+#languagebox{
+    display: block;
+    float: right;
+    width: 150px;
+    text-align: left}
+#contactbox h4,
+#languagebox h4{
+    padding-top:20px}
