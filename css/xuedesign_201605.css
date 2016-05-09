@@ -450,7 +450,8 @@ header,
 #box_skin h4,
 #box_partnumber h4,
 #box_health h4,
-#box_life h4{
+#box_life h4,
+#box_partnumber h5{
     font-size: 2em;
     font-weight: bold;
     line-height: 1.125em;
@@ -458,12 +459,12 @@ header,
 #box_health h4,
 #box_life h4{
     padding:40px 0 0  20px}
-#box_partnumber h5{
+/*#box_partnumber h5{
     font-size: 1.125em;
     font-weight: bold;
     line-height: 1.5em;
     padding: 10px 0 0 18px;
-    color: #424250}
+    color: #424250}*/
 .box_summary{
     display: block;
     width: 820px;

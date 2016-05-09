@@ -96,7 +96,7 @@ img::-moz-selection { background: transparent}
     top:277px;
     right:105px;
     width: 505px;
-    height: 157px;
+    height: 190px;
     background: url(../images/pic_homeslogan.png) no-repeat}
 #banner ul{
     display: block;
@@ -116,12 +116,20 @@ img::-moz-selection { background: transparent}
     background: url(../images/bg_homenav-03.png) no-repeat}
 #banner li ul{
     display: block;
-    padding: 75px 0 0 25px}
+    padding: 8px 0 0 25px}
 #banner li li{
     font-size: .938em;
     line-height: 2em;
     margin: 0;
     padding: 0}
+#banner h3 a{
+    font-size: 2em;
+    font-weight: bolder;
+    line-height: 2em;
+    padding:35px 0 0 20px}
+#banner h3 a:hover{
+   color: #A5F5A2;
+   text-decoration: none}
 
 /*
 ========================
