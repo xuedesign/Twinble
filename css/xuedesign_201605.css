@@ -59,9 +59,22 @@ header,
     min-width: 1240px}
 #submenu{
     height: 42px;
-    background: rgba(12,126,12,.7)}
+    background: rgba(12,126,12,.7);
+    clear: both}
+#submenu h1 a{ 
+    display:block;
+    position: absolute;
+    top:5px;
+    left: 90px;
+	width:109px;
+	height:29px;
+	background:url(../images/pic_submenu-h2.png) no-repeat;
+	text-indent:100%;
+    white-space: nowrap;
+    overflow: hidden}
 .submenu-item{
     display: block;
+    position: relative;
     width: 1240px;
     height: 42px;
     overflow: hidden;
@@ -295,20 +308,25 @@ header,
     text-align: right;
     padding-top: 20px}
 .nav_about li{
-    display: inline;
-    margin: 0 10px;
-    padding:0 6px 8px;
-    border-bottom: 1px solid rgb(186,187,186)}
-.nav_about a:link,
-.nav_about a:visited{
+    display: inline-block/*inline*/;
+    margin: 0 10px;    
+    /*border-bottom: 1px solid rgb(186,187,186)*/}
+.nav_about li a:link,
+.nav_about li a:visited{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 2em;
-    color: rgba(47,136,51,.8);
-    text-decoration: none}
-.nav_about a:hover{
-    color: rgba(37, 77, 8, 0.8);
-    text-decoration: none}
+    color: #fff/*rgba(47,136,51,.8)*/;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #9DC815;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;}
+.nav_about li a:hover{
+    color: #fff/*rgba(37, 77, 8, 0.8)*/;
+    text-decoration: none;
+    background: rgb(140, 172, 109)}
 #container section
 /*#profile,
 #products,
@@ -369,8 +387,10 @@ header,
 .capability-item li{
     margin: 20px 0 40px}
 .capability-item h4{
+    width: 300px;
     font-size: 1.125em;
     line-height: 1.5em;
+    text-align: center;
     background: rgb(48,105,163)/*rgba(50,144,240,.8)*/;
     color: #fff;
     /*text-align: center;*/
