@@ -135,7 +135,12 @@ header,
     background: url(../images/pic_compay-type.png) no-repeat}
 #banner h3,
 .sub-slogan-01,
-.sub-slogan-02{
+.sub-slogan-02,
+.sub-slogan-03,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
     display: block;
     position: absolute;
     color: #275525}
@@ -149,15 +154,34 @@ header,
     text-shadow: 2px 2px 0 #fff, 0 0 20px #fff}
 #banner h3 span{ padding-left: 105px}
 .sub-slogan-01,
-.sub-slogan-02{
-    top:240px;
+.sub-slogan-02,
+.sub-slogan-03,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 592px;
+    height: 248px;
+    top:30px;
+    left: 10px;
     z-index: 99;
-    font-size: 2em;
-    text-shadow: 1px 1px 0 #fff, 0 0 10px #fff}
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
 .sub-slogan-01{
-    left: 78px}
+    background: url(../images/slogan-01.png) no-repeat}
 .sub-slogan-02{
-    left: 39px}
+    background: url(../images/slogan-02.png) no-repeat}
+.sub-slogan-03{
+    background: url(../images/slogan-03.png) no-repeat}
+.sub-slogan-04{
+    background: url(../images/slogan-04.png) no-repeat}
+.sub-slogan-05{
+    background: url(../images/slogan-05.png) no-repeat}
+.sub-slogan-06{
+    background: url(../images/slogan-06.png) no-repeat}
+.sub-slogan-07{
+    background: url(../images/slogan-07.png) no-repeat}
 .main-visiven{
     top:-13px;
     right: 0;
