@@ -87,20 +87,20 @@ img::-moz-selection { background: transparent}
     white-space: nowrap;
     overflow: hidden}
 #banner h1{
-    top:63px;
-    right:148px;
-    width: 445px;
+    top:33px;
+    right:110px;
+    width: 509px;
     height: 161px;
     background: url(../images/pic_homelogo.png) no-repeat}
 #banner h2{
-    top:277px;
+    top:227px;
     right:105px;
     width: 505px;
     height: 190px;
     background: url(../images/pic_homeslogan.png) no-repeat}
 #banner ul{
     display: block;
-    padding: 510px 0 150px 520px}
+    padding: 460px 0 150px 520px}
 #banner .nav-01,
 #banner .nav-02,
 #banner .nav-03{
@@ -212,4 +212,4 @@ footer{
     text-align: left}
 #contactbox h4,
 #languagebox h4{
-    padding-top:20px}
+    padding-top:20px}5737

@@ -435,7 +435,9 @@ header,
     display: inline-block;
     margin: 30px 15px 10px;
     text-align: center}
-.facilities span, .quality-item span{
+.facilities span, 
+.quality-item span,
+.note{
     display: block;
     font-size: .938em;
     line-height: 1.5em;
