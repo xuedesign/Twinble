@@ -335,5 +335,14 @@ Copyright (c) 2015 Daniel Eden
         animation-delay:2s;	
 -webkit-animation-duration: 2s;
 -moz-animation-duration: 2s;
-     animation-duration: 2s     
-}
+     animation-duration: 2s}
+.conlogo-flipIn {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+  -webkit-animation-delay:3s;
+        animation-delay:3s;	
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+     animation-duration: 2s}
