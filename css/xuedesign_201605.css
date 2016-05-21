@@ -155,12 +155,20 @@ header,
 #banner h3 span{ padding-left: 105px}
 .sub-slogan-01,
 .sub-slogan-02,
-.sub-slogan-03,
 .sub-slogan-04,
 .sub-slogan-05,
 .sub-slogan-06,
 .sub-slogan-07{
     width: 592px;
+    height: 248px;
+    top:30px;
+    left: 10px;
+    z-index: 99;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.sub-slogan-03{
+    width: 642px;
     height: 248px;
     top:30px;
     left: 10px;
@@ -324,11 +332,11 @@ header,
 .title_about{
     display: block;
     float: left;
-    width: 50%}
+    width: 40%}
 .nav_about{
     display: block;
     float: right;
-    width: 50%;
+    width: 60%;
     text-align: right;
     padding-top: 20px}
 .nav_about li{
@@ -342,15 +350,15 @@ header,
     line-height: 2em;
     color: #fff/*rgba(47,136,51,.8)*/;
     text-decoration: none;
-    padding: 8px 12px;
-    background: #9DC815;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;}
+    padding: 5px 20px;
+    background: #00B0F0/*#9DC815*/;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;}
 .nav_about li a:hover{
     color: #fff/*rgba(37, 77, 8, 0.8)*/;
     text-decoration: none;
-    background: rgb(140, 172, 109)}
+    background: #008BBE/*rgb(140, 172, 109)*/}
 #container section
 /*#profile,
 #products,
@@ -439,7 +447,7 @@ header,
 .quality-item span,
 .note{
     display: block;
-    font-size: .938em;
+    font-size: 1em;
     line-height: 1.5em;
     text-align: center;
     padding-top: 10px;
