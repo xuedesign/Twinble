@@ -50,6 +50,15 @@ Copyright (c) 2015 Daniel Eden
 -moz-animation-duration: 1s;
      animation-duration: 1s}
 
+.fadeIn-home {    
+-webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+-webkit-animation-delay:2s;
+        animation-delay:2s;	
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+     animation-duration: 2s}
+
 
 
 @-webkit-keyframes fadeInUp {
@@ -84,24 +93,24 @@ Copyright (c) 2015 Daniel Eden
 .HomeUp-01 {
 -webkit-animation-name: fadeInUp;
         animation-name: fadeInUp;
--webkit-animation-delay:4s;
-        animation-delay:4s;	
+-webkit-animation-delay:5s;
+        animation-delay:5s;	
 -webkit-animation-duration: 1s;
 -moz-animation-duration: 1s;
      animation-duration: 1s}
 .HomeUp-02 {
 -webkit-animation-name: fadeInUp;
         animation-name: fadeInUp;
--webkit-animation-delay:5s;
-        animation-delay:5s;	
+-webkit-animation-delay:6s;
+        animation-delay:6s;	
 -webkit-animation-duration: 1s;
 -moz-animation-duration: 1s;
      animation-duration: 1s}
 .HomeUp-03 {
 -webkit-animation-name: fadeInUp;
         animation-name: fadeInUp;
--webkit-animation-delay:6s;
-        animation-delay:6s;	
+-webkit-animation-delay:7s;
+        animation-delay:7s;	
 -webkit-animation-duration: 1s;
 -moz-animation-duration: 1s;
      animation-duration: 1s}
@@ -255,9 +264,9 @@ Copyright (c) 2015 Daniel Eden
   animation-name: bounceIn;
 -webkit-animation-delay:1s;
         animation-delay:1s;	
--webkit-animation-duration: 2s;
--moz-animation-duration: 2s;
-     animation-duration: 2s     
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+     animation-duration: 1s     
 }
 
 @-webkit-keyframes flipInX {
@@ -326,13 +335,23 @@ Copyright (c) 2015 Daniel Eden
   }
 }
 
-.flipInX {
+.flipInX-01 {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
-  -webkit-animation-delay:2s;
-        animation-delay:2s;	
+  -webkit-animation-delay:3s;
+        animation-delay:3s;	
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+     animation-duration: 2s}
+.flipInX-02 {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX;
+  -webkit-animation-delay:4s;
+        animation-delay:4s;	
 -webkit-animation-duration: 2s;
 -moz-animation-duration: 2s;
      animation-duration: 2s}

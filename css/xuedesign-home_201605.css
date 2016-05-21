@@ -3,7 +3,7 @@
 * @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.5 - 201605
+* @version    v2 - 201605
 *
 **/
 
@@ -80,27 +80,43 @@ img::-moz-selection { background: transparent}
     background: url(../images/pic_man.png) no-repeat;
     background-position: 65px 63px}
 #banner h1,
-#banner h2{
+#banner h2,
+#point{
     display: block;
     position: absolute;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}
 #banner h1{
-    top:33px;
-    right:110px;
-    width: 509px;
-    height: 161px;
+    top:66px;
+    right:131px;
+    z-index: 99;
+    width: 404px;
+    height: 168px;
     background: url(../images/pic_homelogo.png) no-repeat}
-#banner h2{
-    top:227px;
+#point{
+    top:10px;
+    right:30px;
+    width: 323px;
+    height: 401px;
+    background: url(../images/bg_homepoint.png) no-repeat}
+#banner .slogan-01{
+    top:242px;
+    right:131px;
+    z-index: 100;
+    width: 510px;
+    height: 153px;
+    background: url(../images/pic_homeslogan-01.png) no-repeat}
+#banner .slogan-02{
+    top:396px;
     right:105px;
-    width: 505px;
-    height: 190px;
-    background: url(../images/pic_homeslogan.png) no-repeat}
+    z-index: 100;
+    width: 520px;
+    height: 112px;
+    background: url(../images/pic_homeslogan-02.png) no-repeat}
 #banner ul{
     display: block;
-    padding: 460px 0 150px 520px}
+    padding: 520px 0 150px 520px}
 #banner .nav-01,
 #banner .nav-02,
 #banner .nav-03{

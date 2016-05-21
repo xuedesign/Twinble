@@ -154,7 +154,6 @@ header,
     text-shadow: 2px 2px 0 #fff, 0 0 20px #fff}
 #banner h3 span{ padding-left: 105px}
 .sub-slogan-01,
-.sub-slogan-02,
 .sub-slogan-04,
 .sub-slogan-05,
 .sub-slogan-06,
@@ -167,6 +166,7 @@ header,
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}
+.sub-slogan-02,
 .sub-slogan-03{
     width: 642px;
     height: 248px;
@@ -510,9 +510,13 @@ header,
     font-weight: bold;
     line-height: 1.125em;
     color: #202389}
+#box_partnumber h5{
+    background: url(../images/icon_ppont.png) 0 1px no-repeat;
+    padding-left: 47px}
 #box_health h4,
 #box_life h4{
-    padding:40px 0 0  20px}
+    padding:40px 0 0  47px;
+    background: url(../images/icon_ppont.png) 0 42px no-repeat}
 /*#box_partnumber h5{
     font-size: 1.125em;
     font-weight: bold;
