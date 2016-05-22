@@ -325,9 +325,9 @@ header,
     -moz-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0}
 #container h3{
-    font-size: 2.5em;
-    font-weight: bold;
-    line-height: 2em;
+    font-size: 2.25em;
+    font-weight: normal;
+    line-height: 2.25em;
     color: #2f8833}
 .title_about{
     display: block;
@@ -374,7 +374,7 @@ header,
 #profile p{
     width: 505px;
     padding: 0 20px 10px 20px;
-    font-size: .938em;
+    font-size: 1em;
     line-height: 2em;
     font-weight: 100}
 #profile .my-twinble{
@@ -421,12 +421,13 @@ header,
 .capability-item h4{
     width: 300px;
     font-size: 1.125em;
+    font-weight: normal;
     line-height: 1.5em;
     text-align: center;
     background: rgb(48,105,163)/*rgba(50,144,240,.8)*/;
     color: #fff;
-    /*text-align: center;*/
-    letter-spacing: 1px;
+    /*text-align: center;
+    letter-spacing: 1px;*/
     margin-bottom: 20px;
     padding: 3px 8px 3px 15px;
     -webkit-border-radius: 15px;
@@ -472,7 +473,7 @@ header,
     width: 221px;
     margin: 0 20px;
     padding: 250px 0 0 20px;
-    font-size: .938em;
+    font-size: 1em;
     color: #656565;
     text-decoration: none}
 #products li a:hover{ 
@@ -507,7 +508,7 @@ header,
 #box_life h4,
 #box_partnumber h5{
     font-size: 2em;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 1.125em;
     color: #202389}
 #box_partnumber h5{
@@ -589,8 +590,9 @@ header,
     background: url(../images/pic_content-logo.png) no-repeat}
 .contact_info h4{
     font-size: 2em;
+    font-weight: normal;
     line-height: 2em;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     color: #2f8833}
 .contact_info ul{
     padding-bottom: 30px}
@@ -760,4 +762,4 @@ footer{
     white-space: nowrap;
     overflow: hidden}
 #btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}1
