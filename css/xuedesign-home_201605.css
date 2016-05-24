@@ -14,16 +14,17 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Hind);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
-    font-family: 'Hind','Noto Sans TC', sans-serif} 
+    font-family: 'My-CG','Hind','Noto Sans TC', sans-serif} 
 
 body{
 	margin: 0;
 	padding:0;
 	background: url(../images/bg-site-08.jpg) top center fixed no-repeat;
-	font-family: 'Hind','Noto Sans TC', sans-serif;
+	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #fff}
@@ -80,43 +81,58 @@ img::-moz-selection { background: transparent}
     background: url(../images/pic_man.png) no-repeat;
     background-position: 65px 63px}
 #banner h1,
-#banner h2,
-#point{
+#banner h2{
     display: block;
     position: absolute;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden}
 #banner h1{
-    top:66px;
-    right:131px;
+    top:50px;
+    right:170px;
     z-index: 99;
-    width: 404px;
-    height: 168px;
+    width: 403px;
+    height: 117px;
     background: url(../images/pic_homelogo.png) no-repeat}
 #point{
+    display: block;
+    position: absolute;
+    top:148px;
+    right:109px;
+    z-index: 89;
+    width: 509px;
+    height: 59px;
+    background: url(../images/bg_subtitle.png) no-repeat;
+    -webkit-border-radius: 20px 5px 20px 5px;
+    -moz-border-radius: 20px 5px 20px 5px;
+    border-radius: 20px 5px 20px 5px;
+    font-size: 1.375em;
+    line-height: 70px;
+    text-align: center;
+    text-shadow: 1px 1px 5px #E1E1E1}
+/*#point{
     top:10px;
     right:30px;
     width: 323px;
     height: 401px;
-    background: url(../images/bg_homepoint.png) no-repeat}
-#banner .slogan-01{
+    background: url(../images/bg_homepoint.png) no-repeat}*/
+#banner .slogan{
     top:242px;
-    right:131px;
-    z-index: 100;
-    width: 510px;
-    height: 153px;
-    background: url(../images/pic_homeslogan-01.png) no-repeat}
-#banner .slogan-02{
+    right:8px;
+    z-index: 99;
+    width: 669px;
+    height: 264px;
+    background: url(../images/pic_homeslogan.png) no-repeat}
+/*#banner .slogan-02{
     top:396px;
     right:105px;
     z-index: 100;
     width: 520px;
     height: 112px;
-    background: url(../images/pic_homeslogan-02.png) no-repeat}
+    background: url(../images/pic_homeslogan-02.png) no-repeat}*/
 #banner ul{
     display: block;
-    padding: 520px 0 150px 520px}
+    padding: 535px 0 150px 520px}
 #banner .nav-01,
 #banner .nav-02,
 #banner .nav-03{
@@ -132,9 +148,9 @@ img::-moz-selection { background: transparent}
     background: url(../images/bg_homenav-03.png) no-repeat}
 #banner li ul{
     display: block;
-    padding: 8px 0 0 25px}
+    padding: 8px 0 0 20px}
 #banner li li{
-    font-size: 1em;
+    font-size: .938em;
     line-height: 2em;
     margin: 0;
     padding: 0}
@@ -208,7 +224,7 @@ footer{
     display: block;
     float: left}
 #copyright{
-    width: 400px;
+    width: 380px;
     padding: 0}
 #copyright h4{
     width: 143px;
@@ -219,12 +235,12 @@ footer{
     overflow:hidden;
     margin-bottom: 20px}
 #contactbox{
-    width: 520px;
+    width: 590px;
     padding: 0}
 #languagebox{
     display: block;
     float: right;
-    width: 150px;
+    width: 100px;
     text-align: left}
 #contactbox h4,
 #languagebox h4{

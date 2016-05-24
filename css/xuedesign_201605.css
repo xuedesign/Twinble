@@ -14,16 +14,17 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Hind);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
-    font-family: 'Hind','Noto Sans TC', sans-serif} 
+    font-family: 'My-CG','Hind','Noto Sans TC', sans-serif} 
 
 body{
 	margin: 0;
 	padding:0;
 	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
-	font-family: 'Hind','Noto Sans TC', sans-serif;
+	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #6e6e6e}
@@ -328,7 +329,8 @@ header,
     font-size: 2.25em;
     font-weight: normal;
     line-height: 2.25em;
-    color: #2f8833}
+    color: #2f8833;
+    letter-spacing: -1px}
 .title_about{
     display: block;
     float: left;
@@ -346,7 +348,7 @@ header,
 .nav_about li a:link,
 .nav_about li a:visited{
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 2em;
     color: #fff/*rgba(47,136,51,.8)*/;
     text-decoration: none;
@@ -381,7 +383,7 @@ header,
     display: block;
     position: absolute;
     top:150px;
-    right:-45px}
+    right:-60px}
 #profile p>.profile-blue,
 #capability p>.profile-blue{
     font-size: 1.375em;
@@ -419,11 +421,11 @@ header,
 .capability-item li{
     margin: 20px 0 40px}
 .capability-item h4{
-    width: 300px;
+    width: 310px;
     font-size: 1.125em;
     font-weight: normal;
     line-height: 1.5em;
-    text-align: center;
+    text-align: left;
     background: rgb(48,105,163)/*rgba(50,144,240,.8)*/;
     color: #fff;
     /*text-align: center;
@@ -442,7 +444,7 @@ header,
     padding-bottom: 20px}
 .facilities li{
     display: inline-block;
-    margin: 30px 15px 10px;
+    margin: 30px 14px 10px;
     text-align: center}
 .facilities span, 
 .quality-item span,
@@ -509,7 +511,7 @@ header,
 #box_partnumber h5{
     font-size: 2em;
     font-weight: normal;
-    line-height: 1.125em;
+    line-height: 1em;
     color: #202389}
 #box_partnumber h5{
     background: url(../images/icon_ppont.png) 0 1px no-repeat;
@@ -680,7 +682,7 @@ footer{
     display: block;
     float: left}
 #copyright{
-    width: 400px;
+    width: 380px;
     padding: 0}
 #copyright h4{
     width: 143px;
@@ -691,12 +693,12 @@ footer{
     overflow:hidden;
     margin-bottom: 20px}
 #contactbox{
-    width: 520px;
+    width: 590px;
     padding: 0}
 #languagebox{
     display: block;
     float: right;
-    width: 150px;
+    width: 100px;
     text-align: left}
 #contactbox h4,
 #languagebox h4{
