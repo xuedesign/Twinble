@@ -227,7 +227,7 @@ header,
 .sv-04{ 
     background: url(../images/pic_subvision-04.png) no-repeat}
 .sv-05{ 
-    background: url(../images/pic_subvision-05.png) no-repeat}
+    background: url(../images/pic_subvision-tw-05.png) no-repeat}
 .sv-06{ 
     background: url(../images/pic_subvision-06.png) no-repeat}
 .sv-07{ 
@@ -424,7 +424,7 @@ header,
 .capability-item li{
     margin: 20px 0 40px}
 .capability-item h4{
-    width: 310px;
+    width: 135px;
     font-size: 1.125em;
     font-weight: normal;
     line-height: 1.5em;
@@ -486,11 +486,11 @@ header,
     font-weight: bold;
     text-decoration: none}
 .products-item-01{
-    background: url(../images/pic_products-item-01.png) no-repeat}
+    background: url(../images/pic_products-item-tw-01.png) no-repeat}
 .products-item-02{
-    background: url(../images/pic_products-item-02.png) no-repeat}
+    background: url(../images/pic_products-item-tw-02.png) no-repeat}
 .products-item-03{
-    background: url(../images/pic_products-item-03.png) no-repeat}
+    background: url(../images/pic_products-item-tw-03.png) no-repeat}
 
 /*
 ========================
@@ -556,7 +556,8 @@ header,
     width: 170px;
     padding-top: 10px}
 #box_partnumber p{
-    font-size: .938em;
+    font-family: '微軟正黑體', 'Microsoft JhengHei';
+    font-size: 1em;
     line-height: 1.5em;
     font-weight: 100;
     border-bottom: 1px dashed #e3e3e3;
@@ -611,8 +612,10 @@ header,
     display: inline-block;
     width: 80px;
     text-align: right;
+    font-size: 1.125em;
     font-weight: bold;
-    color: #2f8833}
+    color: #2f8833;
+    padding-right: 10px}
 .contact_info a{
     color: #656565;
     text-decoration: underline}
@@ -767,4 +770,4 @@ footer{
     white-space: nowrap;
     overflow: hidden}
 #btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}1
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}

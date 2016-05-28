@@ -163,9 +163,9 @@ img::-moz-selection { background: transparent}
     margin: 0;
     padding: 0}
 #banner h3 a{
-    font-size: 2em;
-    font-weight: bolder;
-    line-height: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2.5em;
     padding:35px 0 0 20px}
 #banner h3 a:hover{
    color: #A5F5A2;
