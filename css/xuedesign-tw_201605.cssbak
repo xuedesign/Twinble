@@ -12,7 +12,9 @@
 通用設定
 ========================
 */
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
@@ -22,7 +24,7 @@ body{
 	margin: 0;
 	padding:0;
 	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
-	font-family: 'cwTeXYen', sans-serif;
+	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #6e6e6e}
@@ -93,7 +95,6 @@ header,
 .submenu-item li a:hover{
     background: rgba(12,126,12,1);
     text-decoration: none}
-.submenu-item li.text-big{ font-size: 1.125em}
 
 /*
 ========================
@@ -254,7 +255,7 @@ header,
     width: 196px;
     height: 52px;
     margin: 0 3px 0 0;
-    font-size: 1.375em;
+    font-size: 1.125em;
     line-height: 52px;
     text-align: center;
     position:relative; /**/
@@ -279,7 +280,7 @@ header,
 	float: none;
     padding: 0;
 	background: rgba(198,231,165,.9);
-    font-size: .75em;
+    font-size: .875em;
     color: #787c81;
     border-bottom: 1px dashed #fff}
 #main-nav li:hover li a:hover,
@@ -295,7 +296,7 @@ header,
     width: 196px;
 	float: none;
     padding: 0;
-    font-size: .75em;
+    font-size: .938em;
     font-weight: bold;
     color: #fff;
     background: rgb(140, 172, 109)}
@@ -325,7 +326,7 @@ header,
     -moz-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0}
 #container h3{
-    font-size: 2em;
+    font-size: 2.25em;
     font-weight: bold;
     line-height: 2.25em;
     color: #2f8833;
@@ -424,7 +425,7 @@ header,
     margin: 20px 0 40px}
 .capability-item h4{
     width: 135px;
-    font-size: 1.25em;
+    font-size: 1.125em;
     font-weight: normal;
     line-height: 1.5em;
     text-align: left;
@@ -452,7 +453,7 @@ header,
 .quality-item span,
 .note{
     display: block;
-    font-size: 1.188em;
+    font-size: 1em;
     line-height: 1.5em;
     text-align: center;
     padding-top: 10px;
@@ -463,8 +464,7 @@ header,
     margin: 0 auto}
 .text_center{
     display: block;
-    font-size: 1.188em;
-    text-align: center;
+   text-align: center;
     padding-top: 15px}
 
 #products{
@@ -478,7 +478,7 @@ header,
     width: 221px;
     margin: 0 20px;
     padding: 250px 0 0 20px;
-    font-size: 1.125em;
+    font-size: 1em;
     color: #656565;
     text-decoration: none}
 #products li a:hover{ 
@@ -502,9 +502,7 @@ header,
     float: left;
     width: 540px;
     padding: 0 50px 0 20px}
-.skin_left p{
-    font-size: 1.125em;
-    margin-bottom: 40px}
+.skin_left p{ margin-bottom: 40px}
 .skin_right{
     display: block;
     float: right;
@@ -573,9 +571,7 @@ header,
 ========================
 */
 #box_health p,
-#box_life p{
-    font-size: 1.125em;
-    padding: 0 30px}
+#box_life p{ padding: 0 20px}
 
 
 /*
@@ -607,7 +603,7 @@ header,
 .contact_info ul{
     padding-bottom: 30px}
 .contact_info li{
-    font-size: 1.063em;
+    font-size: .938em;
     line-height: 1.5em;
     padding: 15px;
     border-bottom: 1px dashed #e7e7e7;
@@ -673,10 +669,10 @@ footer{
     width: 1070px;
     margin: 0 auto;
     padding-top: 40px;
-    font-size: 1.125em;  
+    font-size: .938em;  
     color: #829282}
 #footer-main h4{
-    font-size: 1.376em;
+    font-size: 1.25em;
     line-height: 1.5em;
     color: #2f8833}
 #footer-main li{
@@ -687,7 +683,6 @@ footer{
 #footer-main a:hover{
     color: #F50;
     text-decoration: none}
-#footer-main span{ font-size: .813em}
 #copyright,
 #contactbox{
     display: block;

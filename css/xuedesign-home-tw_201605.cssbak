@@ -12,8 +12,9 @@
 通用設定
 ========================
 */
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/css?family=Hind);
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
@@ -23,7 +24,7 @@ body{
 	margin: 0;
 	padding:0;
 	background: url(../images/bg-site-08.jpg) top center fixed no-repeat;
-	font-family: 'cwTeXYen','Noto Sans TC',sans-serif;
+	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #fff}
@@ -72,7 +73,6 @@ img::-moz-selection { background: transparent}
 .submenu-item li a:hover{
     background: rgba(12,126,12,1);
     text-decoration: none}
-.submenu-item li.text-big{ font-size: 1.125em}
 #banner {
 	display: block;
     position: relative;
@@ -158,16 +158,13 @@ img::-moz-selection { background: transparent}
     display: block;
     padding: 8px 0 0 20px}
 #banner li li{
-    font-size: 1.125em;
+    font-size: .938em;
     line-height: 2em;
     margin: 0;
     padding: 0}
-#text-small-01,
-#text-small-02,
-#text-small-03{ font-size:.813em}
 #banner h3 a{
-    font-size: 1.6em;
-    font-weight: normal;
+    font-size: 1.5em;
+    font-weight: bold;
     line-height: 2.5em;
     padding:35px 0 0 20px}
 #banner h3 a:hover{
@@ -216,10 +213,10 @@ footer{
     width: 1070px;
     margin: 0 auto;
     padding-top: 40px;
-    font-size: 1.125em;  
+    font-size: .938em;  
     color: #829282}
 #footer-main h4{
-    font-size: 1.376em;
+    font-size: 1.25em;
     line-height: 1.5em;
     color: #2f8833}
 #footer-main li{
@@ -230,7 +227,6 @@ footer{
 #footer-main a:hover{
     color: #F50;
     text-decoration: none}
-#footer-main span{ font-size: .813em}
 #copyright,
 #contactbox{
     display: block;
