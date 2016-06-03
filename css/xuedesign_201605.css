@@ -336,11 +336,11 @@ header,
 .title_about{
     display: block;
     float: left;
-    width: 40%}
+    width: 35%}
 .nav_about{
     display: block;
     float: right;
-    width: 60%;
+    width: 65%;
     text-align: right;
     padding-top: 20px}
 .nav_about li{
@@ -594,9 +594,9 @@ header,
     overflow: hidden;
     background: url(../images/pic_content-logo.png) no-repeat}
 .contact_info h4{
-    font-size: 2em;
+    font-size: 1.25em;
     font-weight: bold;
-    line-height: 2em;
+    line-height: 1.5em;
     /*letter-spacing: 1px;*/
     color: #2f8833}
 .contact_info ul{

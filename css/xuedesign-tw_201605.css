@@ -525,6 +525,20 @@ header,
 #box_life h4{
     padding:40px 0 0  47px;
     background: url(../images/icon_ppont.png) 0 42px no-repeat}
+#box_partnumber .skin-note{
+    display: block;
+    width: 585px;
+    height: 26px;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    background: url(../images/pic_skin-note.png) no-repeat;
+    border-bottom: none;
+    margin-bottom: 15px
+    /*font-size:1.375em;
+    font-weight: normal; 
+    padding:15px 0 25px 0; 
+    color:#6E6E6E*/}
 /*#box_partnumber h5{
     font-size: 1.125em;
     font-weight: bold;
