@@ -344,18 +344,29 @@ header,
     text-align: right;
     padding-top: 20px}
 .nav_about li{
-    display: inline-block/*inline*/;
-    margin: 0 10px;    
+    display: inline-block;/*inline*/
+    margin: 0 10px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box
     /*border-bottom: 1px solid rgb(186,187,186)*/}
 .nav_about li a:link,
 .nav_about li a:visited{
-    font-size: 1.25em;
-    font-weight: bold;
+    display: block;
+    float: right;
+    width: 120px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-size: 1em;
+    font-weight: normal;
     line-height: 2em;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     color: #fff/*rgba(47,136,51,.8)*/;
+    text-align: center;
     text-decoration: none;
-    padding: 5px 20px;
+    /*padding: 5px 0;*/
     background: #00B0F0/*#9DC815*/;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
