@@ -503,8 +503,13 @@ header,
     width: 540px;
     padding: 0 50px 0 20px}
 .skin_left p{
-    font-size: 1.125em;
+    font-size: 1.25em;
     margin-bottom: 40px}
+.skin_left img{
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0}
 .skin_right{
     display: block;
     float: right;
@@ -553,13 +558,24 @@ header,
 .box_summary img{
     display: block;
     float: left}
+#box_Soap-Cartridge-Refill{
+    display: block;
+    width: 820px;
+    margin: 0 auto 30px auto}
+#box_Soap-Cartridge-Refill img{
+    display: block;
+    float: left;
+    padding: 0;
+    border: none;
+    margin-right: 0}
 #box_partnumber ul{
     display: block;
-    padding: 10px 0}
+    padding: 10px 0 40px}
 #box_partnumber li{
     display: inline-block;
     width: 390px;
-    margin: 15px}
+    margin: 15px;
+    vertical-align: top}
 #box_partnumber img{
     display: block;
     float: left;
@@ -578,7 +594,7 @@ header,
     font-weight: 100;
     border-bottom: 1px dashed #e3e3e3;
     margin-bottom: 10px;
-    padding-top: 30px}
+    /*padding-top: 10px*/}
 #box_partnumber span{ font-weight: bold}
 
 /*
@@ -588,7 +604,7 @@ header,
 */
 #box_health p,
 #box_life p{
-    font-size: 1.125em;
+    font-size: 1.25em;
     padding: 0 30px}
 
 
@@ -673,7 +689,7 @@ footer{
 	display:block;
 	width:100%;
     min-width: 1240px;
-	height:234px;
+	height: 270px/*234px*/;
 	background:#013c01;
 	margin-top:-234px;
     padding-top: 6px}

@@ -202,7 +202,7 @@ footer{
 	display:block;
 	width:100%;
     min-width: 1240px;
-	height:234px;
+	height: 270px/*234px*/;
 	background:#013c01;
 	margin-top:-234px;
     padding-top: 6px}
