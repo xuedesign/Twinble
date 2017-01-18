@@ -1,0 +1,84 @@
+/**
+*
+* @project    Twinble
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.6 - 201701
+*
+**/
+
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+	margin: 0;
+	padding:0;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size:100%;
+	line-height:1.5em;
+    color: #6e6e6e}
+.clean { clear: both}
+#forms-main{
+    display: block;
+    width: 80%;
+    margin: 0 auto}
+#forms-main label{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 8px 10px}
+#forms-main input,
+#forms-main textarea{
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: 1px solid #a3a3a3;
+    font-size: 16px;
+    line-height: 24px}
+#forms-main input:focus,
+#forms-main textarea:focus{
+    border: 1px solid #4A9949;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 10px #4A9949;
+    -moz-box-shadow:0 0 10px #4A9949;
+    box-shadow: 0 0 10px #4A9949;}
+#forms-main placeholder{
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: 15px}
+#forms-main #btn_sent{
+    display: block;
+    width: 70%;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 8px 0}
+#btn_sent:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    border-color: #357635;
+    background: #4A9949;
+    -webkit-transition: all 0.5s ease 0s;
+    /* 變動類別;動畫時間;動畫加速屬性;延遲發生時間 */
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;}
+
+#box_thanks{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px }
+#box_thanks img{
+    display: block;
+    float: left;
+    width: 220px}
+#box_thanks h5{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 35px 0 0 150px;
+}
+#box_thanks span{}

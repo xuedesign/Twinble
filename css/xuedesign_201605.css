@@ -3,7 +3,7 @@
 * @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.5 - 201605
+* @version    v1.6 - 201701
 *
 **/
 
@@ -24,7 +24,7 @@ body{
 	margin: 0;
 	padding:0;
 	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
-	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
+	font-family: 'My-CG','Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #6e6e6e}
@@ -620,7 +620,8 @@ header,
     white-space: nowrap;
     overflow: hidden;
     background: url(../images/pic_content-logo.png) no-repeat}
-.contact_info h4{
+.contact_info h4,
+#send-mail h4{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 1.5em;
@@ -650,6 +651,14 @@ header,
 .contact_map{
     /*display: block;
     max-height: 300px*/}
+
+#send-mail{
+    display: block;
+    padding: 25px 0 15px}
+#send-mail h4{
+    line-height: 3rem;
+    padding-left: 100px}
+
 
 /*
 ========================
