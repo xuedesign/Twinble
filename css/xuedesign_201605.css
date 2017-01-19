@@ -654,10 +654,12 @@ header,
 
 #send-mail{
     display: block;
-    padding: 25px 0 15px}
+    padding: 0 0 15px}
 #send-mail h4{
     line-height: 3rem;
     padding-left: 100px}
+#send-mail .fa-envelope-o{
+    margin-right: 10px}
 
 
 /*

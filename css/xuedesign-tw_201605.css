@@ -665,13 +665,15 @@ header,
     max-height: 300px*/}
 #send-mail{
     display: block;
-    padding: 25px 0 15px}
+    padding: 0 0 15px}
 #send-mail h4{
     font-size: 1.5em;
     font-weight: bold;
     line-height: 3rem;
     padding-left: 100px;
     color: #2f8833}
+#send-mail .fa-envelope-o{
+    margin-right: 10px}
 
 /*
 ========================
