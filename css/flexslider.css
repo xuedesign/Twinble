@@ -50,11 +50,25 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(../images/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
-.flex-direction-nav .flex-next {background-position: 100% 0; right:0; }
-.flex-direction-nav .flex-prev {left:0;}
-.flexslider:hover .flex-next {opacity: 0.8; right:0;}
-.flexslider:hover .flex-prev {opacity: 0.8; left:0;}
+.flex-direction-nav a {
+    width: 30px; 
+    height: 30px; 
+    margin: -20px 0 0; 
+    display: block; 
+    background: url(../images/bg_direction_nav.png) no-repeat; 
+    background-position: 0 100%;
+    position: absolute; 
+    top: 50%;
+    z-index: 10; 
+    cursor: pointer; 
+    text-indent: -9999px; 
+    opacity: 0; -webkit-transition: all .3s ease;}
+.flex-direction-nav .flex-next {
+    background-position: 0 0; 
+    right:50px; }
+.flex-direction-nav .flex-prev {left:50px;}
+.flexslider:hover .flex-next {opacity: 0.8; right:20px;}
+.flexslider:hover .flex-prev {opacity: 0.8; left:20px;}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
 .flex-direction-nav .flex-disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
 
@@ -71,12 +85,25 @@ html[xmlns] .slides {display: block;}
          box-sizing: border-box}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {width: 14px; height: 14px; display: block; background: #83725a; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: inset 0 0 1px #ccc; -webkit-box-shadow: inset 2px 2px 1px #645744; -moz-box-shadow: inset 2px 2px 1px #645744; box-shadow: inset 2px 2px 1px #645744;}
-.flex-control-paging li a:hover { background: #c8003f; -webkit-box-shadow: inset 2px 2px 1px #990030;-moz-box-shadow: inset 2px 2px 1px #990030; box-shadow: inset 2px 2px 1px #990030}
-.flex-control-paging li a.flex-active { background: #c8003f; cursor: default; -webkit-box-shadow: inset 2px 2px 1px #990030;-moz-box-shadow: inset 2px 2px 1px #334E21; box-shadow: inset 2px 2px 1px #334E21}
+.flex-control-paging li a:hover { 
+    background: #52a250; 
+    -webkit-box-shadow: inset 2px 2px 1px #367434/*#990030*/;
+    -moz-box-shadow: inset 2px 2px 1px #367434; 
+    box-shadow: inset 2px 2px 1px #367434/*#990030*/}
+.flex-control-paging li a.flex-active { 
+    background: #52a250; 
+    cursor: default; 
+    -webkit-box-shadow: inset 2px 2px 1px #367434;
+    -moz-box-shadow: inset 2px 2px 1px #367434; 
+    box-shadow: inset 2px 2px 1px #367434}
 
 
 
 @media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
+}
+@media screen and (max-width: 1400px) {
+    .flex-control-nav{
+        padding-left: 22.5%}
 }

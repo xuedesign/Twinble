@@ -23,7 +23,7 @@ html, button, input, select, textarea,
 body{
 	margin: 0;
 	padding:0;
-	background: url(../images/bg-site-09.jpg) top center fixed no-repeat;
+	background: url(../images/bg-site-09.jpg) top center no-repeat;
 	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
@@ -85,6 +85,100 @@ img::-moz-selection { background: transparent}
 	height:565px;
 	margin:0 auto}
 
+/*關於我們*/
+#aboutbox{
+    display: block;
+    width: 1240px;
+    margin: 0 auto;
+    padding-left: 80px}
+#logobox{
+    display: block;
+    float: left;
+    width: 505px;
+    height: 200px;
+    margin: 0 20px 0 0;
+    background: url(../images/logo_about.png) 29px 49px no-repeat}
+#logobox h1,
+#logobox h2{
+    display: none}
+#aboutinfo{
+    display: block;
+    float: left;
+    width: 630px;
+    margin: 60px 0 48px 0;
+    padding-left: 20px;
+    border-left: 1px solid #9D9E9E}
+#aboutinfo h3{
+    display: block;
+    width: 490px;
+    height: 53px;
+    background: url(../images/slogan-about.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#aboutinfo p{
+    font-size: 1.125em;
+    color: #275525;
+    padding-left: 8px}
+#aboutinfo a,
+#aboutinfo a:visited{
+    color: #a2cb17;
+    text-decoration: none}
+#aboutinfo a:hover{
+    color: #307107;
+    text-decoration: none}
+
+/*優勢介紹*/
+#courbox{
+    display: block;
+    width: 100%;
+    height: 355px;
+    overflow: hidden}
+#courimg{
+    display: block;
+    float: left;
+    width: 60%;
+    height: 355px;
+    background: url(../images/pic_core-competence.jpg) no-repeat top right}
+#courlist{
+    display: block;
+    float: right;
+    width: 40%}
+#courlist li a{
+    display: block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.cour-01,
+.cour-02,
+.cour-03,
+.cour-04,
+.cour-05{
+    height: 55px;
+    margin-bottom: 12px;
+    background: url(../images/pic_core.png) no-repeat}
+.cour-01{
+    width: 405px;
+    margin-left: 15px;
+    background-position: 0 0}
+.cour-02{
+    width: 361px;
+    margin-left: 89px;
+    background-position: 0 -55px}
+.cour-03{
+    width: 252px;
+    margin-left: 37px;
+    background-position: 0 -110px}
+.cour-04{
+    width: 252px;
+    margin-left: 143px;
+    background-position: 0 -165px}
+.cour-05{
+    width: 271px;
+    margin-left: 86px;
+    background-position: 0 -220px}
+
+/*主選單*/
 #banner ul{
     display: block;
     padding: 535px 0 150px 520px}
