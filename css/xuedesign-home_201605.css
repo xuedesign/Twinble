@@ -178,37 +178,80 @@ img::-moz-selection { background: transparent}
     margin-left: 86px;
     background-position: 0 -220px}
 
-/*主選單*/
-#banner ul{
+/*喚起行動*/
+#calltoaction{
     display: block;
-    padding: 535px 0 150px 520px}
-#banner .nav-01,
-#banner .nav-02,
-#banner .nav-03{
+    width: 100%;
+    height: 700px;
+    background: url(../images/bg_calltoaction.jpg) no-repeat top center;
+    overflow: hidden}
+#calltomain{
+    display: block;
+    position: relative;
+    width: 1240px;
+    margin: 0 auto}
+.callto-slogan-01,
+.callto-slogan-02,
+.callto-slogan-03{
+    display: block;
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.callto-slogan-01{
+    width: 501px;
+    height: 53px;
+    top: 73px;
+    left: 478px;
+    background: url(../images/pic_call-slogan-01.png) no-repeat}
+.callto-slogan-02{
+    width: 747px;
+    height: 75px;
+    top:171px;
+    left: 45px;
+    background: url(../images/pic_call-slogan-02.png) no-repeat}
+.callto-slogan-03{
+    width: 473px;
+    height: 124px;
+    top:242px;
+    left: 412px;
+    z-index: 99;
+    background: url(../images/pic_call-slogan-03.png) no-repeat}
+
+/*主選單*/
+#calltomain nav{
+    display: block;
+    position: absolute;
+    top: 430px;
+    left: 175px
+    /*padding: 535px 0 150px 520px*/}
+#calltomain .nav-01,
+#calltomain .nav-02,
+#calltomain .nav-03{
     display: inline-block;
     width: 210px;
     height: 210px;
     margin: 0 12px}
-#banner .nav-01{
+#calltomain .nav-01{
     background: url(../images/bg_homenav-01.png) no-repeat}
-#banner .nav-02{
+#calltomain .nav-02{
     background: url(../images/bg_homenav-02.png) no-repeat}
-#banner .nav-03{
+#calltomain .nav-03{
     background: url(../images/bg_homenav-03.png) no-repeat}
-#banner li ul{
+#calltomain li ul{
     display: block;
     padding: 8px 0 0 20px}
-#banner li li{
+#calltomain li li{
     font-size: .938em;
     line-height: 2em;
     margin: 0;
     padding: 0}
-#banner h3 a{
+#calltomain h3 a{
     font-size: 2em;
     font-weight: bolder;
     line-height: 2em;
     padding:35px 0 0 20px}
-#banner h3 a:hover{
+#calltomain h3 a:hover{
    color: #A5F5A2;
    text-decoration: none}
 
