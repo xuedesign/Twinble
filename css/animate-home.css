@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+Copyright (c) 2015 Daniel Eden
+*/
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s}
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s}
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+
+.HomeUp-01 {
+-webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+/*-webkit-animation-delay:1s;
+        animation-delay:1s;*/
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+     animation-duration: 1s}
+.HomeUp-02 {
+-webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+/*-webkit-animation-delay:2s;
+        animation-delay:2s;*/
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+     animation-duration: 1s}
+.HomeUp-03 {
+-webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp;
+/*-webkit-animation-delay:3s;
+        animation-delay:3s;*/	
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+     animation-duration: 1s}
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0)}
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none}
+}
+.fadeInLeft {
+-webkit-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+     animation-duration: 1s    
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+          animation-name: fadeInRight;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+          animation-duration: 1s  
+}

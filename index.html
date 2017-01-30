@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/xuedesign-home_201605.css"/>
 <link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/animate-home.css">
 <!--<link rel="stylesheet" href="css/animate.css"/>-->
 <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -58,11 +59,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </section>
                     
                     <section id="aboutbox">
-                        <div id="logobox">
+                        <div id="logobox" class="wow fadeInLeft" data-wow-delay="500ms">
                             <h1>Twinble</h1>
                             <h2>A solution provider of rubber technology</h2>
                         </div>
-                        <div id="aboutinfo">
+                        <div id="aboutinfo" class="wow fadeInRight" data-wow-delay="500ms">
                             <h3>Make Different‧No Boundary</h3>
                             <p>Twinble, a technically oriented company,derived from making excellent rubber &amp; silicone articles in the industry, we have been providing design solutions to clients  all over the world  with more than a decade of experience in the field...<a href="about-us.html">[more]</a></p>
                         </div>
@@ -72,7 +73,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <section id="courbox">
                         <div id="courimg"></div>
                         <div id="courlist">
-                            <ul>
+                            <ul class="wow fadeInRight" data-wow-delay="500ms">
                                 <li><a class="cour-01" href="why-twinble.html">Vertical System Integration</a></li>
                                 <li><a class="cour-02" href="facilities.html">Liquid Injection Molding</a></li>
                                 <li><a class="cour-03" href="why-twinble.html">Green Products</a></li>
@@ -85,26 +86,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     
                     <section id="calltoaction">
                        <div id="calltomain">
-                           <h4 class="callto-slogan-01">What are you looking for?</h4>
-                           <h4 class="callto-slogan-02">Let's explore the world of</h4>
-                           <h3 class="callto-slogan-03">TWINBLE...</h3>
+                           <h4 class="callto-slogan-01 wow fadeInRight" data-wow-delay="500ms">What are you looking for?</h4>
+                           <h4 class="callto-slogan-02 wow fadeInLeft" data-wow-delay="500ms">Let's explore the world of</h4>
+                           <h3 class="callto-slogan-03 wow fadeInLeft" data-wow-delay="500ms">TWINBLE...</h3>
                            <nav>
                                    <ul>
-                                       <li class="nav-01">
+                                       <li class="nav-01 wow HomeUp-01" data-wow-delay="1s">
                                            <h3><a href="about-us.html">About</a></h3>
                                            <ul>
                                                <li><a href="about-us.html" title="Who we are">-Who we are</a></li>
                                                <li><a href="why-twinble.html" title="Why Twinble">- Why Twinble</a></li>
                                                <li><a href="facilities.html" title="Facilities">- Facilities</a></li>
                                            </ul></li>
-                                       <li class="nav-02">
+                                       <li class="nav-02 wow HomeUp-02" data-wow-delay="2s">
                                            <h3><a href="skin-hygiene.html">Products</a></h3>
                                            <ul>
                                                <li><a href="skin-hygiene.html" title="Skin Hygiene">- Skin Hygiene</a></li>
                                                <li><a href="health-care.html" title="Health Care">- Health Care</a></li>
                                                <li><a href="lohas.html" title="LOHAS">- LOHAS</a></li>
                                            </ul></li>
-                                       <li class="nav-03">
+                                       <li class="nav-03 wow HomeUp-03" data-wow-delay="3s">
                                            <h3><a href="contact.html">Contact</a></h3>
                                            <ul>
                                                <li>Tel / +886-3-3258580</li>
@@ -159,6 +160,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="script/jquery.flexslider.js"></script>
 <script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>   
 <script src="script/wow.min.js"></script>
+<script>new WOW().init();</script>
 <script src="script/jquery.lazyload.js"></script>
 <!--<script src="script/scrollTo.js"></script>-->
 <script src="script/website.js"></script>
