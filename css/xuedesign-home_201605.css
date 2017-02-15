@@ -82,8 +82,83 @@ img::-moz-selection { background: transparent}
 	display:block;
 	width:100%;
 	min-width:1240px;
-	height:565px;
+	height:428px;
 	margin:0 auto}
+
+/* 主選單 */
+#main-nav{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 52px;
+    border-bottom: 2px solid #e2e3e2;
+    margin-bottom: 30px}
+#main-nav ul{
+    display: block;
+    position: absolute;
+    top:3px;
+    left: 29%}
+#main-nav li{
+    display: inline-block;
+    width: 196px;
+    height: 52px;
+    margin: 0 3px 0 0;
+    font-size: 1.125em;
+    line-height: 52px;
+    text-align: center;
+    position:relative; /**/
+    float:left}
+#main-nav li a{ 
+    color: #787c81; 
+    text-decoration: none}
+#main-nav li a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+#main-nav li ul{ display: none}
+#main-nav li:hover ul{display: block}
+#main-nav li:hover li a,
+#main-nav li.iehover li a{
+    display: block;
+    position: absolute;
+    top: 49px;
+    left: -59px;
+    z-index: 1000;
+    width: 196px;
+	float: none;
+    padding: 0;
+	background: rgba(198,231,165,.9);
+    font-size: .875em;
+    color: #787c81;
+    border-bottom: 1px dashed #fff}
+#main-nav li:hover li a:hover,
+#main-nav li:hover li:hover a,
+#main-nav li.iehover li a:hover,
+#main-nav li.iehover li.iehover a {
+    font-weight: normal;
+    color: #fff;
+	background: rgb(140, 172, 109)}
+#main-nav li li.subtitle a,
+#main-nav li li.subtitle a:hover{
+    display: block;
+    width: 196px;
+	float: none;
+    padding: 0;
+    font-size: .938em;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(140, 172, 109)}
+.nav-01,
+.nav-02,
+.nav-03,
+.nav-04,
+.nav-05{ background: url(../images/bg_nav.png) no-repeat}
+.nav-01{ background-position: 0 0}
+.nav-02{ background-position: -206px 0}
+.nav-03{ background-position: -412px 0}
+.nav-04{ background-position: -618px 0}
+.nav-05{ background-position: -824px 0}
+
 
 /*關於我們*/
 #aboutbox{
@@ -143,7 +218,8 @@ img::-moz-selection { background: transparent}
 #courlist{
     display: block;
     float: right;
-    width: 40%}
+    width: 40%;
+    margin-top: 8px}
 #courlist li a{
     display: block;
     text-indent: 100%;
@@ -155,7 +231,7 @@ img::-moz-selection { background: transparent}
 .cour-04,
 .cour-05{
     height: 55px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     background: url(../images/pic_core.png) no-repeat}
 .cour-01{
     width: 405px;
@@ -199,22 +275,22 @@ img::-moz-selection { background: transparent}
     white-space: nowrap;
     overflow: hidden}
 .callto-slogan-01{
-    width: 520px;
-    height: 59px;
-    top: 73px;
-    left: 470px;
+    width: 501px;
+    height: 62px;
+    top: 96px;
+    left: 484px;
     background: url(../images/pic_call-slogan-01.png) no-repeat}
 .callto-slogan-02{
-    width: 747px;
-    height: 75px;
-    top:171px;
-    left: 45px;
+    width: 555px;
+    height: 45px;
+    top:209px;
+    left: 228px;
     background: url(../images/pic_call-slogan-02.png) no-repeat}
 .callto-slogan-03{
-    width: 473px;
-    height: 124px;
-    top:242px;
-    left: 412px;
+    width: 661px;
+    height: 83px;
+    top: 254px;
+    left: 306px;
     z-index: 99;
     background: url(../images/pic_call-slogan-03.png) no-repeat}
 
@@ -336,4 +412,11 @@ footer{
     text-align: left}
 #contactbox h4,
 #languagebox h4{
-    padding-top:20px}5737
+    padding-top:20px}
+
+@media screen and (min-width:1366px){
+    #main-nav ul{ left: 35%}
+    #main-nav li:hover li a,
+    #main-nav li.iehover li a{
+        left: -70px}
+}
