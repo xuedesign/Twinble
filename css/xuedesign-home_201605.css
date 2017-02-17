@@ -95,9 +95,10 @@ img::-moz-selection { background: transparent}
     margin-bottom: 30px}
 #main-nav ul{
     display: block;
+    margin: 3px 0 0 29%;
     position: absolute;
-    top:3px;
-    left: 29%}
+    /*top:3px;
+    left: 135px*/}
 #main-nav li{
     display: inline-block;
     width: 196px;
@@ -121,8 +122,8 @@ img::-moz-selection { background: transparent}
 #main-nav li.iehover li a{
     display: block;
     position: absolute;
-    top: 49px;
-    left: -59px;
+    top: -3px/*49px*/;
+    left: -60px;
     z-index: 1000;
     width: 196px;
 	float: none;
@@ -415,7 +416,7 @@ footer{
     padding-top:20px}
 
 @media screen and (min-width:1366px){
-    #main-nav ul{ left: 35%}
+    #main-nav ul{ margin: 3px 0 0 35%}
     #main-nav li:hover li a,
     #main-nav li.iehover li a{
         left: -70px}
