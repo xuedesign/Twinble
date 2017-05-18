@@ -24,7 +24,7 @@ body{
 	margin: 0;
 	padding:0;
 	background: url(../images/bg-site-09.jpg) top center no-repeat;
-	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
+	font-family: 'My-CG','Hind','Noto Sans TC', 'sans-serif';
 	font-size:100%;
 	line-height:1.5em;
     color: #fff}
@@ -45,7 +45,12 @@ img::-moz-selection { background: transparent}
 首頁
 ========================
 */
-#wrap{ 
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#courbox,
+#calltoaction{ 
     display:block; 
     width:100%;
     min-width: 1240px}
