@@ -62,12 +62,12 @@ html[xmlns] .slides {display: block;}
     z-index: 10; 
     cursor: pointer; 
     text-indent: -9999px; 
-    opacity: 0.9; 
+    opacity: 0; 
     -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {
     background-position: 0 0; 
-    right:50px; }
-.flex-direction-nav .flex-prev {left:50px;}
+    right:20px; }
+.flex-direction-nav .flex-prev {left:20px;}
 .flexslider:hover .flex-next {opacity: 0.9; right:50px;}/*20px*/
 .flexslider:hover .flex-prev {opacity: 0.9; left:50px;}
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {opacity: 1;}
@@ -79,8 +79,8 @@ html[xmlns] .slides {display: block;}
     position: absolute; 
     left:0; 
     bottom: 40px; 
-    text-align: left;
-    padding-left: 30%;
+    text-align: center;
+    /*padding-left: 30%;*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
          box-sizing: border-box}
