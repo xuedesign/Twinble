@@ -13,7 +13,7 @@
 ========================
 */
 @import url(https://fonts.googleapis.com/css?family=Hind);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 @font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {

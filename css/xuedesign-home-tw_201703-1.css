@@ -12,8 +12,8 @@
 通用設定
 ========================
 */
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
