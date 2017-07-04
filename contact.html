@@ -18,6 +18,7 @@
 <title>Contact Us│Twinble® Disposable soap bag, Soap dispenser pump tube, Soap bag pump</title>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/xuedesign_201605.css?20160430"/>
+<link rel="stylesheet" href="css/sendmail.css">
 <link rel="stylesheet" href="css/xueresponsive.css?20160430"/>
 <link rel="stylesheet" href="css/animate.css"/>
 <!--[if lt IE 9]>
@@ -108,7 +109,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div id="send-mail">
                         <h4><i class="fa fa-envelope-o" aria-hidden="true"></i>Send mail to TWINBLE</h4>
-                        <iframe width='100%' height='500' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='send-mail.html'></iframe>
+                        <!--<iframe width='100%' height='500' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='send-mail.html'></iframe>-->
+                        <div id="forms-main">   
+                            <form action="https://formspree.io/hello@xuedesign.tw" method="POST">
+                                <label class="forms_title" for="your-email">Email:</label>
+                                    <input id="your-email" type="email" name="電子郵件" placeholder="Please Enter Your Email" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
+                                <label class="forms_title" for="your-message">Message:</label>
+                                    <textarea id="your-message" rows="4" cols="50" name="提問內容" placeholder="Please Enter Your Message" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px; overflow:auto"></textarea>
+                                <input id="btn_sent" type="submit" value="Send Message" style="font-family: 'My-CG','Hind','Noto Sans TC'">
+                                <input type="hidden" name="_next" value="thanks.html" />
+                                <input type="hidden" name="_subject" value="【來信通知】你的網站有一則新的客戶諮詢" />
+                            </form>
+                        </div>
                     </div>
                     <div id="contact_map">
                         <iframe width='100%' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com.tw/maps?f=q&hl=en&geocode=&q=No.154,Tongde 6th St., Taoyuan Dist., Taoyuan City 330 Taiwan&z=16&output=embed&t='></iframe>
