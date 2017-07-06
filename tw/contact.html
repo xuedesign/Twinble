@@ -18,6 +18,7 @@
 <title>聯絡我們│風林國際企業有限公司為產業創造更優質及創新的矽橡膠製品</title>
 <link rel="stylesheet" href="../css/reset.css">
 <link rel="stylesheet" href="../css/xuedesign-tw_201605.css?2016527"/>
+<link rel="stylesheet" href="../css/sendmail-tw.css">
 <link rel="stylesheet" href="../css/xueresponsive.css?20160430"/>
 <link rel="stylesheet" href="../css/animate.css"/>
 <!--[if lt IE 9]>
@@ -106,7 +107,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     </div>
                     <div id="send-mail">
                         <h4><i class="fa fa-envelope-o" aria-hidden="true"></i>傳送訊息給風林</h4>
-                        <iframe width='100%' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='send-mail.html'></iframe>
+                        <div id="forms-main">   
+                            <form action="https://formspree.io/sales@twinble.com" method="POST">
+                                <label class="forms_title" for="your-email">電子郵件:</label>
+                                    <input id="your-email" type="email" name="電子郵件" placeholder="請輸入你的電子信箱" style="font-family: 'cwTeXYen', sans-serif; font-size:18px">
+                                <label class="forms_title" for="your-message">提問內容:</label>
+                                    <textarea id="your-message" rows="4" cols="50" name="提問內容" placeholder="請輸入你的訊息" style="font-family: 'cwTeXYen', sans-serif; font-size:18px; overflow:auto"></textarea>
+                                <input id="btn_sent" type="submit" value="送出訊息" style="font-family: 'cwTeXYen', sans-serif; font-size:20px">
+                                <input type="hidden" name="_next" value="http://www.twinble.com/tw/thanks.html" />
+                                <input type="hidden" name="_subject" value="【來信通知】你的網站有一則新的客戶諮詢" />
+                                <input type="hidden" name="_cc" value="info@twinble.com" />
+                            </form>
+                        </div>
                     </div>
                     
                     <div id="contact_map">
@@ -170,7 +182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="../script/scrollTo.js"></script>
 <script src="../script/website.js"></script>
 <script src="../script/jquery.retina.js"></script>
-<script src="../script/no-rightbtn.js"></script>
+<!--<script src="../script/no-rightbtn.js"></script>-->
 <script type="application/ld+json">
   { 「@context" : 「https://schema.org",
 	「@type" : 「Organization", 

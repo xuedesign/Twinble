@@ -7,7 +7,7 @@
 *
 **/
 
-@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 
 body{
 	margin: 0;
@@ -20,7 +20,7 @@ body{
 #forms-main{
     display: block;
     width: 80%;
-    margin: 0 auto}
+    margin: 0 auto 35px auto}
 #forms-main label{
     font-size: 18px;
     line-height: 30px;
