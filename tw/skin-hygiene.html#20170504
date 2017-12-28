@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" lang="zh-tw">
+<!--<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">-->
+<meta name="description" content="風林國際企業有限公司為技術研發導向廠商，我們的成立源自於為產業創造更優質及創新的矽橡膠製品，公司具有超過10年技術累積，並持續不斷的提供設計方案予全球海內外客戶。"/>
+<meta name="keywords" content="風林國際,橡膠,台灣,肌膚清潔,醫療保健,射出成型,押出作業"/>
+<meta name="Author" content="風林國際企業有限公司" />
+<meta content="風林國際企業有限公司為產業創造更優質及創新的矽橡膠製品" property="og:title" />
+<meta content="風林國際企業有限公司" property="og:site_name" />
+<meta content="http://www.twinble.com/tw/" property="og:url" />
+<meta content="http://www.twinble.com/images/FBShare.jpg" property="og:image" />
+<meta content="風林國際企業有限公司為技術研發導向廠商，我們的成立源自於為產業創造更優質及創新的矽橡膠製品，公司具有超過10年技術累積，並持續不斷的提供設計方案予全球海內外客戶。"  property="og:description"/>
+<meta content="website" property="og:type" />
+<meta name="msvalidate.01" content="6223F157CC006370C3F02C03185F2321" />
+<link rel="shortcut icon"  href="../images/favicon.ico"/>
+<link rel="icon" href="../images/favicon.ico"/>
+<title>肌膚清潔│風林國際企業有限公司為產業創造更優質及創新的矽橡膠製品</title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/xuedesign-tw_201605.css?2016527"/>
+<link rel="stylesheet" href="../css/xueresponsive.css?20160430"/>
+<link rel="stylesheet" href="../css/animate.css"/>
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 6]>
+	<script src="http://letskillie6.googlecode.com/svn/trunk/2/zh_TW.js"></script>
+<![endif]-->
+</head>
+
+<body class="bgbg-04">
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MNV6BK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MNV6BK');</script>   
+   
+    <div id="top_menu">
+        <div id="top_main">
+            <h2><a href="index.html" title="home">風林國際企業有限公司</a></h2> <ul>
+                <li><a href="index.html" title="首頁">首頁</a>│</li>
+                <li><a href="about-us.html" title="公司簡介">公司簡介</a>│</li>
+                <li><a href="skin-hygiene.html" title="產品介紹">產品介紹</a>│</li>
+                <li><a href="contact.html" title="聯絡我們">聯絡我們</a></li>
+            </ul>
+            <span id="btn_totop"><a href="#wrap" title="Totop">Tptop</a></span>
+            <div class="clean"></div>
+        </div>
+    </div>
+
+    <div id="wrap">
+        <div id="main_content" class="clearfix">
+            <header>
+                <div id="submenu">
+                    <ul class="submenu-item">
+                        <h1><a href="index.html" title="home">風林國際企業有限公司</a></h1>
+                        <li><a href="../skin-hygiene.html" title="English Edition">English</a></li>
+                        <li  class="text-big"><a href="contact.html" title="聯絡我們">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div id="banner-sub">
+                    <!--<h1 class="animated fadeInUp"><a href="index.html" title="home">Twinble International Enterprise corp.</a></h1>
+                    <h2 class="animated fadeInUp">An Expert in The Fled of 橡膠 Technology</h2>-->
+                    <h3 class="sub-slogan-04 animated fadeInLeft">What can we help you with?</h3>
+                    <div class="sub-visiven sv-01 animated fadeIn">our service:Skin Hygiene,Health Care and Life Fun</div>
+                </div>
+            </header>
+
+            
+            <div id="container">
+                <nav id="main-nav">
+                    <ul class="navmenu_h">
+                        <li class="nav-01"><a href="index.html" title="首頁">首頁</a></li>
+                        <li class="nav-02"><a href="about-us.html" title="公司簡介">公司簡介</a>
+                            <ul>
+                                <li><a href="about-us.html" title="關於我們">關於我們</a></li> 
+                                <li><a href="why-twinble.html" title="產發能力">產發能力</a></li>
+                                <li><a href="facilities.html" title="機器設備">機器設備</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-03"><a href="skin-hygiene.html" title="產品介紹">產品介紹</a>
+                            <ul>
+                                <li class="subtitle"><a href="#">解決方案</a></li>
+                                <li><a href="skin-hygiene.html" title="肌膚清潔">肌膚清潔</a></li>
+                                <li><a href="health-care.html" title="醫療保健">醫療保健</a></li>
+                                <li><a href="lohas.html" title="居家樂活">居家樂活</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-05"><a href="contact.html" title="聯絡我們">聯絡我們</a></li>
+                    </ul>
+                </nav>
+                
+                <section id="box_skin" class="clean">
+                    <h3>肌膚清潔</h3>
+                    <div class="skin_left">
+                        <p>不論是給皂機用的皂管或皂袋, 我們的專業研發可快速提供您產品在肌膚清潔領域的創新與渴望。</p>
+                        <!--<h4>Application</h4>
+                        <img src="../images/pic_bag-in-box-soap-dispenser-liquid.jpg" alt="www.twinble.com bag in box soap dispenser liquid" title="www.twinble.com bag in box soap dispenser liquid">-->
+                        <img src="../images/pic_bag-in-box-soap-dispenser.jpg" alt="www.twinble.com bag in box  soap dispenser" title="www.twinble.com bag in box  soap dispenser">
+                        <img src="../images/pic_Soap-Bag-in-box.jpg" alt="www.twinble.com Soap Bag in box" title="www.twinble.com Soap Bag in box">
+                        <img src="../images/pic_Liquid-Soap-dispenser-bag.jpg" alt="www.twinble.com Liquid Soap dispenser bag" title="www.twinble.com Liquid Soap dispenser bag">
+                    </div>
+                    <div id="skin_right">
+                        <img src="../images/pic_liquid-Soap-dispenser-pump-tube.jpg" alt="www.twinble.com liquid Soap dispenser pump tube" title="www.twinble.com liquid Soap dispenser pump tube">
+                    </div>
+                    <div class="box_summary">
+                        <img src="../images/pic_soap-dispenser-pump-valve.jpg" alt="www.twinble.com soap dispenser pump valve" title="www.twinble.com soap dispenser pump valve">
+                        <img src="../images/pic_soap-dispenser-pump-tube.jpg" alt="www.twinble.com soap dispenser pump tube" title="www.twinble.com soap dispenser pump tube">
+                        <img src="../images/pic_soap-dispenser-bag.jpg" alt="www.twinble.com soap dispenser bag" title="www.twinble.com soap dispenser bag">
+                        <img src="../images/pic_Soap-bag-tube-valve-01.jpg" alt="www.twinble.com Soap bag tube valve" title="www.twinble.com Soap bag tube valve">
+                        <img src="../images/pic_skinsummary-04.jpg" alt="www.twinble.com">
+                        <img src="../images/pic_skinsummary-05.jpg" alt="www.twinble.com">
+                        <!--<img src="../images/pic_Soap-dispenser-tube-valve.jpg" alt="www.twinble.com Soap dispenser tube valve" title="www.twinble.com Soap dispenser tube valve">
+                        <img src="../images/pic_Soap-bag-tube-valve.jpg" alt="www.twinble.com Soap bag tube valve" title="www.twinble.com Soap bag tube valve">
+                        <img src="../images/pic_Soap-bag-pump.jpg" alt="www.twinble.com Soap bag pump" title="www.twinble.com Soap bag pump">
+                        <img src="../images/pic_Disposable-Soap-bags.jpg" alt="www.twinble.com Disposable Soap bags" title="www.twinble.com Disposable Soap bags">--> 
+                    </div>
+                    <div class="clean"></div>
+                </section>
+                
+                <section id="box_partnumber" class="WOW fadeInUp-nodelay">
+                    <div id="skin-note">風林提供的皂管具備滴狀及噴霧等款式, 以滿足各式抛棄式或填充式於皂袋及內瓶的運用, 並於市場上提供更多樣的皂管及皂袋以迎合市場發展趨勢。</div>
+                    <!--<h4 style=" font-size:1.25em; font-weight:normal; line-height: 1.375em; padding:15px 0 25px 0; color:#6E6E6E">             
+                    風林提供的皂管具備滴狀及噴霧等款式, 以滿足各式抛棄式或填充式於皂袋及內瓶的運用, 並於市場上提供更多樣的皂管及皂袋以迎合市場發展趨勢。</h4>-->
+                    <!--<div class="skin-note">皂管產品組合含括了各式尺寸並具備滴狀、噴霧及抛棄式、填充式等多樣規格。</div>-->            
+                    <h5>皂管</h5>
+                    <ul>
+                        <li>
+                            <img src="../images/pic_soap-bag-dispenser-01.jpg" alt="www.twinble.com soap bag dispenser" title="www.twinble.com soap bag dispenser">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-RY01-0068</p>
+                            <p><span>規格</span><br>橡膠/抛棄式/滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-bag-dispenser-02.jpg" alt="www.twinble.com Soap bag tube valve" title="www.twinble.com Soap bag tube valve">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-SW01-0068</p>
+                            <p><span>規格</span><br>矽膠/抛棄式/滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_liquid-Soap-dispenser-pump-01.jpg" alt="www.twinble.com liquid Soap dispenser pump" title="www.twinble.com liquid Soap dispenser pump">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-SW01-1068</p>
+                            <p><span>規格</span><br>矽膠/抛棄式/滴狀/蓋子</p></div></li>
+                        <li>
+                            <img src="../images/pic_liquid-Soap-dispenser-pump-02.jpg" alt="www.twinble.com Wall mount Soap dispenser pump" title="www.twinble.com Wall mount Soap dispenser pump">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-SW02-0068</p>
+                            <p><span>規格</span><br>矽膠/抛棄式/噴霧</p></div></li>
+                        <li>
+                            <img src="../images/pic_Soap-bag-pump.jpg" alt="www.twinble.com Soap bag pump" title="www.twinble.com Soap bag pump">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-RY01-0047</p>
+                            <p><span>規格</span><br>橡膠/抛棄式/滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_Disposable-Soap-bags.jpg" alt="www.twinble.com Disposable Soap bags" title="www.twinble.com isposable Soap bags">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-RY11-0047</p>
+                            <p><span>規格</span><br>橡膠/填充式/M20螺帽/<br>滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenserpump-tube-01.jpg" alt="www.twinble.com Soap bag pump" title="www.twinble.com Soap bag pump">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-RY11-0068</p>
+                            <p><span>規格</span><br>橡膠/填充式/M20螺帽/<br>滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenserpump-tube-02.jpg" alt="www.twinble.com soap dispenser pump tube" title="www.twinble.com soap dispenser pump tube">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-SW11-0068</p>
+                            <p><span>規格</span><br>矽膠/填充式/M20螺帽/<br>滴狀</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenser-valve-01.jpg" alt="www.twinble.com soap dispenser valve" title="www.twinble.com soap dispenser valve">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-RY12-0068</p>
+                            <p><span>規格</span><br>橡膠/填充式/M20螺帽/<br>噴霧</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenser-valve-02.jpg" alt="www.twinble.com Disposable soap bag pump tube" title="www.twinble.com Disposable soap bag pump tube">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-SW12-0068</p>
+                            <p><span>規格</span><br>矽膠/填充式/M20螺帽/<br>噴霧</p></div></li>
+                    </ul>
+                    
+                    <h5>塑膠泵頭</h5>
+                    <ul>
+                        <li>
+                            <img src="../images/pic_PlasticPump-01.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>UM-PL01-5100</p>
+                            <p><span>規格</span><br>塑膠/滴狀/出液量1.0ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-09.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>UM-PL02-5100</p>
+                            <p><span>規格</span><br>塑膠/泡沬式/出液量0.4ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-03.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PS01-5100</p>
+                            <p><span>規格</span><br>塑膠/噴霧/出液量1.0ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-10.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PS02-5100</p>
+                            <p><span>規格</span><br>塑膠/噴霧/出液量1.0ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-02.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW03-5001</p>
+                            <p><span>規格</span><br>塑膠/泡沬式/出液量0.4ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-04.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW03-5002</p>
+                            <p><span>規格</span><br>塑膠/泡沬式/出液量0.4ml</p></div></li>        
+                        <!--<li>
+                            <img src="../images/pic_PlasticPump-05.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW02-5002</p>
+                            <p><span>規格</span><br>塑膠/噴霧/出液量1.0ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-06.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW01-5002</p>
+                            <p><span>規格</span><br>塑膠/滴狀/出液量1.0ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-07.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW03-5003</p>
+                            <p><span>規格</span><br>塑膠/泡沬式/出液量0.4ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_PlasticPump-08.jpg" alt="www.twinble.com" title="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>PUM-PW03-5004</p>
+                            <p><span>規格</span><br>塑膠/泡沬式/出液量0.75ml</p></div></li>-->
+                    </ul>             
+                    
+                    <h5>皂袋</h5>
+                    <h4 style=" font-size:1.25em; font-weight:normal; line-height: 1.375em; padding:15px 0; color:#6E6E6E; border-bottom:none">             
+                    我們產品的總類含蓋了不同容量之皂袋並提供標準及客製化出嘴閥, 以滿足您於給皂機使用之需求。</h4>
+                    <ul>
+                        <li>
+                            <img src="../images/pic_soap-dispenser-bag-500-800-1200.jpg" alt="www.twinble.com Soap bag in box" title="www.twinble.com Soap bag in box">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT46-0500</p>
+                            <p><span>規格</span><br>皂袋 500ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenser-bag-500-800-1200.jpg" alt="www.twinble.com Disposable soap bag" title="www.twinble.com Disposable soap bag">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT46-0800</p>
+                            <p><span>規格</span><br>皂袋 800ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_soap-dispenser-bag-500-800-1200.jpg" alt="www.twinble.com Disposable soap cartridge" title="www.twinble.com Disposable soap cartridge">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT46-1200</p>
+                            <p><span>規格</span><br>皂袋 1200ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_Soap-bag-in-box-01.jpg" alt="www.twinble.com Soap bag in box" title="www.twinble.com Soap bag in box">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT30-A350</p>
+                            <p><span>規格</span><br>皂袋 350ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_Soap-bag-in-box-02.jpg" alt="www.twinble.com Soap bag in box" title="www.twinble.com Soap bag in box">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT37-0400</p>
+                            <p><span>規格</span><br>皂袋 400ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_Refill-soap-cartridge.jpg" alt="www.twinble.com Refill soap cartridge" title="www.twinble.com Refill soap cartridge">
+                            <div class="part_info">
+                            <p><span>料號</span><br>BAG-PT37-0300</p>
+                            <p><span>規格</span><br>皂袋 300ml</p></div></li>
+                        <li>
+                            <img src="../images/pic_Stand-up-soap-bag.jpg" alt="www.twinble.com Stand up soap bag" title="www.twinble.com Stand up soap bag">
+                            <div class="part_info">
+                            <p><span>P/N</span><br>BAG-PT37-A450</p>
+                            <p><span>規格</span><br>皂袋 450ml</p></div></li>    
+                    </ul>
+                    
+                    <h5>填充式皂瓶</h5>
+                    <p style=" font-size:1.125em; line-height: 1.375em; padding:15px 0; color:#6E6E6E; border-bottom:none">             
+                    提供更多客製化HDPE內瓶與填充皂筒款式於給皂機及消毒機之運用。</p>                      
+                </section>
+                
+                <section id="box_Soap-Cartridge-Refill">
+                    <img src="../images/pic_Soap-Cartridge-Refills-01.jpg" alt="www.twinble.com Soap Cartridge Refills" title="www.twinble.com Soap Cartridge Refills">
+                    <img src="../images/pic_Refill-soap-Cartridge-01.jpg" alt="www.twinble.com Refill soap Cartridge" title="www.twinble.com Refill soap Cartridge">
+                    <img src="../images/pic_Soap-Cartridge-Refills-02.jpg" alt="www.twinble.com Soap Cartridge Refills" title="www.twinble.com Soap Cartridge Refills">
+                    <img src="../images/pic_Cartridge-Refills.jpg" alt="www.twinble.com Cartridge Refills" title="www.twinble.com Cartridge Refills">
+                    <img src="../images/pic_Bag-refill-system-01.jpg" alt="www.twinble.com Bag refill system " title="www.twinble.com Bag refill system ">
+                    <img src="../images/pic_Bag-in-box-cartridge.jpg" alt="www.twinble.com Bag in box cartridge" title="www.twinble.com Bag in box cartridge">
+                    <img src="../images/pic_Refill-soap-Cartridge-02.jpg" alt="www.twinble.com Refill soap Cartridge" title="www.twinble.com Refill soap Cartridge">
+                    <img src="../images/pic_Bag-refill-system-02.jpg" alt="www.twinble.com Bag refill system" title="www.twinble.com Bag refill system">
+                    <div class="clean"></div>
+                </section>
+                         
+                <section id="box_partnumber">
+                    <h5>裸管</h5>
+                    <ul>
+                        <li>
+                            <img src="../images/pic_skinpart-08.jpg" alt="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-RY00-0068</p>
+                            <p><span>規格</span><br>橡膠管</p></div></li>
+                        <li>
+                            <img src="../images/pic_skinpart-09.jpg" alt="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-RY00-0058</p>
+                            <p><span>規格</span><br>橡膠管</p></div></li>
+                        <li>
+                            <img src="../images/pic_skinpart-12.jpg" alt="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-RY00-0066</p>
+                            <p><span>規格</span><br>橡膠管</p></div></li>
+                        <li>
+                            <img src="../images/pic_skinpart-13.jpg" alt="www.twinble.com">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-SW00-0066</p>
+                            <p><span>規格</span><br>矽膠管</p></div></li>
+                         <li>
+                            <img src="../images/pic_Soap-dispenser-tube-valve.jpg" alt="www.twinble.com Soap dispenser tube valve" title="www.twinble.com Soap dispenser tube valve">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-RY00-4047</p>
+                            <p><span>規格</span><br>橡膠管</p></div></li>
+                        <li>
+                            <img src="../images/pic_Soap-bag-tube-valve.jpg" alt="www.twinble.com Soap bag tube valve" title="www.twinble.com Soap bag tube valve">
+                            <div class="part_info">
+                            <p><span>料號</span><br>TUB-RY00-5047</p>
+                            <p><span>規格</span><br>橡膠管</p></div></li>              
+                    </ul>    
+                </section>                      
+                          
+                <section id="products" class="WOW fadeInUp-nodelay">
+                    <h3>產品及應用</h3>
+                    <ul>
+                        <li>
+                            <a class="products-item-01" href="skin-hygiene.html" title="Skin Hygiene">
+                                <p>了解更多 →</p></a></li>
+                        <li>
+                            <a class="products-item-02" href="health-care.html" title="Health Care">
+                                <p>了解更多 →</p></a></li>
+                        <li>
+                            <a class="products-item-03" href="lohas.html" title="LOHAS">
+                                <p>了解更多 →</p></a></li>
+                    </ul>
+                    <div class="clean"></div>
+                </section>
+                
+            </div><!-- // end #container -->
+        </div><!--// end #main_content -->
+    </div><!--// end #wrap -->
+
+
+    <footer id="footer">
+        <div class="line"></div>
+        <div id="footer-main">
+            <div id="copyright">
+                <h4>Twinble</h4>
+                <p><span>2010 &copy; Twinble International Enterprise Corp.</p>
+<p><span>ALL RIGHT RESERVED.</span></p>
+            </div>
+            <div id="contactbox">
+                <h4>聯絡我們</h4>
+                <ul>
+                    <li>信箱 : <a style="padding-right:8px" href="mailto:sales@twinble.com">sales@twinble.com</a>(業務部)</li>
+                    <li><a style="padding:0 16px 0 49px" href="mailto:info@twinble.com">info@twinble.com</a> (客服部)</li>
+                    <li>電話 : <span>(03) 3258580</span></li>
+                    <li>傳真 : <span>(03) 3258560</span></li>
+                    <li>地址 : <span>330</span> 桃園市桃園區同德六街<span>154</span>號</li>
+                </ul>
+            </div>
+            <div id="languagebox">
+                <h4>語系</h4>
+                <ul>
+                    <li><a href="../skin-hygiene.html" title="English"><span>English</span></a></li>
+                    <li><a href="skin-hygiene.html" title="繁體中文">繁體中文</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+  
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="../script/wow.min.js"></script>
+<script src="../script/jquery.lazyload.js"></script>
+<script src="../script/scrollTo.js"></script>
+<script src="../script/website.js"></script>
+<script src="../script/jquery.retina.js"></script>
+<script src="../script/no-rightbtn.js"></script>
+<script type="application/ld+json">
+  { 「@context" : 「http://schema.org",
+	「@type" : 「Organization", 
+	「name" : 「Twinble International Enterprise corp.", 
+	「url" : 「http://www.twinble.com/", 
+	「contactPoint" : [
+	{ 「@type" : 「ContactPoint",
+	「telephone" : 「+886-3-3258580〞,
+	「contactType" : 「customer service"
+	} 
+  }
+</script>      
+
+  
+  
+  <!--
+   ##############               ###############   
+    ##############             ###############    
+    ##############             ##############     
+     ##############           ##############      
+      ##############          #############       
+       #############         ##############       
+        #############       ##############        
+        ##############      #############         
+         ###############################          
+         ###############################          
+        #################################         
+        ##############     ##############         
+       ##############       ##############        
+       ##############        ##############       
+      ##############         #######           
+     ###############          ##############      
+     ##############           ###############     
+    ######      
+    ##############              ##############    
+   ##############               ##############
+          
+              || xuedesign studio ||
+                www.xuedesign.tw
+-->    
+</body>
+</html>

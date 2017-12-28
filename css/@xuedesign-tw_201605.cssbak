@@ -1,0 +1,773 @@
+/**
+*
+* @project    Twinble
+* @Author     Elmo Wu <hello@xuedesign.tw>
+* @copyright  2016 xuedesign studio
+* @version    v1.5 - 201605
+*
+**/
+
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/css?family=Hind);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here:*/
+    font-family: 'My-CG','Hind','Noto Sans TC', sans-serif} 
+
+body{
+	margin: 0;
+	padding:0;
+	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
+	font-family: 'My-CG',Hind','Noto Sans TC', sans-serif;
+	font-size:100%;
+	line-height:1.5em;
+    color: #6e6e6e}
+.bgbg-01{background: url(../images/bg-site.jpg) top center fixed no-repeat}
+.bgbg-02{background: url(../images/bg-site-02.jpg) top center fixed no-repeat}
+.bgbg-03{background: url(../images/bg-site-03.jpg) top center fixed no-repeat}
+.bgbg-04{background: url(../images/bg-site-04.jpg) top center fixed no-repeat}
+.bgbg-05{background: url(../images/bg-site-05.jpg) top center fixed no-repeat}
+.bgbg-06{background: url(../images/bg-site-06.jpg) top center fixed no-repeat}
+.bgbg-07{background: url(../images/bg-site-07.jpg) top center fixed no-repeat}
+/*a:link {text-decoration:none; color:#b76727}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#F50}*/
+form{margin:0; padding:0}
+image{border:0}
+::selection { background: #29802A; color: #fff}
+::-moz-selection { background: #29802A; color: #fff}
+img::selection { background: transparent}
+img::-moz-selection { background: transparent}
+.clean{ clear:both}
+.hidden{ display:none}
+
+/*
+========================
+首頁框架
+========================
+*/
+#wrap,
+header,
+#submenu{ 
+    display:block; 
+    width:100%;
+    min-width: 1240px}
+#submenu{
+    height: 42px;
+    background: rgba(12,126,12,.7);
+    clear: both}
+#submenu h1 a{ 
+    display:block;
+    position: absolute;
+    top:5px;
+    left: 90px;
+	width:109px;
+	height:29px;
+	background:url(../images/pic_submenu-h2.png) no-repeat;
+	text-indent:100%;
+    white-space: nowrap;
+    overflow: hidden}
+.submenu-item{
+    display: block;
+    position: relative;
+    width: 1240px;
+    height: 42px;
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both}
+.submenu-item li a{
+    display: block;
+    float: right;
+    width: 140px;
+    height: 33px;
+    border-left: 1px solid #64bc66;
+    border-right: 1px solid #64bc66;
+    text-align: center;
+    color: #d1e7d1;
+    text-decoration: none;
+    padding-top: 9px}
+.submenu-item li a:hover{
+    background: rgba(12,126,12,1);
+    text-decoration: none}
+
+/*
+========================
+主視覺
+========================
+*/
+#banner,
+#banner-sub{
+    display: block;
+    position: relative;
+    width: 1070px;
+    margin: 0 auto}
+#banner{height: 424px}
+#banner-sub{height: 304px}
+#banner h1>a,
+#banner-sub h1>a,
+#banner h2,
+#banner-sub h2,
+.main-visiven{
+    display: block;
+    position: absolute;
+    z-index: 99;
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden}
+#banner h1>a,
+#banner-sub h1>a{
+    top:33px;
+    left: 45;
+    width: 403px;
+    height: 118px;
+    background: url(../images/pic_logo.png) no-repeat}
+#banner h2,
+#banner-sub h2{
+    top:171px;
+    left: 45;
+    width: 445px;
+    height: 36px;
+    background: url(../images/pic_compay-type.png) no-repeat}
+#banner h3,
+.sub-slogan-01,
+.sub-slogan-02,
+.sub-slogan-03,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    display: block;
+    position: absolute;
+    color: #275525}
+#banner h3{
+    top:245px;
+    left: 53px;
+    z-index: 150;
+    font-size: 3.5em;
+    line-height: 1.125em;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #fff, 0 0 20px #fff}
+#banner h3 span{ padding-left: 105px}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 592px;
+    height: 248px;
+    top:30px;
+    left: 10px;
+    z-index: 99;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 642px;
+    height: 248px;
+    top:30px;
+    left: 10px;
+    z-index: 99;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.sub-slogan-01{
+    background: url(../images/slogan-01.png) no-repeat}
+.sub-slogan-02{
+    background: url(../images/slogan-02.png) no-repeat}
+.sub-slogan-03{
+    background: url(../images/slogan-03.png) no-repeat}
+.sub-slogan-04{
+    background: url(../images/slogan-04.png) no-repeat}
+.sub-slogan-05{
+    background: url(../images/slogan-05.png) no-repeat}
+.sub-slogan-06{
+    background: url(../images/slogan-06.png) no-repeat}
+.sub-slogan-07{
+    background: url(../images/slogan-07.png) no-repeat}
+.main-visiven{
+    top:-13px;
+    right: 0;
+    width: 564px;
+    height: 437px;
+    background: url(../images/pic_mainvision.png) no-repeat}
+.sub-visiven{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 32px;
+    width: 581px;
+    height: 304px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+.sub-visiven a{
+    display: block;
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 400px;
+    height: 100px}
+.sub-visiven .link-01{ top: 0; right:0}
+.sub-visiven .link-02{ top: 105px; right:0}
+.sub-visiven .link-03{ top: 210px; right:0}
+.sv-01{ 
+    background: url(../images/pic_subvision-01.png) no-repeat}
+.sv-02{ 
+    background: url(../images/pic_subvision-02.png) no-repeat}
+.sv-03{ 
+    background: url(../images/pic_subvision-03.png) no-repeat}
+.sv-04{ 
+    background: url(../images/pic_subvision-04.png) no-repeat}
+.sv-05{ 
+    background: url(../images/pic_subvision-tw-05.png) no-repeat}
+.sv-06{ 
+    background: url(../images/pic_subvision-06.png) no-repeat}
+.sv-07{ 
+    background: url(../images/pic_subvision-07.png) no-repeat}
+
+/*
+========================
+主選單
+========================
+*/
+#main-nav{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 52px;
+    border-bottom: 2px solid #e2e3e2;
+    margin-bottom: 30px}
+#main-nav ul{
+    display: block;
+    position: absolute;
+    top:3px;
+    left:135px }
+#main-nav li{
+    display: inline-block;
+    width: 196px;
+    height: 52px;
+    margin: 0 3px 0 0;
+    font-size: 1.125em;
+    line-height: 52px;
+    text-align: center;
+    position:relative; /**/
+    float:left}
+#main-nav li a{ 
+    color: #787c81; 
+    text-decoration: none}
+#main-nav li a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+#main-nav li ul{ display: none}
+#main-nav li:hover ul{display: block}
+#main-nav li:hover li a,
+#main-nav li.iehover li a{
+    display: block;
+    position: absolute;
+    top:49px;
+    left: -135px;
+    z-index: 1000;
+    width: 196px;
+	float: none;
+    padding: 0;
+	background: rgba(198,231,165,.9);
+    font-size: .875em;
+    color: #787c81;
+    border-bottom: 1px dashed #fff}
+#main-nav li:hover li a:hover,
+#main-nav li:hover li:hover a,
+#main-nav li.iehover li a:hover,
+#main-nav li.iehover li.iehover a {
+    font-weight: normal;
+    color: #fff;
+	background: rgb(140, 172, 109)}
+#main-nav li li.subtitle a,
+#main-nav li li.subtitle a:hover{
+    display: block;
+    width: 196px;
+	float: none;
+    padding: 0;
+    font-size: .938em;
+    font-weight: bold;
+    color: #fff;
+    background: rgb(140, 172, 109)}
+.nav-01,
+.nav-02,
+.nav-03,
+.nav-04,
+.nav-05{ background: url(../images/bg_nav.png) no-repeat}
+.nav-01{ background-position: 0 0}
+.nav-02{ background-position: -206px 0}
+.nav-03{ background-position: -412px 0}
+.nav-04{ background-position: -618px 0}
+.nav-05{ background-position: -824px 0}
+
+
+/*
+========================
+首頁架構
+========================
+*/
+#container{
+	display: block;
+    width: 1070px;
+    margin: 0 auto;
+    background: #fff;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 0 0}
+#container h3{
+    font-size: 2.25em;
+    font-weight: bold;
+    line-height: 2.25em;
+    color: #2f8833;
+    letter-spacing: -1px}
+#text-q{
+    font-family: 'Hind'}
+.title_about{
+    display: block;
+    float: left;
+    width: 40%}
+.nav_about{
+    display: block;
+    float: right;
+    width: 60%;
+    text-align: right;
+    padding-top: 20px}
+.nav_about li{
+    display: inline-block/*inline*/;
+    margin: 0 10px;    
+    /*border-bottom: 1px solid rgb(186,187,186)*/}
+.nav_about li a:link,
+.nav_about li a:visited{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #fff/*rgba(47,136,51,.8)*/;
+    text-decoration: none;
+    padding: 5px 20px;
+    background: #00B0F0/*#9DC815*/;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;}
+.nav_about li a:hover{
+    color: #fff/*rgba(37, 77, 8, 0.8)*/;
+    text-decoration: none;
+    background: #008BBE/*rgb(140, 172, 109)*/}
+#container section
+/*#profile,
+#products,
+#capability,
+#box_skin,
+#box_application,
+#box_summary*/{
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 40px}
+#profile{ position: relative}
+#profile p{
+    width: 505px;
+    padding: 0 20px 10px 20px;
+    font-size: 1em;
+    line-height: 2em;
+    font-weight: 100}
+#profile .my-twinble{
+    display: block;
+    position: absolute;
+    top:130px;
+    right:-60px}
+#profile p>.profile-blue,
+#capability p>.profile-blue{
+    font-size: 1.375em;
+    color: #343794;
+    font-weight: bold}
+#profile p>.profile-green,
+#capability p>.profile-green{
+    font-size: 1.125em;
+    color: #abcd03;
+    font-weight: bold}
+.pic_about{
+    display: block;
+    width: 100%;
+    height: 309px;
+    background: url(../images/pic_who-we-are-tw.png) no-repeat;
+    margin-top: 30px}
+.text_about{
+    display: none;
+    padding-top: 30px}
+.pic_whytwinble{
+    display: block;
+    width: 100%;
+    height: 308px;
+    background: url(../images/pic_whytwinble-tw.png) no-repeat;
+    background-position: 35px 0;
+    margin-top: 30px}
+
+#capability{ margin: 30px auto}
+#capability p{ padding: 8px 20px}
+.capability-item{
+    display: block;
+    width: 820px;
+    margin: 0 auto;
+    padding: 30px 0}
+.capability-item li{
+    margin: 20px 0 40px}
+.capability-item h4{
+    width: 135px;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: left;
+    background: rgb(48,105,163)/*rgba(50,144,240,.8)*/;
+    color: #fff;
+    /*text-align: center;
+    letter-spacing: 1px;*/
+    margin-bottom: 20px;
+    padding: 3px 8px 3px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    /*border-bottom: 2px solid rgba(50,144,240,.5)*/}
+
+.facilities{
+    display: block;
+    width: 820px;
+    margin: 0 auto;
+    padding-bottom: 20px}
+.facilities li{
+    display: inline-block;
+    margin: 30px 14px 10px;
+    text-align: center}
+.facilities span, 
+.quality-item span,
+.note{
+    display: block;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    /*border-bottom: 2px solid #18932f*/}
+.picline{ border: 1px solid #e7e7e7}
+.piccenter{
+    display: block;
+    margin: 0 auto}
+.text_center{
+    display: block;
+   text-align: center;
+    padding-top: 15px}
+
+#products{
+    display: block;
+    clear: both}
+#products ul{
+    padding: 0 25px 40px}
+#products li a{
+    display: inline-block;
+    float: left;
+    width: 221px;
+    margin: 0 20px;
+    padding: 250px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+#products li a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+.products-item-01{
+    background: url(../images/pic_products-item-tw-01.png) no-repeat}
+.products-item-02{
+    background: url(../images/pic_products-item-tw-02.png) no-repeat}
+.products-item-03{
+    background: url(../images/pic_products-item-tw-03.png) no-repeat}
+
+/*
+========================
+肌膚保健
+========================
+*/
+.skin_left{
+    display: block;
+    float: left;
+    width: 540px;
+    padding: 0 50px 0 20px}
+.skin_left p{ margin-bottom: 40px}
+.skin_right{
+    display: block;
+    float: right;
+    width: 255px}
+#box_skin h4,
+#box_partnumber h4,
+#box_health h4,
+#box_life h4,
+#box_partnumber h5{
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1em;
+    color: #202389}
+#box_partnumber h5{
+    background: url(../images/icon_ppont.png) 0 1px no-repeat;
+    padding-left: 47px}
+#box_health h4,
+#box_life h4{
+    padding:40px 0 0  47px;
+    background: url(../images/icon_ppont.png) 0 42px no-repeat}
+/*#box_partnumber h5{
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 10px 0 0 18px;
+    color: #424250}*/
+.box_summary{
+    display: block;
+    width: 820px;
+    margin: 0 auto;
+    clear: both}
+.box_summary img{
+    display: block;
+    float: left}
+#box_partnumber ul{
+    display: block;
+    padding: 10px 0}
+#box_partnumber li{
+    display: inline-block;
+    width: 390px;
+    margin: 15px}
+#box_partnumber img{
+    display: block;
+    float: left;
+    padding: 9px;
+    border: 1px solid #e7e7e7;
+    margin-right: 10px}
+.part_info{
+    display: block;
+    float: right;
+    width: 170px;
+    padding-top: 10px}
+#box_partnumber p{
+    font-family: '微軟正黑體', 'Microsoft JhengHei';
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 100;
+    border-bottom: 1px dashed #e3e3e3;
+    margin-bottom: 10px;
+    padding-top: 30px}
+#box_partnumber span{ font-weight: bold}
+
+/*
+========================
+醫療照護+居家樂活
+========================
+*/
+#box_health p,
+#box_life p{ padding: 0 20px}
+
+
+/*
+========================
+聯絡我們
+========================
+*/
+.contact_info{
+    display: block;
+    position: relative;
+    padding: 0 20px}
+.contact_info h3{
+    display: block;
+    position: absolute;
+    top:55px;
+    right: 0;
+    width: 312px;
+    height: 232px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../images/pic_content-logo.png) no-repeat}
+.contact_info h4{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2em;
+    /*letter-spacing: 1px;*/
+    color: #2f8833}
+.contact_info ul{
+    padding-bottom: 30px}
+.contact_info li{
+    font-size: .938em;
+    line-height: 1.5em;
+    padding: 15px;
+    border-bottom: 1px dashed #e7e7e7;
+    letter-spacing: 1px}
+.contact_info span{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #2f8833;
+    padding-right: 10px}
+.contact_info a{
+    color: #656565;
+    text-decoration: underline}
+.contact_info a:hover{ 
+    color: #2A822B;
+    font-weight: bold;
+    text-decoration: none}
+.contact_map{
+    /*display: block;
+    max-height: 300px*/}
+
+/*
+========================
+完美置底
+========================
+*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main_content{padding-bottom:234px}
+.clearfix:after{content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+/* End hide from IE-mac */
+
+/*
+========================
+版權列
+========================
+*/
+footer{
+	display:block;
+	width:100%;
+    min-width: 1240px;
+	height:234px;
+	background:#013c01;
+	margin-top:-234px;
+    padding-top: 6px}
+.line{
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #275525}
+#footer-main{
+    display: block;
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: .938em;  
+    color: #829282}
+#footer-main h4{
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #2f8833}
+#footer-main li{
+    padding: 3px 0}
+#footer-main a{ 
+    color: #829282;
+    text-decoration: none}
+#footer-main a:hover{
+    color: #F50;
+    text-decoration: none}
+#copyright,
+#contactbox{
+    display: block;
+    float: left}
+#copyright{
+    width: 380px;
+    padding: 0}
+#copyright h4{
+    width: 143px;
+    height: 40px;
+    background: url(../images/pic_footer-logo.png) no-repeat;
+    text-indent: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    margin-bottom: 20px}
+#contactbox{
+    width: 350px/*590px*/;
+    padding: 0}
+#languagebox{
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: left}
+#contactbox h4,
+#languagebox h4{
+    padding-top:20px}
+
+/*
+========================
+浮動頂端選單
+========================
+*/
+#mobile_btn{ display:none}
+#top_menu{
+	 width:100%;
+     min-width: 1240px;
+	 height:60px;
+	 background:#4A9949;
+	 position: fixed;
+	 top:-60px;
+	 z-index:99}
+#top_main{ 
+    display: block; 
+    width:1070px; 
+    margin:0 auto}	 
+#top_main h2 a{ 
+     display:block; 
+	 float:left;
+	 width:120px;
+	 height:33px;
+	 background:url(../images/logo_topmenu.png) no-repeat;
+	 text-indent:100%;
+     white-space: nowrap;
+     overflow: hidden;
+	 margin-top:12px}
+#top_main ul{ 
+    display:block; 
+    float:left; 
+    padding-top:20px}	 	 
+#top_main li{ 
+    display: inline-block; 
+    font-size:1.125em; 
+    line-height:25px; 
+    color: #fff}	
+#top_main a:link {
+    text-decoration:none; 
+    color:rgba(255,255,255,.7); 
+    padding:0 30px}
+#top_main a:visited {
+    text-decoration:none; 
+    color:rgba(255,255,255,.7)}
+#top_main a:hover {
+    text-decoration:none; 
+    color:rgba(255,255,255,1)}
+#btn_totop { 
+    display:block;
+	float:right;
+    padding-top: 13px}
+#btn_totop a{
+    display: block;
+	width:33px;
+	height:33px;
+	background:url(../images/btn_totop.png) no-repeat;
+	text-indent:100%;
+    white-space: nowrap;
+    overflow: hidden}
+#btn_totop a:hover{ 
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}
