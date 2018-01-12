@@ -8,17 +8,17 @@
 <meta name="Author" content="Twinble International Enterprise corp." />
 <meta content="Twinble, An Expert in The  Field of  Rubber Technology" property="og:title" />
 <meta content="Twinble" property="og:site_name" />
-<meta content="http://www.twinble.com/" property="og:url" />
-<meta content="http://www.twinble.com/images/FBShare.jpg" property="og:image" />
+<meta content="https://www.twinble.com/" property="og:url" />
+<meta content="https://www.twinble.com/images/FBShare.jpg" property="og:image" />
 <meta content="Twinble, a technically oriented company, derived from making excellent & innovative rubber articles in the industry" property="og:description" />
 <meta content="website" property="og:type" />
 <meta name="msvalidate.01" content="6223F157CC006370C3F02C03185F2321" />
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
-<title>TWINBLE:│Soap Bag Pump, Disposable Soap bag, Hand soap refill bags, Soap Dispenser Pouch, Liquid soap bag-in-box(BIB) </title>
-<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<title>Skin Hygiene│ Soap Bag Pump, Disposable Soap bag, Soap Bag Pump, Soap Dispenser Pouch </title>
 <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/xuedesign_201605.css?20160430"/>
+<link rel="stylesheet" href="css/xuedesign_201605.css?20171228"/>
+<link rel="stylesheet" href="css/notosanstc.css"/>
 <link rel="stylesheet" href="css/xueresponsive.css?20160430"/>
 <link rel="stylesheet" href="css/animate.css"/>
 <!--[if lt IE 9]>
@@ -89,8 +89,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <ul>
                                 <li class="subtitle"><a href="#">Solutions</a></li>
                                 <li><a href="skin-hygiene.html" title="Skin Hygiene">Skin Hygiene</a></li>
-                                <li><a href="lohas.html" title="LOHAS">LOHAS</a></li>
                                 <li><a href="health-care.html" title="Health Care">Health Care</a></li>
+                                <li><a href="lohas.html" title="LOHAS">LOHAS</a></li>
                             </ul>
                         </li>
                         <li class="nav-05"><a href="contact.html" title="Contact Us">Contact Us</a></li>
@@ -111,7 +111,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <!--產品說明-->
                     <div class="skin_left">
                         <p>
-                        Whatever if its pump tube or liquid soap bag in box(BIB) which are adopted in soap dispensing system, our expertise can help you break the obstacle in the field of hand hygiene in no time.</p>
+                        Whatever if its pump tube or liquid soap bag in box which are adopted in soap dispensing system, our expertise can help you break the obstacle in the field of hand hygiene in no time.</p>
                         <img src="images/pic_bag-in-box-soap-dispenser.jpg" alt="www.twinble.com bag in box  soap dispenser" title="www.twinble.com bag in box  soap dispenser">
                         <img src="images/pic_Soap-Bag-in-box.jpg" alt="www.twinble.com Soap Bag in box" title="www.twinble.com Soap Bag in box">
                         <img src="images/pic_Liquid-Soap-dispenser-bag.jpg" alt="www.twinble.com Liquid Soap dispenser bag" title="www.twinble.com Liquid Soap dispenser bag">
@@ -386,10 +386,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <a class="products-item-01" href="skin-hygiene.html" title="Skin Hygiene">
                                 <p>Read More →</p></a></li>
                         <li>
-                            <a class="products-item-03" href="lohas.html" title="LOHAS">
+                            <a class="products-item-02" href="health-care.html" title="Health Care">
                                 <p>Read More →</p></a></li>
                         <li>
-                            <a class="products-item-02" href="health-care.html" title="Health Care">
+                            <a class="products-item-03" href="lohas.html" title="LOHAS">
                                 <p>Read More →</p></a></li>
                     </ul>
                     <br class="clean">
@@ -430,7 +430,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </footer>
   
-<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
 <script src="script/wow.min.js"></script>
 <script src="script/jquery.lazyload.js"></script>
 <script src="script/scrollTo.js"></script>
@@ -438,10 +438,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="script/jquery.retina.js"></script>
 <script src="script/no-rightbtn.js"></script>
 <script type="application/ld+json">
-  { 「@context" : 「http://schema.org",
+  { 「@context" : 「https://schema.org",
 	「@type" : 「Organization", 
 	「name" : 「Twinble International Enterprise corp.", 
-	「url" : 「http://www.twinble.com/", 
+	「url" : 「https://www.twinble.com/", 
 	「contactPoint" : [
 	{ 「@type" : 「ContactPoint",
 	「telephone" : 「+886-3-319-1230〞,
