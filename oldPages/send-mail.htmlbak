@@ -11,14 +11,15 @@
 
 <body>
     <div id="forms-main">   
-        <form action="https://formspree.io/hello@xuedesign.tw" method="POST">
+        <form action="https://formspree.io/sales@twinble.com" method="POST">
             <label class="forms_title" for="your-email">Email:</label>
                 <input id="your-email" type="email" name="電子郵件" placeholder="Please Enter Your Email" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
             <label class="forms_title" for="your-message">Message:</label>
                 <textarea id="your-message" rows="4" cols="50" name="提問內容" placeholder="Please Enter Your Message" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px; overflow:auto"></textarea>
             <input id="btn_sent" type="submit" value="Send Message" style="font-family: 'My-CG','Hind','Noto Sans TC'">
-            <input type="hidden" name="_next" value="https://www.twinble.com/thanks.html" />
-            <input type="hidden" name="_subject" value="【來信通知】你的網站有一則新的客戶諮詢" />
+            <input type="hidden" name="_next" value="https://www.twinble.com/thanks.html"/>
+            <input type="hidden" name="_subject" value="【來信通知】你的網站有一則新的客戶諮詢"/>
+            <input type="hidden" name="_cc" value="info@twinble.com" />
         </form>
     </div>
 </body>
