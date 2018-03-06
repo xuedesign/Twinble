@@ -411,7 +411,7 @@ header,
 .pic_about{
     display: block;
     width: 100%;
-    height: 439px;
+    height: 391px;/*439px*/
     background: url(../images/pic_who-we-are.png) no-repeat;
     margin-top: 30px}
 .text_about{
@@ -420,7 +420,7 @@ header,
 .pic_whytwinble{
     display: block;
     width: 100%;
-    height: 400px;
+    height: 387px;/*400px*/
     background: url(../images/pic_whytwinble.png) no-repeat;
     background-position: 35px 0;
     margin-top: 30px}
@@ -805,4 +805,4 @@ footer{
     white-space: nowrap;
     overflow: hidden}
 #btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}13
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}13/**/439px391/**/439px1
