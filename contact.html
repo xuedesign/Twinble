@@ -114,7 +114,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <!--<iframe width='100%' height='500' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='send-mail.html'></iframe>-->
                         <div id="forms-main">   
                             <form action="https://formspree.io/sales@twinble.com" method="POST">
-                                <label class="forms_title" for="your-email">Email:</label>
+                                <label class="forms_title" for="your-company">Company:</label>
+                                    <input id="your-company" type="text" name="公司名稱" placeholder="Please Enter Your Company" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
+                                <label class="forms_title" for="your-name">Name:</label>
+                                    <input id="your-name" type="text" name="姓名" placeholder="Please Enter Your Name" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
+                                <label class="forms_title" for="your-phone">Phone number:</label>
+                                    <input id="your-phone" type="tel" name="連絡電話" placeholder="Please Enter Your Phone number" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">        
+                                <label class="forms_title" for="your-email">Email address:</label>
                                     <input id="your-email" type="email" name="電子郵件" placeholder="Please Enter Your Email" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
                                 <label class="forms_title" for="your-message">Message:</label>
                                     <textarea id="your-message" rows="4" cols="50" name="提問內容" placeholder="Please Enter Your Message" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px; overflow:auto"></textarea>
@@ -178,6 +184,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul>
                     <li><a href="contact.html" title="English">English</a></li>
                     <li><a href="tw/contact.html" title="繁體中文">繁體中文</a></li>
+                    <li>
+                        <div id="google_translate_element"></div>
+                        <script>
+                            function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-81204855-1'}, 'google_translate_element');
+                            }</script>
+                        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -110,6 +110,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <h4><i class="fa fa-envelope-o" aria-hidden="true"></i>傳送訊息給風林</h4>
                         <div id="forms-main">   
                             <form action="https://formspree.io/sales@twinble.com" method="POST">
+                                <label class="forms_title" for="your-company">公司名稱:</label>
+                                    <input id="your-company" type="text" name="公司名稱" placeholder="請輸入你的公司名稱" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
+                                <label class="forms_title" for="your-name">姓名:</label>
+                                    <input id="your-name" type="text" name="姓名" placeholder="請輸入你的姓名" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px">
+                                <label class="forms_title" for="your-phone">連絡電話:</label>
+                                    <input id="your-phone" type="tel" name="連絡電話" placeholder="請輸入你的連絡電話" style="font-family: 'My-CG','Hind','Noto Sans TC', sans-serif; font-size:15px"> 
                                 <label class="forms_title" for="your-email">電子郵件:</label>
                                     <input id="your-email" type="email" name="電子郵件" placeholder="請輸入你的電子信箱" style="font-family: 'cwTeXYen', sans-serif; font-size:18px">
                                 <label class="forms_title" for="your-message">提問內容:</label>
@@ -171,6 +177,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <ul>
                     <li><a href="../contact.html" title="English"><span>English</span></a></li>
                     <li><a href="contact.html" title="繁體中文">繁體中文</a></li>
+                    <li>
+                        <div id="google_translate_element"></div>
+                        <script>
+                            function googleTranslateElementInit() {
+                              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, gaTrack: true, gaId: 'UA-81204855-1'}, 'google_translate_element');
+                            }</script>
+                        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    </li>
                 </ul>
             </div>
         </div>
