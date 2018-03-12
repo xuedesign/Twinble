@@ -3,7 +3,7 @@
 * @project    Twinble
 * @Author     Elmo Wu <hello@xuedesign.tw>
 * @copyright  2016 xuedesign studio
-* @version    v1.6 - 201701
+* @version    v1.5 - 201605
 *
 **/
 
@@ -12,9 +12,7 @@
 通用設定
 ========================
 */
-@import url(https://fonts.googleapis.com/css?family=Hind);
-/*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
-@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     /* Set your content font stack here:*/
@@ -24,7 +22,7 @@ body{
 	margin: 0;
 	padding:0;
 	/*background: url(../images/bg-site.jpg) top center fixed no-repeat;*/
-	font-family: 'My-CG','Hind','Noto Sans TC', sans-serif;
+	font-family: 'cwTeXYen', sans-serif;
 	font-size:100%;
 	line-height:1.5em;
     color: #6e6e6e}
@@ -59,22 +57,9 @@ header,
     width:100%;
     min-width: 1240px}
 #submenu{
-    display: block;
-    position: relative;
     height: 42px;
     background: rgba(12,126,12,.7);
     clear: both}
-#google_translate_element{
-    display: block;
-    position: absolute;
-    top: 5px;
-    right: 25.5%}
-@media screen and (min-width:1366px) and (max-width:1439px){
-    #google_translate_element{ right: 27%}
-}
-@media screen and (min-width:1440px){
-    #google_translate_element{ right: 10%}
-}
 #submenu h1 a{ 
     display:block;
     position: absolute;
@@ -108,6 +93,7 @@ header,
 .submenu-item li a:hover{
     background: rgba(12,126,12,1);
     text-decoration: none}
+.submenu-item li.text-big{ font-size: 1.125em}
 
 /*
 ========================
@@ -240,7 +226,7 @@ header,
 .sv-04{ 
     background: url(../images/pic_subvision-04.png) no-repeat}
 .sv-05{ 
-    background: url(../images/pic_subvision-05.png) no-repeat}
+    background: url(../images/pic_subvision-tw-05.png) no-repeat}
 .sv-06{ 
     background: url(../images/pic_subvision-06.png) no-repeat}
 .sv-07{ 
@@ -268,7 +254,7 @@ header,
     width: 196px;
     height: 52px;
     margin: 0 3px 0 0;
-    font-size: 1.125em;
+    font-size: 1.375em;
     line-height: 52px;
     text-align: center;
     position:relative; /**/
@@ -293,7 +279,7 @@ header,
 	float: none;
     padding: 0;
 	background: rgba(198,231,165,.9);
-    font-size: .875em;
+    font-size: .75em;
     color: #787c81;
     border-bottom: 1px dashed #fff}
 #main-nav li:hover li a:hover,
@@ -309,7 +295,7 @@ header,
     width: 196px;
 	float: none;
     padding: 0;
-    font-size: .938em;
+    font-size: .75em;
     font-weight: bold;
     color: #fff;
     background: rgb(140, 172, 109)}
@@ -339,7 +325,7 @@ header,
     -moz-border-radius: 15px 15px 0 0;
     border-radius: 15px 15px 0 0}
 #container h3{
-    font-size: 2.25em;
+    font-size: 2em;
     font-weight: bold;
     line-height: 2.25em;
     color: #2f8833;
@@ -349,37 +335,26 @@ header,
 .title_about{
     display: block;
     float: left;
-    width: 35%}
+    width: 40%}
 .nav_about{
     display: block;
     float: right;
-    width: 65%;
+    width: 60%;
     text-align: right;
     padding-top: 20px}
 .nav_about li{
-    display: inline-block;/*inline*/
-    margin: 0 10px;
-    -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box
+    display: inline-block/*inline*/;
+    margin: 0 10px;    
     /*border-bottom: 1px solid rgb(186,187,186)*/}
 .nav_about li a:link,
 .nav_about li a:visited{
-    display: block;
-    float: right;
-    width: 120px;
-    height: 30px;
-    -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-    font-size: 1em;
-    font-weight: normal;
+    font-size: 1.25em;
+    font-weight: bold;
     line-height: 2em;
-    /*letter-spacing: 1px;*/
+    letter-spacing: 1px;
     color: #fff/*rgba(47,136,51,.8)*/;
-    text-align: center;
     text-decoration: none;
-    /*padding: 5px 0;*/
+    padding: 5px 20px;
     background: #00B0F0/*#9DC815*/;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -409,7 +384,7 @@ header,
 #profile .my-twinble{
     display: block;
     position: absolute;
-    top:150px;
+    top:130px;
     right:-60px}
 #profile p>.profile-blue,
 #capability p>.profile-blue{
@@ -424,8 +399,8 @@ header,
 .pic_about{
     display: block;
     width: 100%;
-    height: 391px;/*439px*/
-    background: url(../images/pic_who-we-are.png) no-repeat;
+    height: 309px;
+    background: url(../images/pic_who-we-are-tw.png) no-repeat;
     margin-top: 30px}
 .text_about{
     display: none;
@@ -433,8 +408,8 @@ header,
 .pic_whytwinble{
     display: block;
     width: 100%;
-    height: 387px;/*400px*/
-    background: url(../images/pic_whytwinble.png) no-repeat;
+    height: 308px;
+    background: url(../images/pic_whytwinble-tw.png) no-repeat;
     background-position: 35px 0;
     margin-top: 30px}
 
@@ -448,8 +423,8 @@ header,
 .capability-item li{
     margin: 20px 0 40px}
 .capability-item h4{
-    width: 310px;
-    font-size: 1.125em;
+    width: 135px;
+    font-size: 1.25em;
     font-weight: normal;
     line-height: 1.5em;
     text-align: left;
@@ -477,7 +452,7 @@ header,
 .quality-item span,
 .note{
     display: block;
-    font-size: 1em;
+    font-size: 1.188em;
     line-height: 1.5em;
     text-align: center;
     padding-top: 10px;
@@ -488,7 +463,8 @@ header,
     margin: 0 auto}
 .text_center{
     display: block;
-   text-align: center;
+    font-size: 1.188em;
+    text-align: center;
     padding-top: 15px}
 
 #products{
@@ -502,7 +478,7 @@ header,
     width: 221px;
     margin: 0 20px;
     padding: 250px 0 0 20px;
-    font-size: 1em;
+    font-size: 1.125em;
     color: #656565;
     text-decoration: none}
 #products li a:hover{ 
@@ -510,11 +486,11 @@ header,
     font-weight: bold;
     text-decoration: none}
 .products-item-01{
-    background: url(../images/pic_products-item-01.png) no-repeat}
+    background: url(../images/pic_products-item-tw-01.png) no-repeat}
 .products-item-02{
-    background: url(../images/pic_products-item-02.png) no-repeat}
+    background: url(../images/pic_products-item-tw-02.png) no-repeat}
 .products-item-03{
-    background: url(../images/pic_products-item-03.png) no-repeat}
+    background: url(../images/pic_products-item-tw-03.png) no-repeat}
 
 /*
 ========================
@@ -526,7 +502,9 @@ header,
     float: left;
     width: 540px;
     padding: 0 50px 0 20px}
-.skin_left p{ margin-bottom: 40px}
+.skin_left p{
+    font-size: 1.25em;
+    margin-bottom: 40px}
 .skin_left img{
     display: block;
     float: left;
@@ -552,6 +530,21 @@ header,
 #box_life h4{
     padding:40px 0 0  47px;
     background: url(../images/icon_ppont.png) 0 42px no-repeat}
+#skin-note{
+    display: block;
+    width: 899px;
+    height: 76px;
+    font-size: 0;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    background: url(../images/pic_skin-note.png) no-repeat;
+    border-bottom: none;
+    margin-bottom: 15px
+    /*font-size:1.375em;
+    font-weight: normal; 
+    padding:15px 0 25px 0; 
+    color:#6E6E6E*/}
 /*#box_partnumber h5{
     font-size: 1.125em;
     font-weight: bold;
@@ -581,8 +574,8 @@ header,
     padding: 10px 0 40px}
 #box_partnumber li{
     display: inline-block;
-    width: 390px;
-    margin: 15px;
+    width: 410px;
+    margin: 8px 5px/*15px*/;
     vertical-align: top}
 #box_partnumber img{
     display: block;
@@ -593,15 +586,18 @@ header,
 .part_info{
     display: block;
     float: right;
-    width: 170px;
+    width: 190px;
+    height: 142px;
+    overflow: hidden;
     padding-top: 10px}
 #box_partnumber p{
-    font-size: .938em;
+    font-family: '微軟正黑體', 'Microsoft JhengHei';
+    font-size: 1em;
     line-height: 1.5em;
     font-weight: 100;
     border-bottom: 1px dashed #e3e3e3;
     margin-bottom: 10px;
-    /*padding-top: 5px*/}
+    /*padding-top: 10px*/}
 #box_partnumber span{ font-weight: bold}
 
 /*
@@ -610,7 +606,9 @@ header,
 ========================
 */
 #box_health p,
-#box_life p{ padding: 0 20px}
+#box_life p{
+    font-size: 1.25em;
+    padding: 0 30px}
 
 
 /*
@@ -633,17 +631,16 @@ header,
     white-space: nowrap;
     overflow: hidden;
     background: url(../images/pic_content-logo.png) no-repeat}
-.contact_info h4,
-#send-mail h4{
-    font-size: 1.25em;
+.contact_info h4{
+    font-size: 2em;
     font-weight: bold;
-    line-height: 1.5em;
+    line-height: 2em;
     /*letter-spacing: 1px;*/
     color: #2f8833}
 .contact_info ul{
     padding-bottom: 30px}
 .contact_info li{
-    font-size: .938em;
+    font-size: 1.063em;
     line-height: 1.5em;
     padding: 15px;
     border-bottom: 1px dashed #e7e7e7;
@@ -652,8 +649,10 @@ header,
     display: inline-block;
     width: 80px;
     text-align: right;
+    font-size: 1.125em;
     font-weight: bold;
-    color: #2f8833}
+    color: #2f8833;
+    padding-right: 10px}
 .contact_info a{
     color: #656565;
     text-decoration: underline}
@@ -664,16 +663,17 @@ header,
 .contact_map{
     /*display: block;
     max-height: 300px*/}
-
 #send-mail{
     display: block;
     padding: 0 0 15px}
 #send-mail h4{
+    font-size: 1.5em;
+    font-weight: bold;
     line-height: 3rem;
-    padding-left: 100px}
+    padding-left: 100px;
+    color: #2f8833}
 #send-mail .fa-envelope-o{
     margin-right: 10px}
-
 
 /*
 ========================
@@ -717,10 +717,10 @@ footer{
     width: 1070px;
     margin: 0 auto;
     padding-top: 40px;
-    font-size: .938em;  
+    font-size: 1.125em;  
     color: #829282}
 #footer-main h4{
-    font-size: 1.25em;
+    font-size: 1.376em;
     line-height: 1.5em;
     color: #2f8833}
 #footer-main li{
@@ -731,6 +731,7 @@ footer{
 #footer-main a:hover{
     color: #F50;
     text-decoration: none}
+#footer-main span{ font-size: .813em}
 #copyright,
 #contactbox{
     display: block;
@@ -747,11 +748,11 @@ footer{
     overflow:hidden;
     margin-bottom: 20px}
 #contactbox{
-    width: 590px;
+    width: 350px/*590px*/;
     padding: 0}
 #languagebox{
     display: block;
-    float: right;
+    float: left;
     width: 100px;
     text-align: left}
 #contactbox h4,
@@ -818,4 +819,4 @@ footer{
     white-space: nowrap;
     overflow: hidden}
 #btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}13/**/439px391/**/439px1
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}

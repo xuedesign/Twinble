@@ -55,8 +55,21 @@ img::-moz-selection { background: transparent}
     width:100%;
     min-width: 1240px}
 #submenu{
+    display: block;
+    position: relative;
     height: 42px;
     background: rgba(12,126,12,.7)}
+#google_translate_element{
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 25%}
+@media screen and (min-width:1366px) and (max-width:1439px){
+    #google_translate_element{ right: 27%}
+}
+@media screen and (min-width:1440px){
+    #google_translate_element{ right: 10%}
+}
 .submenu-item{
     display: block;
     width: 1240px;
