@@ -63,12 +63,12 @@ img::-moz-selection { background: transparent}
     display: block;
     position: absolute;
     top: 5px;
-    right: 25%}
+    right: 4%}
 @media screen and (min-width:1366px) and (max-width:1439px){
-    #google_translate_element{ right: 27%}
+    #google_translate_element{ right: 6.5%}
 }
 @media screen and (min-width:1440px){
-    #google_translate_element{ right: 10%}
+    #google_translate_element{ right: 17.3%}
 }
 .submenu-item{
     display: block;
@@ -77,7 +77,19 @@ img::-moz-selection { background: transparent}
     overflow: hidden;
     margin: 0 auto;
     clear: both}
-.submenu-item li a{
+.submenu-item li.tt1 a{
+    display: block;
+    float: right;
+    width: 140px;
+    height: 42px;
+    border-left: none;
+    border-right: 1px solid #64bc66;
+    text-align: center;
+    color: #d1e7d1;
+    text-decoration: none;
+    margin-right: 140px;
+    padding-top: 9px}
+.submenu-item li.tt2 a{
     display: block;
     float: right;
     width: 140px;
