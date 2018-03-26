@@ -114,6 +114,13 @@ img::-moz-selection { background: transparent}
 	min-width:1240px;
 	height:428px;
 	margin:0 auto}
+.flexslider .slides .sbg-01 {
+    background: url(../images/banner-01.jpg) center}
+.flexslider .slides .sbg-02 {
+    background: url(../images/banner-02.jpg) center}
+.flexslider .slides .sbg-03 {
+    background: url(../images/banner-03.jpg) center}
+}
 
 /* 主選單 */
 #main-nav{

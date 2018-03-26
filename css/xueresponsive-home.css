@@ -14,7 +14,52 @@
 =====================================
 */
 @media (max-width:1110px) { 
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 1000px}
+.submenu-item{ width: 1000px}    
+.submenu-item li.tt1 a{
+    margin-right: 180px}
+#banner_slider{
+	height:353px}
+.flexslider .slides li{
+    height:357px}
+.flexslider .slides li a{ height:357px}
+.flexslider .slides .sbg-01 {
+    background: url(../images/rwd/banner-01.jpg) center}
+.flexslider .slides .sbg-02 {
+    background: url(../images/rwd/banner-02.jpg) center}
+.flexslider .slides .sbg-03 {
+    background: url(../images/rwd/banner-03.jpg) center}
+.flex-control-nav { bottom: 38px}
+#main-nav{
+    margin-bottom: 0;
+    padding-bottom: 35px}
+#main-nav ul{
+    margin: 3px 0 0 21%}
+#main-nav ul ul{ margin: 3px 0 0 29%}    
+#aboutbox{ 
+    width: 1000px;
+    padding:30px 0 0}    
+#logobox{
+    width: 35%;
+    height: 178px;
+    background-size: contain;
+    background: url(../images/logo_about.png) 0 15px no-repeat}
+#aboutinfo{
+    display: block;
+    float: left;
+    width: 58%;
+    margin: 60px 0 48px 0;
+    padding-left: 20px;
+    border-left: 1px solid #9D9E9E}    
 }
 
 /*
@@ -60,5 +105,8 @@ for-retina-photo
 =====================================
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+    #logobox{
+        background: url(../images/rwd/LOGO@3X.png) no-repeat;
+        background-size: cover} 
     
 }
