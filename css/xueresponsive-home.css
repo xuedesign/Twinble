@@ -49,13 +49,13 @@ footer{
     width: 1000px;
     padding:30px 0 0}    
 #logobox{
-    width: 46%;
-    /*height: 178px;*/
+    width: 455px;
+    background-size: 425px 152px;
     background: url(../images/logo_about.png) 30px 40px no-repeat}
 #aboutinfo{
     display: block;
     float: left;
-    width: 48%;
+    width: 524px;
     margin: 60px 0 48px 0;
     padding-left: 20px;
     border-left: 1px solid #9D9E9E}
@@ -74,6 +74,8 @@ footer{
 .callto-slogan-03{
     top: 254px;
     left: 186px}
+#calltomain nav{
+    left: 145px}    
 footer{
 	height: 300px;}    
 #footer-main{ width: 1000px}
@@ -93,7 +95,27 @@ footer{
 =====================================
 */
 @media (max-width:800px) {
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 750px}
+.submenu-item{ width: 750px}
+#banner_slider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:268px}
+.flex-control-nav { bottom: 26px}    
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 768px 268px}   
+#main-nav{ display: none}
+  
 }
 
 /*
@@ -129,9 +151,10 @@ footer{
 for-retina-photo
 =====================================
 */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (min-resolution: 2dppx),
+(-webkit-min-device-pixel-ratio: 2.0), 
+(min-resolution: 192dpi){
     #logobox{
-        background: url(../images/rwd/LOGO@3X.png) no-repeat;
-        background-size: cover} 
+        background: url(../images/rwd/LOGO@3X.png) no-repeat} 
     
 }
