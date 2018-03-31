@@ -178,6 +178,89 @@ footer{
 =====================================
 */
 @media (max-width: 600px) {
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 573px}
+.submenu-item{ width: 573px}
+#banner_slider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:209px}
+.flex-control-nav { bottom: 18px}    
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 100% 209px}   
+/*#main-nav{
+    margin-bottom: 60px;
+    padding-bottom: 35px}*/
+#main-nav ul{
+    margin: 3px 0 0 4%}
+#main-nav li,
+#main-nav li.iehover li a,
+#main-nav li li.subtitle a:hover{ width: 175px}  
+#courimg{
+    width: 50%;
+    background: url(../images/rwd/pic_core-competence.jpg) top center no-repeat}
+#courlist{ 
+    width: 50%;
+    padding: 25px 20px 0}
+#courlist li a,
+#courlist li a:visited{
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 28px;
+    text-indent: 0;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.375em;
+    color: #275525;
+    text-decoration: none;
+    border-bottom: 1px dashed #e1e1e1} 
+#courlist li a:hover{
+    color: #50a818;
+    text-decoration: none}    
+.cour-01,
+.cour-02,
+.cour-03,
+.cour-04,
+.cour-05{
+    background: none;
+    width: 100%;
+    margin-left: 0;
+    background-position: 0}
+.callto-slogan-01{
+    top: 96px;
+    left: 100px}
+.callto-slogan-02{
+    top:209px;
+    left: 38px}
+.callto-slogan-03{
+    top: 274px;
+    left: 66px}
+#calltomain nav{
+    left: 25px}
+footer{
+	height: 300px;}    
+#footer-main{ width: 573px}
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 30%}
+#contactbox{ 
+    width: 60%; 
+    word-wrap:break-word}
+#languagebox{
+    clear: both;
+    display: none;
+    /*float: none;
+    width: 100%*/}  
     
 }
 
@@ -209,8 +292,10 @@ for-retina-photo
 (-webkit-min-device-pixel-ratio: 2.0), 
 (min-resolution: 192dpi){
     #logobox{
-        background: url(../images/rwd/LOGO@3X.png) no-repeat}
+        background: url(../images/rwd/LOGO@3X.png) no-repeat;
+        background-size: contain}
     #courimg{
-        background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat}
+        background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat;
+        background-size: contain}
     
 }

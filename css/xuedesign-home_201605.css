@@ -143,7 +143,7 @@ img::-moz-selection { background: transparent}
     font-size: 1.125em;
     line-height: 52px;
     text-align: center;
-    position:relative; /**/
+    position:relative;
     float:left}
 #main-nav li a{ 
     color: #787c81; 
