@@ -127,8 +127,9 @@ footer{
     padding:0}
 #logobox{
     display: block;
-    width: 100%;
-    margin: 0 0 20px;
+    width: 425px;
+    height: 152px;
+    margin: 0 0 20px 162px;
     background-size: 425px 152px;
     background: url(../images/logo_about.png) center top no-repeat}
 #aboutinfo{
@@ -142,7 +143,8 @@ footer{
     width: 35%;
     height: 355px;
     background-size: 269px 355px;
-    background: url(../images/rwd/pic_core-competence.jpg) no-repeat}
+    background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat;
+    background-size: contain}
 #courlist{ width: 65%}
 .callto-slogan-01{
     top: 96px;
@@ -167,9 +169,7 @@ footer{
     word-wrap:break-word}
 #languagebox{
     clear: both;
-    display: none;
-    /*float: none;
-    width: 100%*/}       
+    display: none}       
 }
 
 /*
@@ -197,17 +197,17 @@ footer{
 .flexslider .slides .sbg-02,
 .flexslider .slides .sbg-03{
     background-size: 100% 209px}   
-/*#main-nav{
-    margin-bottom: 60px;
-    padding-bottom: 35px}*/
 #main-nav ul{
     margin: 3px 0 0 4%}
 #main-nav li,
 #main-nav li.iehover li a,
-#main-nav li li.subtitle a:hover{ width: 175px}  
+#main-nav li li.subtitle a:hover{ width: 175px}
+#logobox{
+    margin: 0 0 20px 74px}    
 #courimg{
     width: 50%;
-    background: url(../images/rwd/pic_core-competence.jpg) top center no-repeat}
+    background: url(../images/rwd/pic_core-competence@3x.jpg) top center no-repeat;
+    background-size: contain}
 #courlist{ 
     width: 50%;
     padding: 25px 20px 0}
@@ -235,33 +235,37 @@ footer{
     width: 100%;
     margin-left: 0;
     background-position: 0}
+
+#calltoaction{ height: 650px}
 .callto-slogan-01{
     top: 96px;
-    left: 100px}
+    left: 75px;
+    width: 459px;
+    height: 47px;
+    background-size: contain}
 .callto-slogan-02{
-    top:209px;
-    left: 38px}
+    top:180px;
+    left: 28px;
+    width: 416px;
+    height: 34px;
+    background-size: contain}
 .callto-slogan-03{
-    top: 274px;
-    left: 66px}
+    top: 245px;
+    left: 56px;
+    width: 495px;
+    height: 62px;
+    background-size: contain}
 #calltomain nav{
-    left: 25px}
-footer{
-	height: 300px;}    
-#footer-main{ width: 573px}
-#copyright,
-#contactbox,
-#languagebox{ margin: 0 2%}    
-#copyright{ width: 30%}
-#contactbox{ 
-    width: 60%; 
-    word-wrap:break-word}
-#languagebox{
-    clear: both;
-    display: none;
-    /*float: none;
-    width: 100%*/}  
-    
+    top: 380px;
+    left: 52px}
+#calltomain .nav-03{ display: none}
+#calltomain li li{
+    font-size: 1.125em;
+    line-height: 2em;
+    margin: 0;
+    padding: 0}    
+ 
+#footer-main{ width: 573px}   
 }
 
 /*
@@ -270,7 +274,40 @@ footer{
 =====================================
 */
 @media (max-width: 420px) {
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 386px}
+#submenu{ height: 8px}    
+#google_translate_element,    
+.submenu-item{ display: none}
+#banner_slider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:141px}
+.flex-control-nav { bottom: -12px}    
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 100% 141px}   
+#main-nav{ display: none}
+#logobox{
+    width: 350px;
+    height: 125px;
+    margin: 20px 0 20px 18px;
+    background-size: contain}
+#aboutinfo h3{
+    width: 330px;
+    height: 36px;
+    background-size: contain}
+#aboutinfo p{ font-size: 1em}    
     
+#footer-main{ width: 386px}      
 }
 
 /*
@@ -294,8 +331,8 @@ for-retina-photo
     #logobox{
         background: url(../images/rwd/LOGO@3X.png) no-repeat;
         background-size: contain}
-    #courimg{
+    /*#courimg{
         background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat;
-        background-size: contain}
+        background-size: contain*/}
     
 }
