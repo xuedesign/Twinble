@@ -158,7 +158,7 @@ footer{
 #calltomain nav{
     left: 25px}
 footer{
-	height: 300px;}    
+	height: 300px}    
 #footer-main{ width: 750px}
 #copyright,
 #contactbox,
@@ -283,7 +283,7 @@ footer{
 #calltoaction,
 #banner_slider,
 footer{ 
-    min-width: 386px}
+    min-width: 373px}
 #submenu{ height: 8px}    
 #google_translate_element,    
 .submenu-item{ display: none}
@@ -297,17 +297,71 @@ footer{
     background-size: 100% 141px}   
 #main-nav{ display: none}
 #logobox{
-    width: 350px;
-    height: 125px;
-    margin: 20px 0 20px 18px;
+    width: 300px /*350px*/;
+    height: 107px /*125px*/;
+    margin: 20px 0 20px 36px;
     background-size: contain}
+#aboutinfo{
+    margin: 10px auto 0 auto}    
 #aboutinfo h3{
     width: 330px;
     height: 36px;
     background-size: contain}
-#aboutinfo p{ font-size: 1em}    
+#aboutinfo p{ font-size: 1em}
     
-#footer-main{ width: 386px}      
+#courbox{
+    height: auto;
+    overflow: inherit}    
+#courimg{ display: none}
+#courlist{ 
+    width: 100%;
+    margin-top: 0;
+    padding: 0/*25px 20px 0*/}
+#courlist h3{ 
+    display: block;
+    width: 100%;
+    height: 138px;
+    margin-bottom: 30px;
+    background: url(../images/rwd/bg_core-h3@3x.jpg) no-repeat;
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#courlist li{
+    list-style: circle;
+    margin-left: 50px;
+    color: #275525;
+    letter-spacing: 1px}    
+
+#calltoaction{ 
+    height: 580px;
+    background: url(../images/bg_calltoaction.jpg) bottom center no-repeat }
+.callto-slogan-01{
+    top: 60px;
+    left: 5px;
+    width: 360px;
+    height: 37px;
+    background-size: contain}
+.callto-slogan-02{
+    top:130px;
+    left: 8px;
+    width: 355px;
+    height: 29px;
+    background-size: contain}
+.callto-slogan-03{
+    top: 180px;
+    left: 8px;
+    width: 355px;
+    height: 44px;
+    background-size: contain}
+#calltomain nav{ display: none}
+
+footer{ height: 420px}    
+#footer-main{ width: 373px}
+#copyright,
+#contactbox{ float: none; width: 90%}
+#copyright {margin: 0 auto 15px auto}
+#contactbox{ margin: 0 auto 0 auto}
 }
 
 /*

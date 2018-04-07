@@ -257,6 +257,7 @@ img::-moz-selection { background: transparent}
     float: right;
     width: 40%;
     margin-top: 8px}
+#courlist h3{ display: none}
 #courlist li a{
     display: block;
     text-indent: 100%;
