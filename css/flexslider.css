@@ -118,6 +118,10 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
+@media screen and (max-width: 420px) {
+  .flex-direction-nav .flex-prev {opacity: 0; left: 0;}
+  .flex-direction-nav .flex-next {opacity: 0; right: 0;}
+}
 @media screen and (max-width: 1400px) {
     .flex-control-nav{
         padding-left: 0%}
