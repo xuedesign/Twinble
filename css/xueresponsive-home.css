@@ -336,6 +336,15 @@ footer{
 #calltoaction{ 
     height: 580px;
     background: url(../images/bg_calltoaction.jpg) bottom center no-repeat }
+#bg-men{
+    display: block;
+    position: absolute;
+    top:280px;
+    left:240px;
+    width: 120px;
+    height: 406px;
+    background: url(../images/rwd/bg_men.png) no-repeat;
+    background-size: contain}    
 .callto-slogan-01{
     top: 60px;
     left: 5px;

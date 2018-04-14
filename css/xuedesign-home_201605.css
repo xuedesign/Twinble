@@ -304,6 +304,7 @@ img::-moz-selection { background: transparent}
     position: relative;
     width: 1240px;
     margin: 0 auto}
+#bg-men{ display: none}
 .callto-slogan-01,
 .callto-slogan-02,
 .callto-slogan-03{
