@@ -452,6 +452,7 @@ footer{
 #contactbox h4,
 #languagebox h4{
     padding-top:20px}
+.email-padding{ padding:0 16px 0 51px}
 
 @media screen and (min-width:1366px){
     #main-nav ul{ margin: 3px 0 0 35%}
@@ -459,3 +460,11 @@ footer{
     #main-nav li.iehover li a{
         left: -70px}
 }
+
+
+/*
+========================
+行動版選單按鈕
+========================
+*/
+#btn_mobilenav a{ display: none}

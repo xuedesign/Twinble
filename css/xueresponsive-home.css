@@ -347,21 +347,21 @@ footer{
     background-size: contain}    
 .callto-slogan-01{
     top: 60px;
-    left: 5px;
-    width: 360px;
-    height: 37px;
+    left: 9px;
+    width: 345px;/*360*/
+    height: 35px;/*37*/
     background-size: contain}
 .callto-slogan-02{
     top:130px;
-    left: 8px;
-    width: 355px;
-    height: 29px;
+    left: 12px;
+    width: 345px;/*355*/
+    height: 28px;/*29*/
     background-size: contain}
 .callto-slogan-03{
     top: 180px;
-    left: 8px;
-    width: 355px;
-    height: 44px;
+    left: 12px;
+    width: 345px;/*355*/
+    height: 43px;/*44*/
     background-size: contain}
 #calltomain nav{ display: none}
 
@@ -371,6 +371,19 @@ footer{ height: 420px}
 #contactbox{ float: none; width: 90%}
 #copyright {margin: 0 auto 15px auto}
 #contactbox{ margin: 0 auto 0 auto}
+    
+#btn_mobilenav a{
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 199;
+    width: 51px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/rwd/btn_mobile-nav.png) no-repeat;
+    background-size: contain}
 }
 
 /*
@@ -379,7 +392,63 @@ footer{ height: 420px}
 =====================================
 */
 @media (max-width: 321px) {
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 300px}
+.flexslider .slides li,
+.flexslider .slides li a{ height:113px}
+.flex-control-nav { bottom: 0} 
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 100% 113px}  
+#logobox{
+    width: 250px;
+    height: 89px;
+    margin: 20px 0 20px 27px;
+    background-size: contain}
+#aboutinfo h3{
+    width: 250px;
+    height: 27px;
+    background-size: contain}
+#courlist h3{ margin-bottom: 10px}    
+#courlist li{
+    list-style: circle;
+    margin-left: 35px;
+    color: #275525;
+    letter-spacing: 0}
+#bg-men{
+    top:280px;
+    left:180px}    
+.callto-slogan-01{
+    top: 60px;
+    left: 15px;
+    width: 270px;
+    height: 27px;
+    background-size: contain}
+.callto-slogan-02{
+    top:115px;
+    left: 18px;
+    width: 270px;
+    height: 22px;
+    background-size: contain}
+.callto-slogan-03{
+    top: 150px;
+    left: 18px;
+    width: 270px;
+    height: 34px;
+    background-size: contain}    
+
+footer{ height: 500px} 
+#footer-main{ width: 300px}
+.email-padding{ padding:0 16px 0 0}        
 }
 
 
