@@ -83,6 +83,7 @@ header,
 	width:109px;
 	height:29px;
 	background:url(../images/pic_submenu-h2.png) no-repeat;
+    background-size: 102px 29px;
 	text-indent:100%;
     white-space: nowrap;
     overflow: hidden}
@@ -830,4 +831,5 @@ footer{
     white-space: nowrap;
     overflow: hidden}
 #btn_totop a:hover{ 
-    background:url(../images/btn_totop.png) 0 -33px no-repeat}13/**/439px391/**/439px1
+    background:url(../images/btn_totop.png) 0 -33px no-repeat}/*13 439px391 439px1*/
+#btn_mobilenav a{ display: none}

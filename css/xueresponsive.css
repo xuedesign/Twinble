@@ -14,7 +14,33 @@
 =====================================
 */
 @media (max-width:1110px) { 
-    
+#wrap,
+header,
+#submenu,    
+footer{
+    min-width: 1000px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 1000px}
+#container section{
+    width: 90%}
+.submenu-item{ width: 1000px}    
+.submenu-item li.tt1 a{
+    margin-right: 180px}    
+#submenu h1 a{ 
+    background:url(../images/rwd/pic_submenu-h2@3x.png) no-repeat;
+    background-size: 109px 29px}    
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 33%}
+#contactbox{ 
+    width: 45%; 
+    word-wrap:break-word}
+#languagebox{ width: 10%}      
 }
 
 /*
@@ -23,7 +49,74 @@
 =====================================
 */
 @media (max-width:800px) {
-    
+#wrap,
+header,
+#submenu,
+footer{ min-width: 750px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{ width: 100%; max-width: 750px} 
+.submenu-item{ width: 750px}
+
+#banner-sub{height: 235px}
+.sub-visiven{
+    width: 450px;
+    height: 235px}
+.sub-slogan-01, .sub-slogan-02, .sub-slogan-03, .sub-slogan-04,
+.sub-slogan-05, .sub-slogan-06, .sub-slogan-07,
+.sv-01, .sv-02, .sv-03, .sv-04, .sv-05, .sv-06, .sv-07,
+.products-item-01, .products-item-02, .products-item-03{ 
+    background-size: contain}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 400px;
+    height: 168px;
+    top:20px;
+    left: 0px}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 642px;
+    height: 248px;
+    top:30px;
+    left: 10px}    
+
+#top_menu{ display: none}
+#main-nav ul{ left: 30px}
+#main-nav li{
+    width: 170px;
+    height: 52px;
+    margin: 0 5px 0 0}
+#main-nav li:hover li a,    
+#main-nav li.iehover li a{ width: 170px; left: -30px}
+#main-nav li li.subtitle a:hover{ width: 170px}
+
+#container h3{
+    font-size: 2em;
+    line-height: 2em}
+#products ul{
+    padding: 0 10px}
+#products li a{
+    width: 178px;
+    margin: 0 10px;
+    padding: 205px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 30%}
+#contactbox{ 
+    width: 60%; 
+    word-wrap:break-word}
+#languagebox{
+    clear: both;
+    display: none}  
 }
 
 /*
@@ -32,7 +125,56 @@
 =====================================
 */
 @media (max-width: 600px) {
+#wrap,
+header,
+#submenu,
+footer{ min-width: 573px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{ width: 100%; max-width: 573px}  
+.submenu-item{ width: 573px}
+#google_translate_element{ display: none}
+#submenu h1 a{ left: 20px}
+.submenu-item li.tt1 a{ margin-right: 10px}
+#container section{ padding-bottom: 20px}
+
+#banner-sub{height: 162px}
+.sub-visiven{
+    width: 310px;
+    height: 162px}
+.sub-visiven a{ display: none}   
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 310px;
+    height: 130px;
+    top:20px;
+    left: 0}
     
+#main-nav ul{ left: 15px}
+#main-nav li{
+    width: 130px;
+    height: 52px;
+    margin: 0 5px 0 0}
+#main-nav li:hover li a,    
+#main-nav li.iehover li a{ width: 130px; left: -15px}
+#main-nav li li.subtitle a:hover{ width: 130px}
+
+#container h3{
+    font-size: 2em;
+    line-height: 2em}
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    width: 130px;
+    margin: 0 10px;
+    padding: 150px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
 }
 
 /*
@@ -41,7 +183,73 @@
 =====================================
 */
 @media (max-width: 420px) {
+#wrap,
+header,
+#submenu,
+footer{
+    min-width: 373px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 373px}
+.submenu-item{ width: 373px}
+#submenu h1 a{ left: 130px}    
+.submenu-item li.tt1 a,
+.submenu-item li.tt2 a,
+#main-nav{ display: none}
+
+#banner-sub{height: 105px}
+.sub-visiven{
+    right: 10px;
+    width: 200px;
+    height: 105px}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 200px;
+    height: 84px;
+    top:10px;
+    left: 0}
     
+footer{ height: 420px}    
+#footer-main{ width: 373px}
+#copyright,
+#contactbox{ float: none; width: 90%}
+#copyright {margin: 0 auto 15px auto}
+#contactbox{ margin: 0 auto 0 auto}
+    
+#btn_mobilenav a{
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 199;
+    width: 51px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/rwd/btn_mobile-nav.png) no-repeat;
+    background-size: contain}
+    
+#container h3{
+    font-size: 1.2em;
+    line-height: 1.5em}
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    display: inline-block;
+    float: left;
+    width: 221px;
+    margin: 0 60px 20px;
+    padding: 250px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+
 }
 
 /*
@@ -50,7 +258,50 @@
 =====================================
 */
 @media (max-width: 321px) {
+#wrap,
+header,
+#submenu,
+footer{
+    min-width: 300px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 300px}
+.submenu-item{ width: 250px}
+#submenu h1 a{ left: 70px}
+
+#banner-sub{height: 89px}
+.sub-visiven{
+    right: 10px;
+    width: 170px;
+    height: 89px}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 160px;
+    height: 67px;
+    top: 5px;
+    left: 0}
+
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    display: inline-block;
+    float: left;
+    width: 221px;
+    margin: 0 20px 25px;
+    padding: 250px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
     
+footer{ height: 500px} 
+#footer-main{ width: 300px}
+.email-padding{ padding:0 16px 0 0}   
 }
 
 
