@@ -187,14 +187,14 @@ footer{ min-width: 573px}
 header,
 #submenu,
 footer{
-    min-width: 373px}
+    min-width: 355px}
 #banner,
 #banner-sub,
 #container,
 #footer-main{
     width: 100%;
-    max-width: 373px}
-.submenu-item{ width: 373px}
+    max-width: 355px}
+.submenu-item{ width: 355px}
 #submenu h1 a{ left: 130px}    
 .submenu-item li.tt1 a,
 .submenu-item li.tt2 a,
@@ -216,7 +216,7 @@ footer{
     left: 0}
     
 footer{ height: 420px}    
-#footer-main{ width: 373px}
+#footer-main{ width: 355px}
 #copyright,
 #contactbox{ float: none; width: 90%}
 #copyright {margin: 0 auto 15px auto}
