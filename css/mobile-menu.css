@@ -33,8 +33,8 @@ a:hover {text-decoration:none; color:#A5F5A2}
 
 #wrap{
     display: block;
-    width: 85vw;
-    height: 95vh;
+    width: 85%;
+    /*height: 95vh;*/
     margin: 0 auto}
 .close {
   position: absolute;

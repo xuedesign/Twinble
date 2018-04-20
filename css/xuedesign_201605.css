@@ -545,6 +545,7 @@ header,
     float: left;
     margin: 0;
     padding: 0}
+#skin_product-01{ display: none}
 .skin_right{
     display: block;
     float: right;
@@ -616,6 +617,15 @@ header,
     margin-bottom: 10px;
     /*padding-top: 5px*/}
 #box_partnumber span{ font-weight: bold}
+#box_partnumber #skin-info-01,
+#box_partnumber #skin-info-02,
+#box_partnumber #skin-info-03{
+    font-size:1em; 
+    font-weight: normal; 
+    line-height: 1.375em; 
+    padding:15px 0 0; 
+    color:#6E6E6E; 
+    border: none}
 
 /*
 ========================
