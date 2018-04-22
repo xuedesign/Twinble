@@ -169,7 +169,8 @@ footer{
     word-wrap:break-word}
 #languagebox{
     clear: both;
-    display: none}       
+    display: none}
+#copyright p{ width: 95%}
 }
 
 /*
@@ -371,6 +372,7 @@ footer{ height: 420px}
 #contactbox{ float: none; width: 90%}
 #copyright {margin: 0 auto 15px auto}
 #contactbox{ margin: 0 auto 0 auto}
+#copyright p{ width: 100%}
     
 #btn_mobilenav a{
     display: block;

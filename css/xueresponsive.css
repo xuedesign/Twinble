@@ -125,6 +125,7 @@ footer{ min-width: 750px}
 #languagebox{
     clear: both;
     display: none}
+#copyright p{ width: 95%}
     
 /*內文調整*/
 #profile .my-twinble{ display: none}
@@ -195,6 +196,48 @@ footer{ min-width: 750px}
 #summary-04,
 #summary-05,
 #summary-06{ height: 180px}
+#lohas-01,
+#lohas-02{
+    display: block;
+    float: none;
+    margin: 5px auto}
+#lohas-03,
+#lohas-04,
+#lohas-05{ display: block; height: 282px}
+#lohas-08,
+#lohas-09{ display: block; height: 252px}
+#lohas-10,
+#lohas-11,
+#lohas-12{ display: block; height: 200px}
+#lohas-13,
+#lohas-14{ display: block; height: 220px}
+#lohas-15,
+#lohas-16,
+#lohas-17{ display: block; height: 300px}
+#health-01,
+#health-02{ display: block; height: 275px}
+#health-03,
+#health-04{ display: block; height: 195px}
+#health-05,
+#health-06,
+#health-07{ display: block; height: 205px}
+#health-08,
+#health-09{ display: block; height: 160px}
+#health-10,
+#health-11{ display: block; height: 170px}
+#health-12,
+#health-13{ display: block; height: 230px}
+
+.contact_info h3{ 
+    top:20px; 
+    right: -5px;
+    width: 280px;
+    height: 208px;
+    background-size: contain}
+#send-mail h4{
+    line-height: 3rem;
+    padding-left: 80px}
+#box_thanks h5{ padding-top: 35px}
 }
 
 /*
@@ -308,6 +351,51 @@ footer{ min-width: 573px}
     float: right;
     width: 45%;
     padding-top: 5%}
+#lohas-03,
+#lohas-04,
+#lohas-05{ display: block; height: 215px}
+#lohas-06,
+#lohas-07{ display: block; height: 168px}
+#lohas-08,
+#lohas-09{ display: block; height: 200px}
+#lohas-10,
+#lohas-11,
+#lohas-12{ display: block; height: 155px}
+#lohas-13,
+#lohas-14{ display: block; height: 165px}
+#lohas-15,
+#lohas-16,
+#lohas-17{ display: block; height: 220px}
+#health-01,
+#health-02{ display: block; height: 210px}
+#health-03,
+#health-04{ display: block; height: 150px}
+#health-05,
+#health-06,
+#health-07{ display: block; height: 155px}
+#health-08,
+#health-09{ display: block; height: 122px}
+#health-10,
+#health-11{ display: block; height: 130px}
+#health-12,
+#health-13{ display: block; height: 180px}
+    
+.contact_info h3{ 
+    top:100px; 
+    right: -5px;
+    width: 200px;
+    height: 149px;
+    background-size: contain}
+#send-mail h4{ padding-left: 60px}
+#box_thanks img{ 
+    width: 170px; 
+    height: auto;
+    margin-right: 15px}
+#box_thanks h5{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 30px}
 }
 
 /*
@@ -360,6 +448,7 @@ footer{ height: 420px}
 #contactbox{ float: none; width: 90%}
 #copyright {margin: 0 auto 15px auto}
 #contactbox{ margin: 0 auto 0 auto}
+#copyright p{ width: 100%}
     
 #btn_mobilenav a{
     display: block;
@@ -422,7 +511,9 @@ footer{ height: 420px}
     margin: 15px auto 10px auto;
     text-align: center}
 
-#box_skin h3{ padding: 15px 0}
+#box_skin h3,
+#box_life h3,
+#box_health h3{ padding: 15px 0}
 .skin_left{ width: 95%}
 #summary-01,
 #summary-02,
@@ -432,10 +523,18 @@ footer{ height: 420px}
 #summary-06{ height: 125px}
 #box_partnumber{ padding-top: 15px}
 .part_info{ padding-top: 0}
+#box_skin h4,
+#box_partnumber h4,
+#box_health h4,
+#box_life h4,
 #box_partnumber h5{
     font-size: 1.5em;
     line-height: 1.5em;
     background-position: 0 8px}
+#box_health h4,
+#box_life h4{
+    padding:0 0 0  47px;
+    background: url(../images/icon_ppont.png) 0 5px no-repeat}
 #box_partnumber ul{
     display: block;
     padding: 10px 0 20px}
@@ -457,6 +556,64 @@ footer{ height: 420px}
 #box_Soap-Cartridge-Refill img:nth-child(5),
 #box_Soap-Cartridge-Refill img:nth-child(7){
     margin:0 30px 0 5px}
+
+#LOHAS-info,
+#health-info{ margin-bottom: 20px}
+#lohas-01,
+#lohas-02,
+#lohas-03,
+#lohas-04,
+#lohas-05,
+#lohas-06,
+#lohas-07,
+#lohas-08,
+#lohas-09,
+#lohas-10,
+#lohas-11,
+#lohas-12,
+#lohas-13,
+#lohas-14,
+#lohas-15,
+#lohas-16,
+#lohas-17,
+#health-01,
+#health-02,
+#health-03,
+#health-04,
+#health-05,
+#health-06,
+#health-07,
+#health-08,
+#health-09,
+#health-10,
+#health-11,
+#health-12,
+#health-13{ 
+    display: block;
+    float: none;
+    width: 80%;
+    height: auto;
+    margin: 0 auto}
+
+.contact_info h3{ display: none}
+#send-mail h4{ padding-left: 40px}
+.contact_info li{
+    padding: 15px 0 15px 15px}
+.contact_info span{
+    display: block;
+    width: 100%;
+    text-align: left}
+.EmailSet-01,
+.EmailSet-02{ padding:0}
+#box_thanks img{
+    float: none;
+    margin: 0 auto 10px auto}
+#box_thanks h5{
+    float: none;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 0}
 }
 
 /*
@@ -557,8 +714,15 @@ footer{ height: 500px}
 #box_Soap-Cartridge-Refill img{
     width: 85%;
     height: auto;
-    margin: 5px auto;
-    }
+    margin: 5px auto}
+.contact_info li{ font-size: .875em; letter-spacing: 0}
+#send-mail h4{
+    line-height: 3rem;
+    padding-left: 20px}
+#box_thanks h5{
+    font-size: 20px;
+    line-height: 25px}
+.email-padding{ padding:0 16px 0 0} 
 }
 
 

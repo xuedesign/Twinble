@@ -696,6 +696,8 @@ header,
     padding-left: 100px}
 #send-mail .fa-envelope-o{
     margin-right: 10px}
+.EmailSet-01{ padding-right:5px}
+.EmailSet-02{ line-height: 2em; padding:0 8px 0 85px}
 
 
 /*
@@ -769,6 +771,7 @@ footer{
     white-space:nowrap;
     overflow:hidden;
     margin-bottom: 20px}
+#copyright p{ width: 350px}
 #contactbox{
     width: 590px;
     padding: 0}

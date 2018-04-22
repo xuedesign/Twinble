@@ -441,6 +441,7 @@ footer{
     white-space:nowrap;
     overflow:hidden;
     margin-bottom: 20px}
+#copyright p{ width: 350px}
 #contactbox{
     width: 590px;
     padding: 0}
