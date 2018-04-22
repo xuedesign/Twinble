@@ -290,7 +290,24 @@ footer{ min-width: 573px}
     width: 46%;
     margin: 15px 3 10px;
     text-align: center}
-
+#summary-01,
+#summary-02,
+#summary-03{ height: 152px}
+#summary-04,
+#summary-05,
+#summary-06{ height: 140px}
+#box_partnumber li{ 
+    width: 90%;
+    margin: 15px auto}
+#box_partnumber img{
+    margin-right: 0;
+    width: 45%;
+    height: auto}
+.part_info{
+    display: block;
+    float: right;
+    width: 45%;
+    padding-top: 5%}
 }
 
 /*
@@ -404,6 +421,42 @@ footer{ height: 420px}
     width: 95%;
     margin: 15px auto 10px auto;
     text-align: center}
+
+#box_skin h3{ padding: 15px 0}
+.skin_left{ width: 95%}
+#summary-01,
+#summary-02,
+#summary-03,
+#summary-04{ height: 135px}
+#summary-05,
+#summary-06{ height: 125px}
+#box_partnumber{ padding-top: 15px}
+.part_info{ padding-top: 0}
+#box_partnumber h5{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    background-position: 0 8px}
+#box_partnumber ul{
+    display: block;
+    padding: 10px 0 20px}
+#box_partnumber #skin-info-01,
+#box_partnumber #skin-info-02,
+#box_partnumber #skin-info-03{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1em; 
+    font-weight: normal; 
+    line-height: 1.375em; 
+    padding:15px 0 0; 
+    color:#6E6E6E; 
+    border: none}
+#box_Soap-Cartridge-Refill img{ height: 180px}
+#box_Soap-Cartridge-Refill img:nth-child(3){
+    margin:0 15px 0 5px}
+#box_Soap-Cartridge-Refill img:nth-child(5),
+#box_Soap-Cartridge-Refill img:nth-child(7){
+    margin:0 30px 0 5px}
 }
 
 /*
@@ -482,6 +535,30 @@ footer{ height: 500px}
 .note{
     font-size: .875em;
     padding-top: 5px;}
+
+.skin_left img{ width: 48%}
+#summary-01,
+#summary-02,
+#summary-03,
+#summary-04{ height: 110px}
+#summary-05,
+#summary-06{ height: 105px}
+#box_partnumber #skin-info-01,
+#box_partnumber #skin-info-02,
+#box_partnumber #skin-info-03{ width: 98%}
+#box_partnumber img{
+    width: 38%}
+.part_info{
+    display: block;
+    float: right;
+    width: 51%;
+    padding: 0;
+    margin-left: 2%}
+#box_Soap-Cartridge-Refill img{
+    width: 85%;
+    height: auto;
+    margin: 5px auto;
+    }
 }
 
 
