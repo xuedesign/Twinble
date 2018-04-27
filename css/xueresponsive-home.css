@@ -4,7 +4,7 @@
 * @project    twinble.com
 * @Author     Elmo Woo <hello@xuedesign.tw>
 * @copyright  2018 xuedesign studio
-* @version    v1.0 - 201804
+* @version    v1.5 - 201805
 *
 **/
 
@@ -289,13 +289,22 @@ footer{
 #google_translate_element,    
 .submenu-item{ display: none}
 #banner_slider,
+.flexslider,
 .flexslider .slides li,
-.flexslider .slides li a{ height:141px}
-.flex-control-nav { bottom: -12px}    
-.flexslider .slides .sbg-01,
-.flexslider .slides .sbg-02,
-.flexslider .slides .sbg-03{
-    background-size: 100% 141px}   
+.flexslider .slides li a{ height:232px}
+.flex-control-nav { bottom: -5px}    
+.flexslider .slides .sbg-01{ 
+    background: url(../images/rwd/banne@3x-01.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
+.flexslider .slides .sbg-02{ 
+    background: url(../images/rwd/banne@3x-02.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
+.flexslider .slides .sbg-03{ 
+    background: url(../images/rwd/banne@3x-03.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
 #main-nav{ display: none}
 #logobox{
     width: 300px /*350px*/;
@@ -388,6 +397,14 @@ footer{ height: 420px}
     background-size: contain}
 }
 
+@media (max-width: 375px) {
+.flex-control-nav { bottom: -5px}
+#banner_slider,
+.flexslider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:219px}   
+}
+
 /*
 =====================================
 手機 for-phone-only (small screen)
@@ -404,13 +421,15 @@ footer{ height: 420px}
 #banner_slider,
 footer{ 
     min-width: 300px}
+#banner_slider,
+.flexslider{ height: 175px}
 .flexslider .slides li,
-.flexslider .slides li a{ height:113px}
-.flex-control-nav { bottom: 0} 
+.flexslider .slides li a{ height:175px}
+.flex-control-nav { bottom: -8px} 
 .flexslider .slides .sbg-01,
 .flexslider .slides .sbg-02,
 .flexslider .slides .sbg-03{
-    background-size: 100% 113px}  
+    background-size: 100% 175px}  
 #logobox{
     width: 250px;
     height: 89px;
