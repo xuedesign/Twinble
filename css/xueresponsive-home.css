@@ -279,7 +279,8 @@ footer{
 #banner_slider,
 #mainbox,
 #main-nav,
-#aboutbox,    
+#aboutbox,
+#mobile-icon-nav,    
 #courbox,
 #calltoaction,
 #banner_slider,
@@ -318,6 +319,33 @@ footer{
     height: 36px;
     background-size: contain}
 #aboutinfo p{ font-size: 1em}
+    
+#mobile-icon-nav{
+    display: block;
+    margin: 15px auto}
+#naviconbox{ 
+    display: flex}    
+#naviconbox li{
+    width: 30%;
+    margin: 0 1% 0 2%;
+    text-align: center}
+#naviconbox li:nth-child(2){
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    }    
+#naviconbox i{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 2em}
+#naviconbox li a:link,
+#naviconbox li a:visited{
+    font-size: .875em;
+    text-align: center;
+    color: rgba(100, 87, 68, .8)}
+#naviconbox li a:hover{
+    color: #367434;
+    text-decoration: none}    
     
 #courbox{
     height: auto;
@@ -415,6 +443,7 @@ footer{ height: 420px}
 #banner_slider,
 #mainbox,
 #main-nav,
+#mobile-icon-nav,    
 #aboutbox,    
 #courbox,
 #calltoaction,

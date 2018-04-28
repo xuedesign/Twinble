@@ -240,6 +240,9 @@ img::-moz-selection { background: transparent}
     color: #307107;
     text-decoration: none}
 
+/*行動版icon連結*/
+#mobile-icon-nav{ display: none}
+
 /*優勢介紹*/
 #courbox{
     display: block;
