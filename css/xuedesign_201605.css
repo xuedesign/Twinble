@@ -845,4 +845,5 @@ footer{
     overflow: hidden}
 #btn_totop a:hover{ 
     background:url(../images/btn_totop.png) 0 -33px no-repeat}/*13 439px391 439px1*/
-#btn_mobilenav a{ display: none}
+#mmenu,
+#mcontact{ display: none}

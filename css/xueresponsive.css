@@ -415,14 +415,19 @@ footer{
 #footer-main{
     width: 100%;
     max-width: 355px}
+#submenu{ 
+    position: fixed;
+    z-index: 999}
 .submenu-item{ width: 355px}
 #submenu h1 a{ left: 120px}    
 .submenu-item li.tt1 a,
 .submenu-item li.tt2 a,
 #main-nav{ display: none}
 
-#banner-sub{height: 105px}
+#banner-sub{
+    height: 145px}
 .sub-visiven{
+    top:41px;
     right: 10px;
     width: 200px;
     height: 105px}
@@ -433,13 +438,13 @@ footer{
 .sub-slogan-07{
     width: 200px;
     height: 84px;
-    top:10px;
+    top:51px;
     left: 0}
 .sub-slogan-02,
 .sub-slogan-03{
     width: 210px;
     height: 81px;
-    top:10px;
+    top:51px;
     left: 10px} 
     
 footer{ height: 420px}    
@@ -449,8 +454,22 @@ footer{ height: 420px}
 #copyright {margin: 0 auto 15px auto}
 #contactbox{ margin: 0 auto 0 auto}
 #copyright p{ width: 100%}
-    
-#btn_mobilenav a{
+
+#mmenu,
+#mcontact{
+    display: block;
+    position: fixed;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgba(255, 255, 255, .8)}
+#mmenu{ 
+    top: 9px;
+    left: 18px}
+#mcontact{ 
+    top: 10px;
+    right: 18px}
+/*#btn_mobilenav a{
     display: block;
     position: fixed;
     bottom: 50px;
@@ -461,7 +480,7 @@ footer{ height: 420px}
     border: none;
     cursor: pointer;
     background: url(../images/rwd/btn_mobile-nav.png) no-repeat;
-    background-size: contain}
+    background-size: contain}*/
     
 #container h3{
     font-size: 1.5em;
@@ -636,8 +655,9 @@ footer{
 .submenu-item{ width: 250px}
 #submenu h1 a{ left: 70px}
 
-#banner-sub{height: 89px}
+#banner-sub{height: 130px}
 .sub-visiven{
+    top:41px;
     right: 10px;
     width: 170px;
     height: 89px}
@@ -648,13 +668,13 @@ footer{
 .sub-slogan-07{
     width: 160px;
     height: 67px;
-    top: 5px;
+    top: 46px;
     left: 0}
 .sub-slogan-02,
 .sub-slogan-03{
     width: 165px;
     height: 64px;
-    top:10px;
+    top:51px;
     left: 10px} 
 
 #products ul{
