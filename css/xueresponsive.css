@@ -532,7 +532,8 @@ footer{ height: 420px}
 
 #box_skin h3,
 #box_life h3,
-#box_health h3{ padding: 15px 0}
+#box_health h3,
+#box_contact{ padding: 15px 0}
 .skin_left{ width: 95%}
 #summary-01,
 #summary-02,
