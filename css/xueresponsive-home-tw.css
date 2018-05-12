@@ -4,17 +4,173 @@
 * @project    twinble.com
 * @Author     Elmo Woo <hello@xuedesign.tw>
 * @copyright  2018 xuedesign studio
-* @version    v1.0 - 201804
+* @version    v1.5 - 201805
 *
 **/
 
 /*
 =====================================
-平板裝置(寬>長)  for-tablet-landscape-up
+桌上型電腦 for-desktop-down
 =====================================
 */
 @media (max-width:1110px) { 
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 1000px}
+.submenu-item{ width: 1000px}    
+.submenu-item li.tt1 a{
+    margin-right: 180px}
+#banner_slider{
+	height:353px}
+.flexslider .slides li{
+    height:357px}
+.flexslider .slides li a{ height:357px}
+.flexslider .slides .sbg-01 {
+    background: url(../images/rwd/banner-01.jpg) center}
+.flexslider .slides .sbg-02 {
+    background: url(../images/rwd/banner-02.jpg) center}
+.flexslider .slides .sbg-03 {
+    background: url(../images/rwd/banner-03.jpg) center}
+.flex-control-nav { bottom: 38px}
+#main-nav{
+    margin-bottom: 0;
+    padding-bottom: 35px}
+#main-nav ul{
+    margin: 3px 0 0 21%}
+#main-nav ul ul{ margin: 3px 0 0 29%}    
+#aboutbox{ 
+    width: 1000px;
+    padding:30px 0 0}    
+#logobox{
+    display: block;
+    width: 425px;
+    height: 152px;
+    margin: 50px 0 0 15px;
+    background-size: 425px 152px;
+    background: url(../images/logo_about.png) no-repeat}
+#aboutinfo{
+    display: block;
+    float: left;
+    width: 524px;
+    margin: 60px 0 48px 20px;
+    padding-left: 20px;
+    border-left: 1px solid #9D9E9E}
+#courimg{
+    width: 55%;
+    height: 355px;
+    background: url(../images/pic_core-competence.jpg) no-repeat;
+    background-position: -850px 0}
+#courlist{ width: 45%}
+.callto-slogan-01{
+    top: 96px;
+    left: 270px}
+.callto-slogan-02{
+    top:209px;
+    left: 108px}
+.callto-slogan-03{
+    top: 254px;
+    left: 186px}
+#calltomain nav{
+    left: 145px}    
+footer{
+	height: 300px;}    
+#footer-main{ width: 1000px}
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 33%}
+#contactbox{ 
+    width: 45%; 
+    word-wrap:break-word}
+#languagebox{ width: 10%}   
+}
+
+/*
+=====================================
+平板裝置(寬>長) for-tablet-landscape-up
+=====================================
+*/
+@media (max-width:800px) {
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 750px}
+.submenu-item{ width: 750px}
+#banner_slider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:268px}
+.flex-control-nav { bottom: 26px}    
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 768px 268px}   
+#main-nav{
+    margin-bottom: 60px;
+    padding-bottom: 35px}
+#main-nav ul{
+    margin: 3px 0 0 11%}
+#aboutbox{ 
+    width: 100%;
+    padding:0}
+#logobox{
+    display: block;
+    width: 425px;
+    height: 152px;
+    margin: 0 0 20px 162px;
+    background-size: 425px 152px;
+    background: url(../images/logo_about.png) center top no-repeat}
+#aboutinfo{
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 10px auto 48px;
+    padding-left: 0;
+    border-left: none}
+#courimg{
+    width: 35%;
+    height: 355px;
+    background-size: 269px 355px;
+    background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat;
+    background-size: contain}
+#courlist{ width: 65%}
+.callto-slogan-01{
+    top: 96px;
+    left: 100px}
+.callto-slogan-02{
+    top:209px;
+    left: 38px}
+.callto-slogan-03{
+    top: 274px;
+    left: 66px}
+#calltomain nav{
+    left: 25px}
+footer{
+	height: 300px}    
+#footer-main{ width: 750px}
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 30%}
+#contactbox{ 
+    width: 60%; 
+    word-wrap:break-word}
+#languagebox{
+    clear: both;
+    display: none}
+#copyright p{ width: 95%}
 }
 
 /*
@@ -22,35 +178,327 @@
 平板裝置(長>寬) for-tablet-portrait-up
 =====================================
 */
-@media (max-width:800px) {
-    
-}
-
-/*
-=====================================
-平板裝置(7"~8"小平板) for-SnmallTablet
-=====================================
-*/
 @media (max-width: 600px) {
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 573px}
+.submenu-item{ width: 573px}
+#banner_slider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:209px}
+.flex-control-nav { bottom: 18px}    
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 100% 209px}   
+#main-nav ul{
+    margin: 3px 0 0 4%}
+#main-nav li,
+#main-nav li.iehover li a,
+#main-nav li li.subtitle a:hover{ width: 175px}
+#logobox{
+    margin: 0 0 20px 74px}    
+#courimg{
+    width: 50%;
+    background: url(../images/rwd/pic_core-competence@3x.jpg) top center no-repeat;
+    background-size: contain}
+#courlist{ 
+    width: 50%;
+    padding: 25px 20px 0}
+#courlist li a,
+#courlist li a:visited{
+    height: auto;
+    padding-bottom: 10px;
+    margin-bottom: 28px;
+    text-indent: 0;
+    font-size: 1.125em;
+    font-weight: bold;
+    line-height: 1.375em;
+    color: #275525;
+    text-decoration: none;
+    border-bottom: 1px dashed #e1e1e1} 
+#courlist li a:hover{
+    color: #50a818;
+    text-decoration: none}    
+.cour-01,
+.cour-02,
+.cour-03,
+.cour-04,
+.cour-05{
+    background: none;
+    width: 100%;
+    margin-left: 0;
+    background-position: 0}
+
+#calltoaction{ height: 650px}
+.callto-slogan-01{
+    top: 96px;
+    left: 75px;
+    width: 459px;
+    height: 47px;
+    background-size: contain}
+.callto-slogan-02{
+    top:180px;
+    left: 28px;
+    width: 416px;
+    height: 34px;
+    background-size: contain}
+.callto-slogan-03{
+    top: 245px;
+    left: 56px;
+    width: 495px;
+    height: 62px;
+    background-size: contain}
+#calltomain nav{
+    top: 380px;
+    left: 52px}
+#calltomain .nav-03{ display: none}
+#calltomain li li{
+    font-size: 1.125em;
+    line-height: 2em;
+    margin: 0;
+    padding: 0}    
+ 
+#footer-main{ width: 573px}   
 }
 
 /*
 =====================================
-手機(5"以上大螢幕) for-phone-only
+手機(大螢幕) for-phone-only
 =====================================
 */
 @media (max-width: 420px) {
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#aboutbox,
+#mobile-icon-nav,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 373px}
+#submenu{ height: 8px}    
+#google_translate_element,    
+.submenu-item{ display: none}
+#banner_slider,
+.flexslider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:232px}
+.flex-control-nav { bottom: -5px}    
+.flexslider .slides .sbg-01{ 
+    background: url(../images/rwd/banne@3x-01.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
+.flexslider .slides .sbg-02{ 
+    background: url(../images/rwd/banne@3x-02.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
+.flexslider .slides .sbg-03{ 
+    background: url(../images/rwd/banne@3x-03.jpg) no-repeat;
+    background-position: top center;
+    background-size: contain}
+#main-nav{ display: none}
+#logobox{
+    width: 300px /*350px*/;
+    height: 107px /*125px*/;
+    margin: 20px 0 20px 36px;
+    background-size: contain}
+#aboutinfo{
+    margin: 10px auto 0 auto}    
+#aboutinfo h3{
+    width: 330px;
+    height: 36px;
+    background-size: contain}
+#aboutinfo p{ font-size: 1em}
     
+#mobile-icon-nav{
+    display: block;
+    margin: 15px auto}
+#naviconbox{ 
+    display: flex}    
+#naviconbox li{
+    width: 30%;
+    margin: 0 1% 0 2%;
+    text-align: center}
+#naviconbox li:nth-child(2){
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    }    
+#naviconbox i{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 2em}
+#naviconbox li a:link,
+#naviconbox li a:visited{
+    font-size: .875em;
+    text-align: center;
+    color: rgba(100, 87, 68, .8)}
+#naviconbox li a:hover{
+    color: #367434;
+    text-decoration: none}    
+    
+#courbox{
+    height: auto;
+    overflow: inherit}    
+#courimg{ display: none}
+#courlist{ 
+    width: 100%;
+    margin-top: 0;
+    padding: 0/*25px 20px 0*/}
+#courlist h3{ 
+    display: block;
+    width: 100%;
+    height: 138px;
+    margin-bottom: 30px;
+    background: url(../images/rwd/bg_core-h3@3x.jpg) no-repeat;
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden}
+#courlist li{
+    list-style: circle;
+    margin-left: 50px;
+    color: #275525;
+    letter-spacing: 1px}    
+
+#calltoaction{ 
+    height: 580px;
+    background: url(../images/bg_calltoaction.jpg) bottom center no-repeat }
+#bg-men{
+    display: block;
+    position: absolute;
+    top:280px;
+    left:240px;
+    width: 120px;
+    height: 406px;
+    background: url(../images/rwd/bg_men.png) no-repeat;
+    background-size: contain}    
+.callto-slogan-01{
+    top: 60px;
+    left: 9px;
+    width: 345px;/*360*/
+    height: 35px;/*37*/
+    background-size: contain}
+.callto-slogan-02{
+    top:130px;
+    left: 12px;
+    width: 345px;/*355*/
+    height: 28px;/*29*/
+    background-size: contain}
+.callto-slogan-03{
+    top: 180px;
+    left: 12px;
+    width: 345px;/*355*/
+    height: 43px;/*44*/
+    background-size: contain}
+#calltomain nav{ display: none}
+
+footer{ height: 420px}    
+#footer-main{ width: 373px}
+#copyright,
+#contactbox{ float: none; width: 90%}
+#copyright {margin: 0 auto 15px auto}
+#contactbox{ margin: 0 auto 0 auto}
+#copyright p{ width: 100%}
+    
+#btn_mobilenav a{
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 199;
+    width: 51px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/rwd/btn_mobile-nav.png) no-repeat;
+    background-size: contain}
+}
+
+@media (max-width: 375px) {
+.flex-control-nav { bottom: -5px}
+#banner_slider,
+.flexslider,
+.flexslider .slides li,
+.flexslider .slides li a{ height:219px}   
 }
 
 /*
 =====================================
-手機(4.7"以下小螢幕) for-phone-only
+手機 for-phone-only (small screen)
 =====================================
 */
 @media (max-width: 321px) {
-    
+#wrap,
+#banner_slider,
+#mainbox,
+#main-nav,
+#mobile-icon-nav,    
+#aboutbox,    
+#courbox,
+#calltoaction,
+#banner_slider,
+footer{ 
+    min-width: 300px}
+#banner_slider,
+.flexslider{ height: 175px}
+.flexslider .slides li,
+.flexslider .slides li a{ height:175px}
+.flex-control-nav { bottom: -8px} 
+.flexslider .slides .sbg-01,
+.flexslider .slides .sbg-02,
+.flexslider .slides .sbg-03{
+    background-size: 100% 175px}  
+#logobox{
+    width: 250px;
+    height: 89px;
+    margin: 20px 0 20px 27px;
+    background-size: contain}
+#aboutinfo h3{
+    width: 250px;
+    height: 27px;
+    background-size: contain}
+#courlist h3{ margin-bottom: 10px}    
+#courlist li{
+    list-style: circle;
+    margin-left: 35px;
+    color: #275525;
+    letter-spacing: 0}
+#bg-men{
+    top:280px;
+    left:180px}    
+.callto-slogan-01{
+    top: 60px;
+    left: 15px;
+    width: 270px;
+    height: 27px;
+    background-size: contain}
+.callto-slogan-02{
+    top:115px;
+    left: 18px;
+    width: 270px;
+    height: 22px;
+    background-size: contain}
+.callto-slogan-03{
+    top: 150px;
+    left: 18px;
+    width: 270px;
+    height: 34px;
+    background-size: contain}    
+
+footer{ height: 500px} 
+#footer-main{ width: 300px}
+.email-padding{ padding:0 16px 0 0}        
 }
 
 
@@ -60,6 +508,13 @@ for-retina-photo
 =====================================
 */
 @media only screen and (-webkit-min-device-pixel-ratio: 2.0), only screen and (min-resolution: 2dppx),
-(-webkit-min-device-pixel-ratio: 2.0), (min-resolution: 192dpi){
+(-webkit-min-device-pixel-ratio: 2.0), 
+(min-resolution: 192dpi){
+    #logobox{
+        background: url(../images/rwd/LOGO@3X.png) no-repeat;
+        background-size: contain}
+    /*#courimg{
+        background: url(../images/rwd/pic_core-competence@3x.jpg) no-repeat;
+        background-size: contain*/}
     
 }
