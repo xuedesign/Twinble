@@ -216,6 +216,9 @@ img::-moz-selection { background: transparent}
     color: #307107;
     text-decoration: none}
 
+/*行動版icon連結*/
+#mobile-icon-nav{ display: none}
+
 /*優勢介紹*/
 #courbox{
     display: block;
@@ -233,6 +236,7 @@ img::-moz-selection { background: transparent}
     float: right;
     width: 40%;
     margin-top: 8px}
+#courlist h3{ display: none}
 #courlist li a{
     display: block;
     text-indent: 100%;
@@ -288,10 +292,10 @@ img::-moz-selection { background: transparent}
     white-space: nowrap;
     overflow: hidden}
 .callto-slogan-01{
-    width: 501px;
+    width: 612px;
     height: 62px;
     top: 96px;
-    left: 484px;
+    left: 390px;
     background: url(../images/pic_call-slogan-01.png) no-repeat}
 .callto-slogan-02{
     width: 555px;
@@ -389,7 +393,7 @@ footer{
     width: 1070px;
     margin: 0 auto;
     padding-top: 40px;
-    font-size: 1.125em;  
+    font-size: 1em;  
     color: #829282}
 #footer-main h4{
     font-size: 1.376em;
