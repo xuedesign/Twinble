@@ -14,7 +14,41 @@
 =====================================
 */
 @media (max-width:1110px) { 
-    
+#wrap,
+header,
+#submenu,    
+footer{
+    min-width: 1000px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 1000px}
+#container section{
+    width: 90%}
+.submenu-item{ width: 1000px}    
+.submenu-item li.tt1 a{
+    margin-right: 180px}    
+#submenu h1 a{ 
+    background:url(../images/rwd/pic_submenu-h2@3x.png) no-repeat;
+    background-size: 109px 29px}    
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 33%}
+#contactbox{ 
+    width: 45%; 
+    word-wrap:break-word}
+#languagebox{ width: 10%}
+
+/*內文調整*/
+#profile .my-twinble{
+    top:150px;
+    right:-25px}
+img.my-twinble{
+    width: 300px;
+    height: 236px}
 }
 
 /*
@@ -23,7 +57,187 @@
 =====================================
 */
 @media (max-width:800px) {
+#wrap,
+header,
+#submenu,
+footer{ min-width: 750px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{ width: 100%; max-width: 750px} 
+.submenu-item{ width: 750px}
+
+#banner-sub{height: 235px}
+.sub-visiven{
+    width: 450px;
+    height: 235px}
+.sub-slogan-01, .sub-slogan-02, .sub-slogan-03, .sub-slogan-04,
+.sub-slogan-05, .sub-slogan-06, .sub-slogan-07,
+.sv-01, .sv-02, .sv-03, .sv-04, .sv-05, .sv-06, .sv-07,
+.products-item-01, .products-item-02, .products-item-03{ 
+    background-size: contain}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 400px;
+    height: 168px;
+    top:20px;
+    left: 0px}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 420px;
+    height: 162px;
+    top:30px;
+    left: 10px}    
+
+#top_menu{ display: none}
+#main-nav ul{ left: 30px}
+#main-nav li{
+    width: 170px;
+    height: 52px;
+    margin: 0 5px 0 0}
+#main-nav li:hover li a,    
+#main-nav li.iehover li a{ width: 170px; left: -30px}
+#main-nav li li.subtitle a:hover{ width: 170px}
+
+#container h3{
+    font-size: 2em;
+    line-height: 2em}
+#products ul{
+    padding: 0 10px}
+#products li a{
+    width: 178px;
+    margin: 0 10px;
+    padding: 205px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+
+#copyright,
+#contactbox,
+#languagebox{ margin: 0 2%}    
+#copyright{ width: 30%}
+#contactbox{ 
+    width: 60%; 
+    word-wrap:break-word}
+#languagebox{
+    clear: both;
+    display: none}
+#copyright p{ width: 95%}
     
+/*內文調整*/
+#profile .my-twinble{ display: none}
+.pic_whytwinble{
+    display: block;
+    width: 100%;
+    height: 325px;
+    background: url(../images/pic_whytwinble.png) no-repeat;
+    background-size: 680px 325px;
+    background-position: 0 0;
+    margin-top: 30px}
+.capability-item{
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    padding: 30px 0}
+.capability-item img{
+    display: block;
+    width: 100%;
+    height: auto}
+#capability .pic_gp-01{ 
+    display: inline-block;
+    float: left;
+    width: 37%;
+    height: auto;
+    margin-bottom: 20px}
+#capability .pic_gp-02{ 
+    display: inline-block;
+    float: left;
+    width: 60%;
+    height: auto}
+#capability .pic_gp-03{
+    width: 413px;
+    height: auto}
+.facilities{ width: 98%}
+.facilities li{
+    display: inline-block;
+    width: 47%;
+    margin: 15px 7px 10px;
+    text-align: center}
+.facilities li img{ width: 100%; height: auto}
+
+.skin_left,
+.box_summary{ width: 100%}
+.skin_left{padding: 0 0 0 20px}
+.skin_right{ display: none}
+.skin_left img{ width: 24%}
+#skin_product-01{display: block}
+.box_summary{ padding-top: 15px}
+#box_partnumber li{ 
+    width: 45%;
+    margin: 15px}
+#box_partnumber img{
+    margin-right: 0;
+    width: 45%;
+    height: auto}
+.part_info{
+    display: block;
+    float: right;
+    width: 45%;
+    padding-top: 1%}
+#box_partnumber p{
+    font-size: .813em;
+    margin-bottom: 5px}
+#summary-01,
+#summary-02,
+#summary-03{ height: 200px}
+#summary-04,
+#summary-05,
+#summary-06{ height: 180px}
+#lohas-01,
+#lohas-02{
+    display: block;
+    float: none;
+    margin: 5px auto}
+#lohas-03,
+#lohas-04,
+#lohas-05{ display: block; height: 282px}
+#lohas-08,
+#lohas-09{ display: block; height: 252px}
+#lohas-10,
+#lohas-11,
+#lohas-12{ display: block; height: 200px}
+#lohas-13,
+#lohas-14{ display: block; height: 220px}
+#lohas-15,
+#lohas-16,
+#lohas-17{ display: block; height: 300px}
+#health-01,
+#health-02{ display: block; height: 275px}
+#health-03,
+#health-04{ display: block; height: 195px}
+#health-05,
+#health-06,
+#health-07{ display: block; height: 205px}
+#health-08,
+#health-09{ display: block; height: 160px}
+#health-10,
+#health-11{ display: block; height: 170px}
+#health-12,
+#health-13{ display: block; height: 230px}
+
+.contact_info h3{ 
+    top:20px; 
+    right: -5px;
+    width: 280px;
+    height: 208px;
+    background-size: contain}
+#send-mail h4{
+    line-height: 3rem;
+    padding-left: 80px}
+#box_thanks h5{ padding-top: 35px}
 }
 
 /*
@@ -32,7 +246,156 @@
 =====================================
 */
 @media (max-width: 600px) {
+#wrap,
+header,
+#submenu,
+footer{ min-width: 573px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{ width: 100%; max-width: 573px}  
+.submenu-item{ width: 573px}
+#google_translate_element{ display: none}
+#submenu h1 a{ left: 20px}
+.submenu-item li.tt1 a{ margin-right: 10px}
+#container section{ padding-bottom: 20px}
+
+#banner-sub{height: 162px}
+.sub-visiven{
+    width: 310px;
+    height: 162px}
+.sub-visiven a{ display: none}   
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 310px;
+    height: 130px;
+    top:20px;
+    left: 0}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 350px;
+    height: 135px;
+    top:10px;
+    left: 10px}  
     
+#main-nav ul{ left: 15px}
+#main-nav li{
+    width: 130px;
+    height: 52px;
+    margin: 0 5px 0 0}
+#main-nav li:hover li a,    
+#main-nav li.iehover li a{ width: 130px; left: -15px}
+#main-nav li li.subtitle a:hover{ width: 130px}
+
+#container h3{
+    font-size: 2.5em;
+    line-height: 2em}
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    width: 130px;
+    margin: 0 10px;
+    padding: 150px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+    
+/*內文調整*/
+.title_about,
+.nav_about{
+    float: none;
+    width: 100%}
+.title_about{
+   padding-left: 15px}
+.nav_about{ text-align: left; padding-top: 0}
+.pic_about{ display: none}
+#profile p{ width: 97%}
+.text_about{
+    display: block;
+    width: 100%;
+    padding-top: 0}
+.text_about p{ word-wrap:break-word}
+.keyword-01{ 
+    font-size: 1.8em; 
+    color: rgb(29,32,136)}
+.keyword-02{
+    font-size: 1.3em;
+    color: rgb(171,205,3)}
+.pic_whytwinble{ display: none}
+#capability .pic_gp-03{
+    width: 300px;
+    height: auto}
+.facilities li{
+    display: inline-block;
+    width: 46%;
+    margin: 15px 3 10px;
+    text-align: center}
+#summary-01,
+#summary-02,
+#summary-03{ height: 152px}
+#summary-04,
+#summary-05,
+#summary-06{ height: 140px}
+#box_partnumber li{ 
+    width: 90%;
+    margin: 15px auto}
+#box_partnumber img{
+    margin-right: 0;
+    width: 45%;
+    height: auto}
+.part_info{
+    display: block;
+    float: right;
+    width: 45%;
+    padding-top: 5%}
+#lohas-03,
+#lohas-04,
+#lohas-05{ display: block; height: 215px}
+#lohas-06,
+#lohas-07{ display: block; height: 168px}
+#lohas-08,
+#lohas-09{ display: block; height: 200px}
+#lohas-10,
+#lohas-11,
+#lohas-12{ display: block; height: 155px}
+#lohas-13,
+#lohas-14{ display: block; height: 165px}
+#lohas-15,
+#lohas-16,
+#lohas-17{ display: block; height: 220px}
+#health-01,
+#health-02{ display: block; height: 210px}
+#health-03,
+#health-04{ display: block; height: 150px}
+#health-05,
+#health-06,
+#health-07{ display: block; height: 155px}
+#health-08,
+#health-09{ display: block; height: 122px}
+#health-10,
+#health-11{ display: block; height: 130px}
+#health-12,
+#health-13{ display: block; height: 180px}
+    
+.contact_info h3{ 
+    top:100px; 
+    right: -5px;
+    width: 200px;
+    height: 149px;
+    background-size: contain}
+#send-mail h4{ padding-left: 60px}
+#box_thanks img{ 
+    width: 170px; 
+    height: auto;
+    margin-right: 15px}
+#box_thanks h5{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 30px}
 }
 
 /*
@@ -41,7 +404,236 @@
 =====================================
 */
 @media (max-width: 420px) {
+#wrap,
+header,
+#submenu,
+footer{
+    min-width: 355px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 355px}
+#submenu{ 
+    position: fixed;
+    z-index: 999}
+.submenu-item{ width: 355px}
+#submenu h1 a{ left: 120px}    
+.submenu-item li.tt1 a,
+.submenu-item li.tt2 a,
+#main-nav{ display: none}
+
+#banner-sub{
+    height: 145px}
+.sub-visiven{
+    top:41px;
+    right: 10px;
+    width: 200px;
+    height: 105px}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 200px;
+    height: 84px;
+    top:51px;
+    left: 0}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 210px;
+    height: 81px;
+    top:51px;
+    left: 10px} 
     
+footer{ height: 420px}    
+#footer-main{ width: 355px}
+#copyright,
+#contactbox{ float: none; width: 90%}
+#copyright {margin: 0 auto 15px auto}
+#contactbox{ margin: 0 auto 0 auto}
+#copyright p{ width: 100%}
+
+#mmenu,
+#mcontact{
+    display: block;
+    position: fixed;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgba(255, 255, 255, .8)}
+#mmenu{ 
+    top: 9px;
+    left: 18px}
+#mcontact{ 
+    top: 10px;
+    right: 18px}
+/*#btn_mobilenav a{
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 199;
+    width: 51px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    background: url(../images/rwd/btn_mobile-nav.png) no-repeat;
+    background-size: contain}*/
+    
+#container h3{
+    font-size: 1.5em;
+    line-height: 1.8em}
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    display: inline-block;
+    float: left;
+    width: 221px;
+    margin: 0 60px 20px;
+    padding: 220px 0 0 0;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
+    
+/*內文調整*/
+#profile p{ 
+    width: 92%;
+    margin: 0 auto}
+.title_about{ 
+    padding: 20px 0 15px}
+.nav_about li{ margin: 0 1px}
+.nav_about li a:link,
+.nav_about li a:visited{
+    display: block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    font-size: .875em;
+    font-weight: normal;
+    line-height: 2em}
+.capability-item{
+    padding: 30px 0 0}
+.capability-item h4{
+    width: 95%;
+    font-size: 1em}
+#capability .pic_gp-03{
+    width: 200px;
+    height: auto}
+.pic_gp-04{
+    width: 250px;
+    height: auto}
+.facilities li{
+    display: inline-block;
+    width: 95%;
+    margin: 15px auto 10px auto;
+    text-align: center}
+
+#box_skin h3,
+#box_life h3,
+#box_health h3,
+#box_contact{ padding: 15px 0}
+.skin_left{ width: 95%}
+#summary-01,
+#summary-02,
+#summary-03,
+#summary-04{ height: 135px}
+#summary-05,
+#summary-06{ height: 125px}
+#box_partnumber{ padding-top: 15px}
+.part_info{ padding-top: 0}
+#box_skin h4,
+#box_partnumber h4,
+#box_health h4,
+#box_life h4,
+#box_partnumber h5{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    background-position: 0 8px}
+#box_health h4,
+#box_life h4{
+    padding:0 0 0  47px;
+    background: url(../images/icon_ppont.png) 0 5px no-repeat}
+#box_partnumber ul{
+    display: block;
+    padding: 10px 0 20px}
+#box_partnumber #skin-info-01,
+#box_partnumber #skin-info-02,
+#box_partnumber #skin-info-03{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1em; 
+    font-weight: normal; 
+    line-height: 1.375em; 
+    padding:15px 0 0; 
+    color:#6E6E6E; 
+    border: none}
+#box_Soap-Cartridge-Refill img{ height: 180px}
+#box_Soap-Cartridge-Refill img:nth-child(3){
+    margin:0 15px 0 5px}
+#box_Soap-Cartridge-Refill img:nth-child(5),
+#box_Soap-Cartridge-Refill img:nth-child(7){
+    margin:0 30px 0 5px}
+
+#LOHAS-info,
+#health-info{ margin-bottom: 20px}
+#lohas-01,
+#lohas-02,
+#lohas-03,
+#lohas-04,
+#lohas-05,
+#lohas-06,
+#lohas-07,
+#lohas-08,
+#lohas-09,
+#lohas-10,
+#lohas-11,
+#lohas-12,
+#lohas-13,
+#lohas-14,
+#lohas-15,
+#lohas-16,
+#lohas-17,
+#health-01,
+#health-02,
+#health-03,
+#health-04,
+#health-05,
+#health-06,
+#health-07,
+#health-08,
+#health-09,
+#health-10,
+#health-11,
+#health-12,
+#health-13{ 
+    display: block;
+    float: none;
+    width: 80%;
+    height: auto;
+    margin: 0 auto}
+
+.contact_info h3{ display: none}
+#send-mail h4{ padding-left: 40px}
+.contact_info li{
+    padding: 15px 0 15px 15px}
+.contact_info span{
+    display: block;
+    width: 100%;
+    text-align: left}
+.EmailSet-01,
+.EmailSet-02{ padding:0}
+#box_thanks img{
+    float: none;
+    margin: 0 auto 10px auto}
+#box_thanks h5{
+    float: none;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 0}
 }
 
 /*
@@ -50,7 +642,108 @@
 =====================================
 */
 @media (max-width: 321px) {
+#wrap,
+header,
+#submenu,
+footer{
+    min-width: 300px}
+#banner,
+#banner-sub,
+#container,
+#footer-main{
+    width: 100%;
+    max-width: 300px}
+.submenu-item{ width: 250px}
+#submenu h1 a{ left: 70px}
+
+#banner-sub{height: 130px}
+.sub-visiven{
+    top:41px;
+    right: 10px;
+    width: 170px;
+    height: 89px}
+.sub-slogan-01,
+.sub-slogan-04,
+.sub-slogan-05,
+.sub-slogan-06,
+.sub-slogan-07{
+    width: 160px;
+    height: 67px;
+    top: 46px;
+    left: 0}
+.sub-slogan-02,
+.sub-slogan-03{
+    width: 165px;
+    height: 64px;
+    top:51px;
+    left: 10px} 
+
+#products ul{
+    padding: 0 0 40px}
+#products li a{
+    display: inline-block;
+    float: left;
+    width: 221px;
+    margin: 0 20px 25px;
+    padding: 250px 0 0 20px;
+    font-size: 1em;
+    color: #656565;
+    text-decoration: none}
     
+footer{ height: 500px} 
+#footer-main{ width: 300px}
+.email-padding{ padding:0 16px 0 0}
+    
+/*內文調整*/
+#profile p{ 
+    width: 90%;
+    margin: 0 auto}    
+.nav_about li{ margin: 0}
+.nav_about li a:link,
+.nav_about li a:visited{
+    display: block;
+    float: right;
+    width: 87px;
+    height: 30px;
+    font-size: .75em;
+    font-weight: normal;
+    line-height: 2.4em}
+.facilities span,
+.quality-item span,
+.note{
+    font-size: .875em;
+    padding-top: 5px;}
+
+.skin_left img{ width: 48%}
+#summary-01,
+#summary-02,
+#summary-03,
+#summary-04{ height: 110px}
+#summary-05,
+#summary-06{ height: 105px}
+#box_partnumber #skin-info-01,
+#box_partnumber #skin-info-02,
+#box_partnumber #skin-info-03{ width: 98%}
+#box_partnumber img{
+    width: 38%}
+.part_info{
+    display: block;
+    float: right;
+    width: 51%;
+    padding: 0;
+    margin-left: 2%}
+#box_Soap-Cartridge-Refill img{
+    width: 85%;
+    height: auto;
+    margin: 5px auto}
+.contact_info li{ font-size: .875em; letter-spacing: 0}
+#send-mail h4{
+    line-height: 3rem;
+    padding-left: 20px}
+#box_thanks h5{
+    font-size: 20px;
+    line-height: 25px}
+.email-padding{ padding:0 16px 0 0} 
 }
 
 
