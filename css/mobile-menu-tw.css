@@ -1,0 +1,93 @@
+/**
+*
+* @project    Twinble
+* @Author     Elmo Woo <hello@xuedesign.tw>
+* @copyright  2018 xuedesign studio
+* @version    v1.0 - 201704
+*
+**/
+
+/*
+========================
+通用設定
+========================
+*/
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+/*@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);*/
+/*@font-face{ font-family:My-CG; src:url(../font/My-CG.ttf)}*/
+
+html { font-size:62.5% }
+body{
+	margin: 0;
+	padding:0;
+	background: rgba(82,162,81,1);
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 1rem; /* 1rem=10px */
+	line-height:1.5em;
+    color: #fff}
+a:link {text-decoration:none; color:#fff}
+a:visited {text-decoration:none; color:#fff}
+a:hover {text-decoration:none; color:#A5F5A2}
+.clean{ clear:both}
+.hidden{ display:none}
+
+#wrap{
+    display: block;
+    width: 85%;
+    /*height: 95vh;*/
+    margin: 0 auto}
+.close {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: 44px;
+  height: 44px;
+  opacity: 0.6;
+    border: 1px solid #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px}
+.close:hover {
+  opacity: 1}
+.close:before, .close:after {
+  position: absolute;
+  top:8px;
+  right: 21px;
+  content: ' ';
+  height: 30px;
+  width: 2px;
+  background-color: rgb(43, 109, 42)}
+.close:before {
+  transform: rotate(45deg)}
+.close:after {
+  transform: rotate(-45deg)}
+h1{
+    display: block;
+    font-size: 2.5rem;
+    line-height: 7.5rem;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 1px}
+h2 a{
+    display: block;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #fff;
+    padding: 10px 0 0 10px;
+    letter-spacing: 1px}
+.nav-item>li{
+    font-size: 1.6rem;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    border-bottom: 1px dashed #8ec39c;
+    margin:  0 8%}
+
+@media (max-width: 321px) {
+/*.close {
+  width: 44px;
+  height: 44px}
+.close:before, .close:after {
+    height: 30px;
+    right: 21px}*/
+h1{ line-height: 7.5rem}
+h2 a{ font-size: 1.8rem; padding: 5px 0 0 10px}    
+}
