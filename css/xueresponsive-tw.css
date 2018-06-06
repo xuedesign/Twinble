@@ -501,8 +501,8 @@ footer{ height: 420px}
     float: left;
     width: 221px;
     margin: 0 60px 20px;
-    padding: 220px 0 0 0;
-    font-size: 1em;
+    padding: 230px 0 0 0;
+    font-size: 1.25em;
     color: #656565;
     text-decoration: none}
     
@@ -512,16 +512,17 @@ footer{ height: 420px}
     margin: 0 auto}
 .title_about{ 
     padding: 20px 0 15px}
-.nav_about li{ margin: 0 1px}
+.nav_about li{ margin: 0 10px}
 .nav_about li a:link,
 .nav_about li a:visited{
     display: block;
     float: right;
-    width: 100px;
-    height: 30px;
-    font-size: .875em;
+    width: 75%;
+    height: 25px;
+    font-size: 1.188em;
     font-weight: normal;
-    line-height: 2em}
+    line-height: 1.3em;
+    text-align: center}
 .capability-item{
     padding: 30px 0 0}
 .capability-item h4{
@@ -702,21 +703,23 @@ footer{
 footer{ height: 500px} 
 #footer-main{ width: 300px}
 .email-padding{ padding:0 16px 0 0}
+#copyright p,  
+#contactbox li{ font-size: .938em}   
     
 /*內文調整*/
 #profile p{ 
     width: 90%;
     margin: 0 auto}    
-.nav_about li{ margin: 0}
+.nav_about li{ margin: 0 2px}
 .nav_about li a:link,
 .nav_about li a:visited{
     display: block;
     float: right;
-    width: 87px;
-    height: 30px;
-    font-size: .75em;
+    width: 68%;
+    height: 25px;
+    font-size: 1.25em;
     font-weight: normal;
-    line-height: 2.4em}
+    line-height: 1.3em}
 .facilities span,
 .quality-item span,
 .note{
