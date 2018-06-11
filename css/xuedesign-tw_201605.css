@@ -510,6 +510,7 @@ header,
     float: left;
     margin: 0;
     padding: 0}
+#skin_product-01{ display: none}
 .skin_right{
     display: block;
     float: right;
@@ -674,6 +675,8 @@ header,
     color: #2f8833}
 #send-mail .fa-envelope-o{
     margin-right: 10px}
+.EmailSet-01{ padding-right:5px}
+.EmailSet-02{ line-height: 2em; padding:0 8px 0 95px}
 
 /*
 ========================

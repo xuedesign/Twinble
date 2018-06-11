@@ -4,7 +4,7 @@
 * @project    twinble.com
 * @Author     Elmo Woo <hello@xuedesign.tw>
 * @copyright  2018 xuedesign studio
-* @version    v1.0 - 201804
+* @version    v1.5 - 201806
 *
 **/
 
@@ -28,8 +28,8 @@ footer{
 #container section{
     width: 90%}
 .submenu-item{ width: 1000px}    
-.submenu-item li.tt1 a{
-    margin-right: 180px}    
+.submenu-item li.tt1 a{ margin-right: 10px}
+    
 #submenu h1 a{ 
     background:url(../images/rwd/pic_submenu-h2@3x.png) no-repeat;
     background-size: 109px 29px}    
@@ -54,6 +54,7 @@ footer{
 img.my-twinble{
     width: 300px;
     height: 236px}
+#box_thanks h5{ padding-top: 70px}
 }
 
 /*
@@ -70,8 +71,8 @@ footer{ min-width: 750px}
 #banner-sub,
 #container,
 #footer-main{ width: 100%; max-width: 750px} 
-.submenu-item{ width: 750px}
-
+.submenu-item{ width: 750px}  
+    
 #banner-sub{height: 235px}
 .sub-visiven{
     width: 450px;
@@ -130,16 +131,16 @@ footer{ min-width: 750px}
 #languagebox{
     clear: both;
     display: none}
-#copyright p{ width: 95%}
+#copyright p{ width: 95%; font-size: .938em}
     
 /*內文調整*/
 #profile .my-twinble{ display: none}
 .pic_whytwinble{
     display: block;
     width: 100%;
-    height: 325px;
-    background: url(../images/pic_whytwinble.png) no-repeat;
-    background-size: 680px 325px;
+    height: 270px;
+    background: url(../images/pic_whytwinble-tw.png) no-repeat;
+    background-size: 680px 253px;
     background-position: 0 0;
     margin-top: 30px}
 .capability-item{
@@ -182,7 +183,7 @@ footer{ min-width: 750px}
 .box_summary{ padding-top: 15px}
 #box_partnumber li{ 
     width: 45%;
-    margin: 15px}
+    margin: 0 15px}
 #box_partnumber img{
     margin-right: 0;
     width: 45%;
@@ -193,14 +194,30 @@ footer{ min-width: 750px}
     width: 45%;
     padding-top: 1%}
 #box_partnumber p{
-    font-size: .813em;
-    margin-bottom: 5px}
+    font-size: 1em;
+    margin-bottom:0}
 #summary-01,
 #summary-02,
 #summary-03{ height: 200px}
 #summary-04,
 #summary-05,
 #summary-06{ height: 180px}
+#skin-note{
+    display: block;
+    width: 100%;
+    height: auto;
+    font-size: 1.25em;
+    text-indent: 100%;
+    white-space: normal;
+    overflow: hidden;
+    background: none;
+    border-bottom: none;
+    margin-bottom: 20px
+    /*font-size:1.375em;
+    font-weight: normal; 
+    padding:15px 0 25px 0; 
+    color:#6E6E6E*/}    
+    
 #lohas-01,
 #lohas-02{
     display: block;
@@ -242,7 +259,6 @@ footer{ min-width: 750px}
 #send-mail h4{
     line-height: 3rem;
     padding-left: 80px}
-#box_thanks h5{ padding-top: 35px}
 }
 
 /*
@@ -324,7 +340,8 @@ footer{ min-width: 573px}
     padding-top: 0;
     font-size: 1.125em}
 .text_about p{
-    word-wrap:break-word}
+    word-wrap:break-word;
+    line-height: 1.8em}
 .keyword-01{ 
     font-size: 1.8em;
     padding: 0 5px;
@@ -350,7 +367,7 @@ footer{ min-width: 573px}
 #summary-06{ height: 140px}
 #box_partnumber li{ 
     width: 90%;
-    margin: 15px auto}
+    margin: 0 auto}
 #box_partnumber img{
     margin-right: 0;
     width: 45%;
@@ -390,7 +407,7 @@ footer{ min-width: 573px}
 #health-13{ display: block; height: 180px}
     
 .contact_info h3{ 
-    top:100px; 
+    top:160px; 
     right: -5px;
     width: 200px;
     height: 149px;
@@ -401,10 +418,10 @@ footer{ min-width: 573px}
     height: auto;
     margin-right: 15px}
 #box_thanks h5{
-    font-size: 25px;
+    font-size: 1.438em;
     line-height: 30px;
     text-align: center;
-    padding-top: 30px}
+    padding-top: 55px}
 }
 
 /*
@@ -565,6 +582,10 @@ footer{ height: 420px}
 #box_life h4{
     padding:0 0 0  47px;
     background: url(../images/icon_ppont.png) 0 5px no-repeat}
+#box_health p,
+#box_life p{
+    font-size: 1.25em;
+    padding: 0 30px 20px}
 #box_partnumber ul{
     display: block;
     padding: 10px 0 20px}
@@ -586,6 +607,7 @@ footer{ height: 420px}
 #box_Soap-Cartridge-Refill img:nth-child(5),
 #box_Soap-Cartridge-Refill img:nth-child(7){
     margin:0 30px 0 5px}
+#skin-note{ font-size: 1.125em}    
 
 #LOHAS-info,
 #health-info{ margin-bottom: 20px}
@@ -626,6 +648,7 @@ footer{ height: 420px}
     margin: 0 auto}
 
 .contact_info h3{ display: none}
+.contact_info h4{ font-size: 1.5em}
 #send-mail h4{ padding-left: 40px}
 .contact_info li{
     padding: 15px 0 15px 15px}
@@ -639,11 +662,11 @@ footer{ height: 420px}
     float: none;
     margin: 0 auto 10px auto}
 #box_thanks h5{
+    display: block;
     float: none;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    padding-top: 0}
+    margin: 0;
+    padding: 30px 0 0;
+    font-size: 1.438em}
 }
 
 /*
@@ -723,8 +746,8 @@ footer{ height: 500px}
 .facilities span,
 .quality-item span,
 .note{
-    font-size: .875em;
-    padding-top: 5px;}
+    font-size: 1.25em;
+    padding-top: 5px}
 
 .skin_left img{ width: 48%}
 #summary-01,
@@ -749,6 +772,7 @@ footer{ height: 500px}
     height: auto;
     margin: 5px auto}
 .contact_info li{ font-size: .875em; letter-spacing: 0}
+.contact_info h4{ font-size: 1.6em}
 #send-mail h4{
     line-height: 3rem;
     padding-left: 20px}
