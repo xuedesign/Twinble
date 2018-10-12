@@ -68,7 +68,8 @@ header,
     display: block;
     position: absolute;
     top: 5px;
-    right: 4%}
+    right: 4%;
+    z-index: 99}
 @media screen and (min-width:1366px) and (max-width:1439px){
     #google_translate_element{ right: 6.5%}
 }
