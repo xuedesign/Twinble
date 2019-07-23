@@ -789,7 +789,8 @@ footer{
 	 text-indent:100%;
      white-space: nowrap;
      overflow: hidden;
-	 margin-top:12px}
+	 margin-top:12px;
+    font-size: 0}
 #top_main ul{ 
     display:block; 
     float:left; 
@@ -820,7 +821,8 @@ footer{
 	background:url(../images/btn_totop.png) no-repeat;
 	text-indent:100%;
     white-space: nowrap;
-    overflow: hidden}
+    overflow: hidden;
+    font-size: 0}
 #btn_totop a:hover{ 
     background:url(../images/btn_totop.png) 0 -33px no-repeat}
 
